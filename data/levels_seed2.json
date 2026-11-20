@@ -1,0 +1,1809 @@
+{
+  "seed": 2,
+  "l0": [
+    {
+      "id": 1,
+      "type": "boilerplate",
+      "text": "Supplier shall deliver the calibrated pressure sensors to Buyer's designated receiving facility in accordance with the delivery schedule set out in Schedule 2, and time of delivery shall be of the essence. Should Supplier reasonably anticipate that a shipment will be delayed beyond the scheduled delivery date, Supplier shall notify Buyer in writing within 14 days of becoming aware of the anticipated delay, specifying the revised delivery date and the cause of the delay. Partial shipments shall be permitted only with Buyer's prior written consent, and each partial shipment shall be separately invoiced. Risk of loss shall pass to Buyer upon confirmed receipt at the designated facility, and Supplier shall retain risk of loss for all goods in transit prior to that point. Title to the goods shall pass to Buyer upon full payment of the applicable invoice, notwithstanding the earlier passage of risk of loss, and Supplier shall retain a purchase money security interest in the goods until such payment is received in full. Supplier shall maintain adequate insurance covering loss or damage to goods in transit and shall provide evidence of such coverage to Buyer upon reasonable written request.",
+      "char_start": 0,
+      "char_end": 1211
+    },
+    {
+      "id": 2,
+      "type": "boilerplate",
+      "text": "Supplier warrants that the custom wiring harnesses delivered under this Agreement shall, for a period of thirty (30) days from the date of delivery, conform to the specifications set out in Schedule 1 and shall be free from defects in material and workmanship under normal use and service. This warranty does not extend to defects arising from misuse, unauthorized modification, or normal wear and tear. Buyer's sole and exclusive remedy for breach of this warranty shall be, at Supplier's option, repair, replacement, or refund of the purchase price for the nonconforming goods, provided that Buyer notifies Supplier in writing within 14 days of discovering the defect. Supplier shall bear the cost of shipping any repaired or replacement goods to Buyer, and Buyer shall grant Supplier reasonable access to inspect the nonconforming goods prior to any repair, replacement, or refund. This warranty is in lieu of all other warranties, express or implied, including any implied warranty of merchantability or fitness for a particular purpose, except as expressly set out in this Clause.",
+      "char_start": 1213,
+      "char_end": 2308
+    },
+    {
+      "id": 3,
+      "type": "boilerplate",
+      "text": "Prices for the custom wiring harnesses are as set out in Schedule 1 and are denominated in USD unless otherwise agreed in writing. Supplier shall invoice Buyer upon shipment, and payment shall be due sixty (60) days from the date of each invoice. Should Buyer fail to make payment when due, Supplier may, upon 21 days' prior written notice, suspend further deliveries until all outstanding amounts, together with accrued interest, have been paid in full, without prejudice to any other rights or remedies available to Supplier. Any change in prices shall require not less than 21 days' prior written notice to Buyer and shall apply only to purchase orders placed after the effective date of the change. All invoices shall be issued in USD and shall separately state the applicable purchase order number, quantity delivered, and unit price for each line item.",
+      "char_start": 2310,
+      "char_end": 3178
+    },
+    {
+      "id": 4,
+      "type": "boilerplate",
+      "text": "Confidential Information disclosed under this Agreement shall be used by the receiving party solely for the purpose of performing its obligations hereunder, and shall be protected using at least the same degree of care that the receiving party uses to protect its own confidential information of similar importance, but in no event less than a reasonable degree of care. Upon termination of this Agreement, each party shall, within forty-five (45) days of the other party's written request, return or destroy all Confidential Information in its possession, except to the extent retention is required by applicable law or bona fide archival policy. Neither party shall use the other party's Confidential Information to develop products or services that compete with the disclosing party's business, and each party acknowledges that unauthorized disclosure of Confidential Information may cause irreparable harm for which monetary damages would be an inadequate remedy, entitling the disclosing party to seek injunctive relief in addition to any other available remedy.",
+      "char_start": 3180,
+      "char_end": 4257
+    },
+    {
+      "id": 5,
+      "type": "boilerplate",
+      "text": "A party affected by an event of force majeure shall promptly notify the other party of the nature and expected duration of the event, and shall be excused from performance, other than the obligation to make payments already due, for so long as the event of force majeure continues. Should an event of force majeure continue for a period exceeding forty-five (45) days, either party may terminate this Agreement without liability by giving not less than 21 days' written notice to the other party, provided the event has not ceased prior to the expiry of such notice period. Neither party shall be entitled to terminate this Agreement for force majeure to the extent the affected party's own failure to maintain reasonable business continuity arrangements contributed materially to its inability to perform, and the parties shall cooperate in good faith to identify reasonable workaround arrangements before either party exercises any right of termination under this Clause.",
+      "char_start": 4259,
+      "char_end": 5242
+    },
+    {
+      "id": 6,
+      "type": "boilerplate",
+      "text": "Any improvements, modifications, or derivative works created by Supplier in the course of manufacturing the custom wiring harnesses that relate specifically to Buyer's proprietary designs shall be owned by Buyer, and Supplier hereby assigns all right, title, and interest in such improvements to Buyer. Supplier retains ownership of any general manufacturing know-how, tooling designs, and process improvements that are not specific to Buyer's proprietary designs and that Supplier would have developed irrespective of this Agreement, within sixty (60) days of first use. Where an improvement combines Buyer-specific design elements with Supplier's general manufacturing know-how in a manner that cannot reasonably be separated, the parties shall negotiate in good faith a reasonable allocation of rights, failing which Buyer shall be granted a perpetual, royalty-free license to use the improvement solely in connection with the custom wiring harnesses.",
+      "char_start": 5244,
+      "char_end": 6208
+    },
+    {
+      "id": 7,
+      "type": "boilerplate",
+      "text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the injection-molded enclosures. Supplier shall notify Buyer in writing within 21 days of becoming aware of any material non-compliance with applicable law in Singapore, and shall implement a corrective action plan within 45 days of identifying such non-compliance, subject to Buyer's reasonable approval. Buyer may, at its discretion and upon reasonable written notice, request evidence of Supplier's compliance with this Clause from any sub-tier supplier involved in the manufacture of the injection-molded enclosures, and Supplier shall use commercially reasonable efforts to obtain and provide such evidence within 21 days.",
+      "char_start": 6210,
+      "char_end": 7044
+    },
+    {
+      "id": 8,
+      "type": "liability_frame",
+      "text": "Supplier's aggregate liability under this Agreement shall be capped at 100% of the annual Contract Value; in no event shall Supplier be liable for consequential, incidental, or indirect damages of any kind arising out of or in connection with this Agreement, whether in contract, tort, or otherwise.",
+      "char_start": 7046,
+      "char_end": 7355
+    },
+    {
+      "id": 9,
+      "type": "boilerplate",
+      "text": "This Agreement shall terminate automatically, without notice, in the event either party becomes insolvent, makes an assignment for the benefit of creditors, or becomes subject to proceedings under applicable insolvency law that are not dismissed within 60 days. Upon termination for any reason, Buyer shall pay Supplier for all calibrated pressure sensors delivered and accepted prior to the effective date of termination, and each party shall, within sixty (60) days, return or destroy any Confidential Information of the other party then in its possession. The provisions of this Agreement relating to confidentiality, intellectual property, and limitation of liability shall survive termination or expiration of this Agreement for any reason, together with any other provision that by its nature is intended to survive.",
+      "char_start": 7357,
+      "char_end": 8189
+    },
+    {
+      "id": 10,
+      "type": "boilerplate",
+      "text": "Supplier shall deliver the sealed bearing assemblies to Buyer's designated receiving facility in accordance with the delivery schedule set out in Schedule 2, and time of delivery shall be of the essence. Should Supplier reasonably anticipate that a shipment will be delayed beyond the scheduled delivery date, Supplier shall notify Buyer in writing within 14 days of becoming aware of the anticipated delay, specifying the revised delivery date and the cause of the delay. Partial shipments shall be permitted only with Buyer's prior written consent, and each partial shipment shall be separately invoiced. Risk of loss shall pass to Buyer upon confirmed receipt at the designated facility, and Supplier shall retain risk of loss for all goods in transit prior to that point. Title to the goods shall pass to Buyer upon full payment of the applicable invoice, notwithstanding the earlier passage of risk of loss, and Supplier shall retain a purchase money security interest in the goods until such payment is received in full. Supplier shall maintain adequate insurance covering loss or damage to goods in transit and shall provide evidence of such coverage to Buyer upon reasonable written request.",
+      "char_start": 8191,
+      "char_end": 9401
+    },
+    {
+      "id": 11,
+      "type": "boilerplate",
+      "text": "Supplier represents and warrants that all custom wiring harnesses supplied hereunder shall be new, of merchantable quality, and fit for the purpose for which such goods are customarily used, and shall comply in all material respects with the applicable specifications for a period of no less than ninety (90) days following delivery. Supplier shall, at its own expense, correct any nonconformity identified during the warranty period within 45 days of receiving written notice from Buyer describing the nonconformity in reasonable detail, provided that such correction is commercially and technically feasible. If Supplier is unable to correct the nonconformity within the 45-day period, Buyer may procure replacement goods from a third party and recover the reasonable additional cost of doing so from Supplier, provided Buyer has given Supplier a reasonable opportunity to cure. Nothing in this Clause shall limit any statutory warranty that cannot lawfully be excluded in England and Wales.",
+      "char_start": 9403,
+      "char_end": 10407
+    },
+    {
+      "id": 12,
+      "type": "boilerplate",
+      "text": "Prices for the precision-machined aluminum housings are as set out in Schedule 1 and are denominated in GBP unless otherwise agreed in writing. Supplier shall invoice Buyer upon shipment, and payment shall be due thirty (30) days from the date of each invoice. Should Buyer fail to make payment when due, Supplier may, upon 14 days' prior written notice, suspend further deliveries until all outstanding amounts, together with accrued interest, have been paid in full, without prejudice to any other rights or remedies available to Supplier. Any change in prices shall require not less than 14 days' prior written notice to Buyer and shall apply only to purchase orders placed after the effective date of the change. All invoices shall be issued in GBP and shall separately state the applicable purchase order number, quantity delivered, and unit price for each line item.",
+      "char_start": 10409,
+      "char_end": 11292
+    },
+    {
+      "id": 13,
+      "type": "boilerplate",
+      "text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein. This obligation shall survive termination of this Agreement for a period of thirty (30) days and shall not apply to information that is or becomes publicly available through no fault of the receiving party. The receiving party may disclose Confidential Information to the extent required by law or a valid order of a court or governmental authority, provided that, to the extent legally permissible, it gives the disclosing party prompt written notice of such requirement so that the disclosing party may seek a protective order or other appropriate remedy at its own expense.",
+      "char_start": 11294,
+      "char_end": 12317
+    },
+    {
+      "id": 14,
+      "type": "boilerplate",
+      "text": "A party affected by an event of force majeure shall promptly notify the other party of the nature and expected duration of the event, and shall be excused from performance, other than the obligation to make payments already due, for so long as the event of force majeure continues. Should an event of force majeure continue for a period exceeding thirty (30) days, either party may terminate this Agreement without liability by giving not less than 5 days' written notice to the other party, provided the event has not ceased prior to the expiry of such notice period. Neither party shall be entitled to terminate this Agreement for force majeure to the extent the affected party's own failure to maintain reasonable business continuity arrangements contributed materially to its inability to perform, and the parties shall cooperate in good faith to identify reasonable workaround arrangements before either party exercises any right of termination under this Clause.",
+      "char_start": 12319,
+      "char_end": 13298
+    },
+    {
+      "id": 15,
+      "type": "boilerplate",
+      "text": "All intellectual property rights in the calibrated pressure sensors, including any designs, drawings, specifications, or know-how provided by Buyer to Supplier for the purpose of manufacture, shall remain the exclusive property of Buyer, and Supplier shall acquire no rights therein other than the limited right to use such materials solely for the performance of its obligations under this Agreement. Supplier shall not use, reproduce, or disclose such materials for any other purpose without Buyer's prior written consent, and shall return or destroy all such materials within thirty (30) days of termination of this Agreement. Supplier shall ensure that any subcontractor engaged in the manufacture of the calibrated pressure sensors is bound by written obligations of confidentiality and restricted use no less protective of Buyer's intellectual property than those set out in this Clause, and Supplier shall remain fully liable to Buyer for any breach of this Clause by such subcontractor.",
+      "char_start": 13300,
+      "char_end": 14305
+    },
+    {
+      "id": 16,
+      "type": "boilerplate",
+      "text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the injection-molded enclosures. Supplier shall notify Buyer in writing within 21 days of becoming aware of any material non-compliance with applicable law in England and Wales, and shall implement a corrective action plan within 15 days of identifying such non-compliance, subject to Buyer's reasonable approval. Buyer may, at its discretion and upon reasonable written notice, request evidence of Supplier's compliance with this Clause from any sub-tier supplier involved in the manufacture of the injection-molded enclosures, and Supplier shall use commercially reasonable efforts to obtain and provide such evidence within 21 days.",
+      "char_start": 14307,
+      "char_end": 15150
+    },
+    {
+      "id": 17,
+      "type": "boilerplate",
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach of this Agreement and fails to cure such breach within 15 days of receiving written notice describing the breach in reasonable detail. Either party may also terminate this Agreement for convenience upon not less than forty-five (45) days prior written notice to the other party. Termination of this Agreement shall not affect any rights or obligations accrued prior to the effective date of termination. Upon termination for convenience by Buyer, Buyer shall reimburse Supplier for reasonable costs incurred in reliance on outstanding purchase orders, including committed raw material costs, provided Supplier has used commercially reasonable efforts to mitigate such costs.",
+      "char_start": 15152,
+      "char_end": 15954
+    },
+    {
+      "id": 18,
+      "type": "boilerplate",
+      "text": "All shipments of injection-molded enclosures under this Agreement shall be packaged in accordance with Supplier's standard export packaging specifications, or such other specifications as the parties may agree in writing, and shall be accompanied by a packing list identifying the purchase order number, quantity, and batch or lot identifier. Supplier shall provide Buyer with advance shipping notification not less than 14 days prior to the scheduled ship date. Buyer shall inspect each shipment within ninety (90) days of receipt and shall notify Supplier in writing of any discrepancy in quantity or apparent damage, failing which the shipment shall be deemed accepted as delivered. Supplier shall retain records of each shipment's packing list and carrier manifest for a period of not less than ninety (90) days, and shall make such records available to Buyer upon reasonable written request for the purpose of resolving any delivery dispute. Title to rejected goods shall remain with Supplier pending disposition instructions from Supplier, which shall be provided within 14 days of receiving notice of rejection.",
+      "char_start": 15956,
+      "char_end": 17085
+    },
+    {
+      "id": 19,
+      "type": "boilerplate",
+      "text": "Supplier represents and warrants that all calibrated pressure sensors supplied hereunder shall be new, of merchantable quality, and fit for the purpose for which such goods are customarily used, and shall comply in all material respects with the applicable specifications for a period of no less than forty-five (45) days following delivery. Supplier shall, at its own expense, correct any nonconformity identified during the warranty period within 45 days of receiving written notice from Buyer describing the nonconformity in reasonable detail, provided that such correction is commercially and technically feasible. If Supplier is unable to correct the nonconformity within the 45-day period, Buyer may procure replacement goods from a third party and recover the reasonable additional cost of doing so from Supplier, provided Buyer has given Supplier a reasonable opportunity to cure. Nothing in this Clause shall limit any statutory warranty that cannot lawfully be excluded in the State of Delaware.",
+      "char_start": 17087,
+      "char_end": 18103
+    },
+    {
+      "id": 20,
+      "type": "boilerplate",
+      "text": "Buyer shall pay all undisputed invoices within ninety (90) days of the invoice date, by wire transfer to the bank account designated by Supplier in writing. Invoices not disputed in writing within 14 days of receipt shall be deemed accepted. Amounts not paid when due shall accrue interest at the rate of one and one-half percent (1.5%) per month, or the maximum rate permitted by applicable law, whichever is lower. All amounts payable under this Agreement are exclusive of applicable value-added, sales, or similar taxes, which shall be borne by Buyer unless otherwise required by law. Buyer may withhold payment of any invoiced amount that is subject to a good-faith dispute, provided Buyer notifies Supplier in writing of the basis for the dispute within 14 days of receipt of the invoice, and the parties shall use reasonable efforts to resolve the dispute within ninety (90) days. Neither party shall be entitled to set off amounts owed under this Agreement against amounts owed under any other agreement between the parties absent written agreement to the contrary.",
+      "char_start": 18105,
+      "char_end": 19188
+    },
+    {
+      "id": 21,
+      "type": "boilerplate",
+      "text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein. This obligation shall survive termination of this Agreement for a period of sixty (60) days and shall not apply to information that is or becomes publicly available through no fault of the receiving party. The receiving party may disclose Confidential Information to the extent required by law or a valid order of a court or governmental authority, provided that, to the extent legally permissible, it gives the disclosing party prompt written notice of such requirement so that the disclosing party may seek a protective order or other appropriate remedy at its own expense.",
+      "char_start": 19190,
+      "char_end": 20212
+    },
+    {
+      "id": 22,
+      "type": "boilerplate",
+      "text": "Neither party shall be liable for any failure or delay in the performance of its obligations under this Agreement, other than payment obligations, to the extent such failure or delay is caused by circumstances beyond its reasonable control, including acts of God, war, civil unrest, governmental action, pandemic, or failure of utilities or telecommunications infrastructure, provided that the affected party notifies the other party in writing within 21 days of the onset of such circumstances and uses commercially reasonable efforts to mitigate the impact. If such circumstances continue for more than sixty (60) days, either party may terminate this Agreement upon written notice. During the continuation of an event of force majeure, the unaffected party may, at its option and upon written notice, procure substitute goods or services from a third party to the extent reasonably necessary to mitigate the impact of the affected party's non-performance, without thereby waiving any right or remedy under this Agreement.",
+      "char_start": 20214,
+      "char_end": 21249
+    },
+    {
+      "id": 23,
+      "type": "boilerplate",
+      "text": "All intellectual property rights in the custom wiring harnesses, including any designs, drawings, specifications, or know-how provided by Buyer to Supplier for the purpose of manufacture, shall remain the exclusive property of Buyer, and Supplier shall acquire no rights therein other than the limited right to use such materials solely for the performance of its obligations under this Agreement. Supplier shall not use, reproduce, or disclose such materials for any other purpose without Buyer's prior written consent, and shall return or destroy all such materials within thirty (30) days of termination of this Agreement. Supplier shall ensure that any subcontractor engaged in the manufacture of the custom wiring harnesses is bound by written obligations of confidentiality and restricted use no less protective of Buyer's intellectual property than those set out in this Clause, and Supplier shall remain fully liable to Buyer for any breach of this Clause by such subcontractor.",
+      "char_start": 21251,
+      "char_end": 22248
+    },
+    {
+      "id": 24,
+      "type": "boilerplate",
+      "text": "Supplier shall comply with all applicable laws, regulations, and industry standards in the manufacture and supply of the sealed bearing assemblies, including those relating to product safety, labor practices, and environmental protection in the Republic of Ireland. Supplier shall, upon Buyer's reasonable written request, provide documentation evidencing such compliance, and shall permit Buyer or its designated auditor to conduct an on-site compliance audit upon not less than 21 days' prior written notice, no more than once per forty-five (45) days period absent reasonable cause. Any audit conducted under this Clause shall be at Buyer's expense, shall be conducted during Supplier's normal business hours, and shall not unreasonably interfere with Supplier's manufacturing operations. Supplier shall address any material finding identified during an audit within 45 days of receiving Buyer's written audit report.",
+      "char_start": 22250,
+      "char_end": 23181
+    },
+    {
+      "id": 25,
+      "type": "liability_frame",
+      "text": "Notwithstanding anything else in this Agreement, the total liability of Supplier arising out of or relating to this Agreement, whether in contract, tort, or otherwise, shall not exceed one hundred percent (100%) of the annual Contract Value, and Supplier shall have no liability whatsoever for any consequential, incidental, or indirect damages, however arising.",
+      "char_start": 23183,
+      "char_end": 23556
+    },
+    {
+      "id": 26,
+      "type": "boilerplate",
+      "text": "This Agreement shall terminate automatically, without notice, in the event either party becomes insolvent, makes an assignment for the benefit of creditors, or becomes subject to proceedings under applicable insolvency law that are not dismissed within 30 days. Upon termination for any reason, Buyer shall pay Supplier for all custom wiring harnesses delivered and accepted prior to the effective date of termination, and each party shall, within thirty (30) days, return or destroy any Confidential Information of the other party then in its possession. The provisions of this Agreement relating to confidentiality, intellectual property, and limitation of liability shall survive termination or expiration of this Agreement for any reason, together with any other provision that by its nature is intended to survive.",
+      "char_start": 23558,
+      "char_end": 24388
+    },
+    {
+      "id": 27,
+      "type": "boilerplate",
+      "text": "Supplier shall deliver the industrial control modules to Buyer's designated receiving facility in accordance with the delivery schedule set out in Schedule 2, and time of delivery shall be of the essence. Should Supplier reasonably anticipate that a shipment will be delayed beyond the scheduled delivery date, Supplier shall notify Buyer in writing within 5 days of becoming aware of the anticipated delay, specifying the revised delivery date and the cause of the delay. Partial shipments shall be permitted only with Buyer's prior written consent, and each partial shipment shall be separately invoiced. Risk of loss shall pass to Buyer upon confirmed receipt at the designated facility, and Supplier shall retain risk of loss for all goods in transit prior to that point. Title to the goods shall pass to Buyer upon full payment of the applicable invoice, notwithstanding the earlier passage of risk of loss, and Supplier shall retain a purchase money security interest in the goods until such payment is received in full. Supplier shall maintain adequate insurance covering loss or damage to goods in transit and shall provide evidence of such coverage to Buyer upon reasonable written request.",
+      "char_start": 24390,
+      "char_end": 25600
+    },
+    {
+      "id": 28,
+      "type": "boilerplate",
+      "text": "Supplier warrants that the custom wiring harnesses delivered under this Agreement shall, for a period of thirty (30) days from the date of delivery, conform to the specifications set out in Schedule 1 and shall be free from defects in material and workmanship under normal use and service. This warranty does not extend to defects arising from misuse, unauthorized modification, or normal wear and tear. Buyer's sole and exclusive remedy for breach of this warranty shall be, at Supplier's option, repair, replacement, or refund of the purchase price for the nonconforming goods, provided that Buyer notifies Supplier in writing within 21 days of discovering the defect. Supplier shall bear the cost of shipping any repaired or replacement goods to Buyer, and Buyer shall grant Supplier reasonable access to inspect the nonconforming goods prior to any repair, replacement, or refund. This warranty is in lieu of all other warranties, express or implied, including any implied warranty of merchantability or fitness for a particular purpose, except as expressly set out in this Clause.",
+      "char_start": 25602,
+      "char_end": 26698
+    },
+    {
+      "id": 29,
+      "type": "boilerplate",
+      "text": "Buyer shall pay all undisputed invoices within forty-five (45) days of the invoice date, by wire transfer to the bank account designated by Supplier in writing. Invoices not disputed in writing within 5 days of receipt shall be deemed accepted. Amounts not paid when due shall accrue interest at the rate of one and one-half percent (1.5%) per month, or the maximum rate permitted by applicable law, whichever is lower. All amounts payable under this Agreement are exclusive of applicable value-added, sales, or similar taxes, which shall be borne by Buyer unless otherwise required by law. Buyer may withhold payment of any invoiced amount that is subject to a good-faith dispute, provided Buyer notifies Supplier in writing of the basis for the dispute within 5 days of receipt of the invoice, and the parties shall use reasonable efforts to resolve the dispute within forty-five (45) days. Neither party shall be entitled to set off amounts owed under this Agreement against amounts owed under any other agreement between the parties absent written agreement to the contrary.",
+      "char_start": 26700,
+      "char_end": 27789
+    },
+    {
+      "id": 30,
+      "type": "boilerplate",
+      "text": "Confidential Information disclosed under this Agreement shall be used by the receiving party solely for the purpose of performing its obligations hereunder, and shall be protected using at least the same degree of care that the receiving party uses to protect its own confidential information of similar importance, but in no event less than a reasonable degree of care. Upon termination of this Agreement, each party shall, within forty-five (45) days of the other party's written request, return or destroy all Confidential Information in its possession, except to the extent retention is required by applicable law or bona fide archival policy. Neither party shall use the other party's Confidential Information to develop products or services that compete with the disclosing party's business, and each party acknowledges that unauthorized disclosure of Confidential Information may cause irreparable harm for which monetary damages would be an inadequate remedy, entitling the disclosing party to seek injunctive relief in addition to any other available remedy.",
+      "char_start": 27791,
+      "char_end": 28869
+    },
+    {
+      "id": 31,
+      "type": "boilerplate",
+      "text": "A party affected by an event of force majeure shall promptly notify the other party of the nature and expected duration of the event, and shall be excused from performance, other than the obligation to make payments already due, for so long as the event of force majeure continues. Should an event of force majeure continue for a period exceeding sixty (60) days, either party may terminate this Agreement without liability by giving not less than 5 days' written notice to the other party, provided the event has not ceased prior to the expiry of such notice period. Neither party shall be entitled to terminate this Agreement for force majeure to the extent the affected party's own failure to maintain reasonable business continuity arrangements contributed materially to its inability to perform, and the parties shall cooperate in good faith to identify reasonable workaround arrangements before either party exercises any right of termination under this Clause.",
+      "char_start": 28871,
+      "char_end": 29849
+    },
+    {
+      "id": 32,
+      "type": "boilerplate",
+      "text": "All intellectual property rights in the custom wiring harnesses, including any designs, drawings, specifications, or know-how provided by Buyer to Supplier for the purpose of manufacture, shall remain the exclusive property of Buyer, and Supplier shall acquire no rights therein other than the limited right to use such materials solely for the performance of its obligations under this Agreement. Supplier shall not use, reproduce, or disclose such materials for any other purpose without Buyer's prior written consent, and shall return or destroy all such materials within sixty (60) days of termination of this Agreement. Supplier shall ensure that any subcontractor engaged in the manufacture of the custom wiring harnesses is bound by written obligations of confidentiality and restricted use no less protective of Buyer's intellectual property than those set out in this Clause, and Supplier shall remain fully liable to Buyer for any breach of this Clause by such subcontractor.",
+      "char_start": 29851,
+      "char_end": 30847
+    },
+    {
+      "id": 33,
+      "type": "n1_weird_benign",
+      "text": "All notices under this Agreement shall be sent by regustered mail to the address of the receiving party set out in Schedule 1, or by such other method as the parties may agree in writing from time to time, provided that notices sent by facsimile shall be deemed effective only upon confirmed transmission and a courtesy copy dispatched by ordinary post within two (2) Business Days thereof, notwithstanding the informal custom of certain regional offices to additionally telephone the recipient's front desk between the hours of nine and eleven in the forenoon, a practice that, while unusual, imposes no obligation on either party and shall not be construed to alter the notice periods specified elsewhere in this Agreement.",
+      "char_start": 30849,
+      "char_end": 31585
+    },
+    {
+      "id": 34,
+      "type": "boilerplate",
+      "text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the precision-machined aluminum housings. Supplier shall notify Buyer in writing within 14 days of becoming aware of any material non-compliance with applicable law in the State of New York, and shall implement a corrective action plan within 15 days of identifying such non-compliance, subject to Buyer's reasonable approval. Buyer may, at its discretion and upon reasonable written notice, request evidence of Supplier's compliance with this Clause from any sub-tier supplier involved in the manufacture of the precision-machined aluminum housings, and Supplier shall use commercially reasonable efforts to obtain and provide such evidence within 14 days.",
+      "char_start": 31587,
+      "char_end": 32452
+    },
+    {
+      "id": 35,
+      "type": "boilerplate",
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach of this Agreement and fails to cure such breach within 60 days of receiving written notice describing the breach in reasonable detail. Either party may also terminate this Agreement for convenience upon not less than sixty (60) days prior written notice to the other party. Termination of this Agreement shall not affect any rights or obligations accrued prior to the effective date of termination. Upon termination for convenience by Buyer, Buyer shall reimburse Supplier for reasonable costs incurred in reliance on outstanding purchase orders, including committed raw material costs, provided Supplier has used commercially reasonable efforts to mitigate such costs.",
+      "char_start": 32454,
+      "char_end": 33251
+    },
+    {
+      "id": 36,
+      "type": "boilerplate",
+      "text": "Supplier shall deliver the industrial control modules to Buyer's designated receiving facility in accordance with the delivery schedule set out in Schedule 2, and time of delivery shall be of the essence. Should Supplier reasonably anticipate that a shipment will be delayed beyond the scheduled delivery date, Supplier shall notify Buyer in writing within 21 days of becoming aware of the anticipated delay, specifying the revised delivery date and the cause of the delay. Partial shipments shall be permitted only with Buyer's prior written consent, and each partial shipment shall be separately invoiced. Risk of loss shall pass to Buyer upon confirmed receipt at the designated facility, and Supplier shall retain risk of loss for all goods in transit prior to that point. Title to the goods shall pass to Buyer upon full payment of the applicable invoice, notwithstanding the earlier passage of risk of loss, and Supplier shall retain a purchase money security interest in the goods until such payment is received in full. Supplier shall maintain adequate insurance covering loss or damage to goods in transit and shall provide evidence of such coverage to Buyer upon reasonable written request.",
+      "char_start": 33253,
+      "char_end": 34464
+    },
+    {
+      "id": 37,
+      "type": "boilerplate",
+      "text": "Supplier warrants that the injection-molded enclosures delivered under this Agreement shall, for a period of sixty (60) days from the date of delivery, conform to the specifications set out in Schedule 1 and shall be free from defects in material and workmanship under normal use and service. This warranty does not extend to defects arising from misuse, unauthorized modification, or normal wear and tear. Buyer's sole and exclusive remedy for breach of this warranty shall be, at Supplier's option, repair, replacement, or refund of the purchase price for the nonconforming goods, provided that Buyer notifies Supplier in writing within 21 days of discovering the defect. Supplier shall bear the cost of shipping any repaired or replacement goods to Buyer, and Buyer shall grant Supplier reasonable access to inspect the nonconforming goods prior to any repair, replacement, or refund. This warranty is in lieu of all other warranties, express or implied, including any implied warranty of merchantability or fitness for a particular purpose, except as expressly set out in this Clause.",
+      "char_start": 34466,
+      "char_end": 35565
+    },
+    {
+      "id": 38,
+      "type": "boilerplate",
+      "text": "Buyer shall pay all undisputed invoices within thirty (30) days of the invoice date, by wire transfer to the bank account designated by Supplier in writing. Invoices not disputed in writing within 21 days of receipt shall be deemed accepted. Amounts not paid when due shall accrue interest at the rate of one and one-half percent (1.5%) per month, or the maximum rate permitted by applicable law, whichever is lower. All amounts payable under this Agreement are exclusive of applicable value-added, sales, or similar taxes, which shall be borne by Buyer unless otherwise required by law. Buyer may withhold payment of any invoiced amount that is subject to a good-faith dispute, provided Buyer notifies Supplier in writing of the basis for the dispute within 21 days of receipt of the invoice, and the parties shall use reasonable efforts to resolve the dispute within thirty (30) days. Neither party shall be entitled to set off amounts owed under this Agreement against amounts owed under any other agreement between the parties absent written agreement to the contrary.",
+      "char_start": 35567,
+      "char_end": 36650
+    },
+    {
+      "id": 39,
+      "type": "boilerplate",
+      "text": "Confidential Information disclosed under this Agreement shall be used by the receiving party solely for the purpose of performing its obligations hereunder, and shall be protected using at least the same degree of care that the receiving party uses to protect its own confidential information of similar importance, but in no event less than a reasonable degree of care. Upon termination of this Agreement, each party shall, within sixty (60) days of the other party's written request, return or destroy all Confidential Information in its possession, except to the extent retention is required by applicable law or bona fide archival policy. Neither party shall use the other party's Confidential Information to develop products or services that compete with the disclosing party's business, and each party acknowledges that unauthorized disclosure of Confidential Information may cause irreparable harm for which monetary damages would be an inadequate remedy, entitling the disclosing party to seek injunctive relief in addition to any other available remedy.",
+      "char_start": 36652,
+      "char_end": 37725
+    },
+    {
+      "id": 40,
+      "type": "boilerplate",
+      "text": "A party affected by an event of force majeure shall promptly notify the other party of the nature and expected duration of the event, and shall be excused from performance, other than the obligation to make payments already due, for so long as the event of force majeure continues. Should an event of force majeure continue for a period exceeding ninety (90) days, either party may terminate this Agreement without liability by giving not less than 21 days' written notice to the other party, provided the event has not ceased prior to the expiry of such notice period. Neither party shall be entitled to terminate this Agreement for force majeure to the extent the affected party's own failure to maintain reasonable business continuity arrangements contributed materially to its inability to perform, and the parties shall cooperate in good faith to identify reasonable workaround arrangements before either party exercises any right of termination under this Clause.",
+      "char_start": 37727,
+      "char_end": 38707
+    },
+    {
+      "id": 41,
+      "type": "boilerplate",
+      "text": "Any improvements, modifications, or derivative works created by Supplier in the course of manufacturing the precision-machined aluminum housings that relate specifically to Buyer's proprietary designs shall be owned by Buyer, and Supplier hereby assigns all right, title, and interest in such improvements to Buyer. Supplier retains ownership of any general manufacturing know-how, tooling designs, and process improvements that are not specific to Buyer's proprietary designs and that Supplier would have developed irrespective of this Agreement, within ninety (90) days of first use. Where an improvement combines Buyer-specific design elements with Supplier's general manufacturing know-how in a manner that cannot reasonably be separated, the parties shall negotiate in good faith a reasonable allocation of rights, failing which Buyer shall be granted a perpetual, royalty-free license to use the improvement solely in connection with the precision-machined aluminum housings.",
+      "char_start": 38709,
+      "char_end": 39701
+    },
+    {
+      "id": 42,
+      "type": "boilerplate",
+      "text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the precision-machined aluminum housings. Supplier shall notify Buyer in writing within 5 days of becoming aware of any material non-compliance with applicable law in Singapore, and shall implement a corrective action plan within 15 days of identifying such non-compliance, subject to Buyer's reasonable approval. Buyer may, at its discretion and upon reasonable written notice, request evidence of Supplier's compliance with this Clause from any sub-tier supplier involved in the manufacture of the precision-machined aluminum housings, and Supplier shall use commercially reasonable efforts to obtain and provide such evidence within 5 days.",
+      "char_start": 39703,
+      "char_end": 40554
+    },
+    {
+      "id": 43,
+      "type": "boilerplate",
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach of this Agreement and fails to cure such breach within 45 days of receiving written notice describing the breach in reasonable detail. Either party may also terminate this Agreement for convenience upon not less than sixty (60) days prior written notice to the other party. Termination of this Agreement shall not affect any rights or obligations accrued prior to the effective date of termination. Upon termination for convenience by Buyer, Buyer shall reimburse Supplier for reasonable costs incurred in reliance on outstanding purchase orders, including committed raw material costs, provided Supplier has used commercially reasonable efforts to mitigate such costs.",
+      "char_start": 40556,
+      "char_end": 41353
+    },
+    {
+      "id": 44,
+      "type": "boilerplate",
+      "text": "Supplier shall deliver the custom wiring harnesses to Buyer's designated receiving facility in accordance with the delivery schedule set out in Schedule 2, and time of delivery shall be of the essence. Should Supplier reasonably anticipate that a shipment will be delayed beyond the scheduled delivery date, Supplier shall notify Buyer in writing within 14 days of becoming aware of the anticipated delay, specifying the revised delivery date and the cause of the delay. Partial shipments shall be permitted only with Buyer's prior written consent, and each partial shipment shall be separately invoiced. Risk of loss shall pass to Buyer upon confirmed receipt at the designated facility, and Supplier shall retain risk of loss for all goods in transit prior to that point. Title to the goods shall pass to Buyer upon full payment of the applicable invoice, notwithstanding the earlier passage of risk of loss, and Supplier shall retain a purchase money security interest in the goods until such payment is received in full. Supplier shall maintain adequate insurance covering loss or damage to goods in transit and shall provide evidence of such coverage to Buyer upon reasonable written request.",
+      "char_start": 41355,
+      "char_end": 42563
+    },
+    {
+      "id": 45,
+      "type": "boilerplate",
+      "text": "Supplier warrants that the calibrated pressure sensors delivered under this Agreement shall, for a period of sixty (60) days from the date of delivery, conform to the specifications set out in Schedule 1 and shall be free from defects in material and workmanship under normal use and service. This warranty does not extend to defects arising from misuse, unauthorized modification, or normal wear and tear. Buyer's sole and exclusive remedy for breach of this warranty shall be, at Supplier's option, repair, replacement, or refund of the purchase price for the nonconforming goods, provided that Buyer notifies Supplier in writing within 21 days of discovering the defect. Supplier shall bear the cost of shipping any repaired or replacement goods to Buyer, and Buyer shall grant Supplier reasonable access to inspect the nonconforming goods prior to any repair, replacement, or refund. This warranty is in lieu of all other warranties, express or implied, including any implied warranty of merchantability or fitness for a particular purpose, except as expressly set out in this Clause.",
+      "char_start": 42565,
+      "char_end": 43664
+    },
+    {
+      "id": 46,
+      "type": "boilerplate",
+      "text": "Prices for the precision-machined aluminum housings are as set out in Schedule 1 and are denominated in EUR unless otherwise agreed in writing. Supplier shall invoice Buyer upon shipment, and payment shall be due forty-five (45) days from the date of each invoice. Should Buyer fail to make payment when due, Supplier may, upon 10 days' prior written notice, suspend further deliveries until all outstanding amounts, together with accrued interest, have been paid in full, without prejudice to any other rights or remedies available to Supplier. Any change in prices shall require not less than 10 days' prior written notice to Buyer and shall apply only to purchase orders placed after the effective date of the change. All invoices shall be issued in EUR and shall separately state the applicable purchase order number, quantity delivered, and unit price for each line item.",
+      "char_start": 43666,
+      "char_end": 44553
+    },
+    {
+      "id": 47,
+      "type": "boilerplate",
+      "text": "Confidential Information disclosed under this Agreement shall be used by the receiving party solely for the purpose of performing its obligations hereunder, and shall be protected using at least the same degree of care that the receiving party uses to protect its own confidential information of similar importance, but in no event less than a reasonable degree of care. Upon termination of this Agreement, each party shall, within thirty (30) days of the other party's written request, return or destroy all Confidential Information in its possession, except to the extent retention is required by applicable law or bona fide archival policy. Neither party shall use the other party's Confidential Information to develop products or services that compete with the disclosing party's business, and each party acknowledges that unauthorized disclosure of Confidential Information may cause irreparable harm for which monetary damages would be an inadequate remedy, entitling the disclosing party to seek injunctive relief in addition to any other available remedy.",
+      "char_start": 44555,
+      "char_end": 45629
+    },
+    {
+      "id": 48,
+      "type": "boilerplate",
+      "text": "A party affected by an event of force majeure shall promptly notify the other party of the nature and expected duration of the event, and shall be excused from performance, other than the obligation to make payments already due, for so long as the event of force majeure continues. Should an event of force majeure continue for a period exceeding sixty (60) days, either party may terminate this Agreement without liability by giving not less than 10 days' written notice to the other party, provided the event has not ceased prior to the expiry of such notice period. Neither party shall be entitled to terminate this Agreement for force majeure to the extent the affected party's own failure to maintain reasonable business continuity arrangements contributed materially to its inability to perform, and the parties shall cooperate in good faith to identify reasonable workaround arrangements before either party exercises any right of termination under this Clause.",
+      "char_start": 45631,
+      "char_end": 46610
+    },
+    {
+      "id": 49,
+      "type": "boilerplate",
+      "text": "Any improvements, modifications, or derivative works created by Supplier in the course of manufacturing the custom wiring harnesses that relate specifically to Buyer's proprietary designs shall be owned by Buyer, and Supplier hereby assigns all right, title, and interest in such improvements to Buyer. Supplier retains ownership of any general manufacturing know-how, tooling designs, and process improvements that are not specific to Buyer's proprietary designs and that Supplier would have developed irrespective of this Agreement, within ninety (90) days of first use. Where an improvement combines Buyer-specific design elements with Supplier's general manufacturing know-how in a manner that cannot reasonably be separated, the parties shall negotiate in good faith a reasonable allocation of rights, failing which Buyer shall be granted a perpetual, royalty-free license to use the improvement solely in connection with the custom wiring harnesses.",
+      "char_start": 46612,
+      "char_end": 47578
+    },
+    {
+      "id": 50,
+      "type": "liability_frame",
+      "text": "For the avoidance of doubt, Supplier's cumulative liability to Buyer under this Agreement, however arising and regardless of the form of action, is limited to 100% of the annual Contract Value, and excludes all consequential, indirect, special, or punitive damages of any kind.",
+      "char_start": 47580,
+      "char_end": 47868
+    },
+    {
+      "id": 51,
+      "type": "boilerplate",
+      "text": "Supplier shall comply with all applicable laws, regulations, and industry standards in the manufacture and supply of the injection-molded enclosures, including those relating to product safety, labor practices, and environmental protection in the Republic of Ireland. Supplier shall, upon Buyer's reasonable written request, provide documentation evidencing such compliance, and shall permit Buyer or its designated auditor to conduct an on-site compliance audit upon not less than 10 days' prior written notice, no more than once per thirty (30) days period absent reasonable cause. Any audit conducted under this Clause shall be at Buyer's expense, shall be conducted during Supplier's normal business hours, and shall not unreasonably interfere with Supplier's manufacturing operations. Supplier shall address any material finding identified during an audit within 60 days of receiving Buyer's written audit report.",
+      "char_start": 47870,
+      "char_end": 48799
+    },
+    {
+      "id": 52,
+      "type": "boilerplate",
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach of this Agreement and fails to cure such breach within 30 days of receiving written notice describing the breach in reasonable detail. Either party may also terminate this Agreement for convenience upon not less than ninety (90) days prior written notice to the other party. Termination of this Agreement shall not affect any rights or obligations accrued prior to the effective date of termination. Upon termination for convenience by Buyer, Buyer shall reimburse Supplier for reasonable costs incurred in reliance on outstanding purchase orders, including committed raw material costs, provided Supplier has used commercially reasonable efforts to mitigate such costs.",
+      "char_start": 48801,
+      "char_end": 49599
+    },
+    {
+      "id": 53,
+      "type": "boilerplate",
+      "text": "Supplier shall deliver the custom wiring harnesses to Buyer's designated receiving facility in accordance with the delivery schedule set out in Schedule 2, and time of delivery shall be of the essence. Should Supplier reasonably anticipate that a shipment will be delayed beyond the scheduled delivery date, Supplier shall notify Buyer in writing within 10 days of becoming aware of the anticipated delay, specifying the revised delivery date and the cause of the delay. Partial shipments shall be permitted only with Buyer's prior written consent, and each partial shipment shall be separately invoiced. Risk of loss shall pass to Buyer upon confirmed receipt at the designated facility, and Supplier shall retain risk of loss for all goods in transit prior to that point. Title to the goods shall pass to Buyer upon full payment of the applicable invoice, notwithstanding the earlier passage of risk of loss, and Supplier shall retain a purchase money security interest in the goods until such payment is received in full. Supplier shall maintain adequate insurance covering loss or damage to goods in transit and shall provide evidence of such coverage to Buyer upon reasonable written request.",
+      "char_start": 49601,
+      "char_end": 50809
+    },
+    {
+      "id": 54,
+      "type": "boilerplate",
+      "text": "Supplier represents and warrants that all custom wiring harnesses supplied hereunder shall be new, of merchantable quality, and fit for the purpose for which such goods are customarily used, and shall comply in all material respects with the applicable specifications for a period of no less than forty-five (45) days following delivery. Supplier shall, at its own expense, correct any nonconformity identified during the warranty period within 15 days of receiving written notice from Buyer describing the nonconformity in reasonable detail, provided that such correction is commercially and technically feasible. If Supplier is unable to correct the nonconformity within the 15-day period, Buyer may procure replacement goods from a third party and recover the reasonable additional cost of doing so from Supplier, provided Buyer has given Supplier a reasonable opportunity to cure. Nothing in this Clause shall limit any statutory warranty that cannot lawfully be excluded in the State of Delaware.",
+      "char_start": 50811,
+      "char_end": 51823
+    },
+    {
+      "id": 55,
+      "type": "boilerplate",
+      "text": "Prices for the precision-machined aluminum housings are as set out in Schedule 1 and are denominated in GBP unless otherwise agreed in writing. Supplier shall invoice Buyer upon shipment, and payment shall be due ninety (90) days from the date of each invoice. Should Buyer fail to make payment when due, Supplier may, upon 14 days' prior written notice, suspend further deliveries until all outstanding amounts, together with accrued interest, have been paid in full, without prejudice to any other rights or remedies available to Supplier. Any change in prices shall require not less than 14 days' prior written notice to Buyer and shall apply only to purchase orders placed after the effective date of the change. All invoices shall be issued in GBP and shall separately state the applicable purchase order number, quantity delivered, and unit price for each line item.",
+      "char_start": 51825,
+      "char_end": 52708
+    },
+    {
+      "id": 56,
+      "type": "boilerplate",
+      "text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein. This obligation shall survive termination of this Agreement for a period of ninety (90) days and shall not apply to information that is or becomes publicly available through no fault of the receiving party. The receiving party may disclose Confidential Information to the extent required by law or a valid order of a court or governmental authority, provided that, to the extent legally permissible, it gives the disclosing party prompt written notice of such requirement so that the disclosing party may seek a protective order or other appropriate remedy at its own expense.",
+      "char_start": 52710,
+      "char_end": 53733
+    },
+    {
+      "id": 57,
+      "type": "boilerplate",
+      "text": "Neither party shall be liable for any failure or delay in the performance of its obligations under this Agreement, other than payment obligations, to the extent such failure or delay is caused by circumstances beyond its reasonable control, including acts of God, war, civil unrest, governmental action, pandemic, or failure of utilities or telecommunications infrastructure, provided that the affected party notifies the other party in writing within 5 days of the onset of such circumstances and uses commercially reasonable efforts to mitigate the impact. If such circumstances continue for more than ninety (90) days, either party may terminate this Agreement upon written notice. During the continuation of an event of force majeure, the unaffected party may, at its option and upon written notice, procure substitute goods or services from a third party to the extent reasonably necessary to mitigate the impact of the affected party's non-performance, without thereby waiving any right or remedy under this Agreement.",
+      "char_start": 53735,
+      "char_end": 54770
+    },
+    {
+      "id": 58,
+      "type": "boilerplate",
+      "text": "Any improvements, modifications, or derivative works created by Supplier in the course of manufacturing the injection-molded enclosures that relate specifically to Buyer's proprietary designs shall be owned by Buyer, and Supplier hereby assigns all right, title, and interest in such improvements to Buyer. Supplier retains ownership of any general manufacturing know-how, tooling designs, and process improvements that are not specific to Buyer's proprietary designs and that Supplier would have developed irrespective of this Agreement, within ninety (90) days of first use. Where an improvement combines Buyer-specific design elements with Supplier's general manufacturing know-how in a manner that cannot reasonably be separated, the parties shall negotiate in good faith a reasonable allocation of rights, failing which Buyer shall be granted a perpetual, royalty-free license to use the improvement solely in connection with the injection-molded enclosures.",
+      "char_start": 54772,
+      "char_end": 55746
+    },
+    {
+      "id": 59,
+      "type": "boilerplate",
+      "text": "Supplier shall comply with all applicable laws, regulations, and industry standards in the manufacture and supply of the custom wiring harnesses, including those relating to product safety, labor practices, and environmental protection in England and Wales. Supplier shall, upon Buyer's reasonable written request, provide documentation evidencing such compliance, and shall permit Buyer or its designated auditor to conduct an on-site compliance audit upon not less than 5 days' prior written notice, no more than once per sixty (60) days period absent reasonable cause. Any audit conducted under this Clause shall be at Buyer's expense, shall be conducted during Supplier's normal business hours, and shall not unreasonably interfere with Supplier's manufacturing operations. Supplier shall address any material finding identified during an audit within 45 days of receiving Buyer's written audit report.",
+      "char_start": 55748,
+      "char_end": 56665
+    },
+    {
+      "id": 60,
+      "type": "boilerplate",
+      "text": "This Agreement shall terminate automatically, without notice, in the event either party becomes insolvent, makes an assignment for the benefit of creditors, or becomes subject to proceedings under applicable insolvency law that are not dismissed within 60 days. Upon termination for any reason, Buyer shall pay Supplier for all sealed bearing assemblies delivered and accepted prior to the effective date of termination, and each party shall, within sixty (60) days, return or destroy any Confidential Information of the other party then in its possession. The provisions of this Agreement relating to confidentiality, intellectual property, and limitation of liability shall survive termination or expiration of this Agreement for any reason, together with any other provision that by its nature is intended to survive.",
+      "char_start": 56667,
+      "char_end": 57498
+    },
+    {
+      "id": 61,
+      "type": "n3_novel",
+      "text": "The parties acknowledge that certain of the Goods may incorporate components subject to classification under export control regimes applicable to quantum-computing-enabling technologies, including cryogenic control electronics and superconducting qubit fabrication equipment, and Supplier shall, prior to shipment, obtain and retain all export classification determinations required by the export control authority of the country of origin, and shall notify Buyer in writing of any change in the Export Control Classification Number applicable to such components, it being understood that this Clause addresses a distinct regulatory subject matter unrelated to the delivery, warranty, or liability provisions set out elsewhere in this Agreement.",
+      "char_start": 57500,
+      "char_end": 58256
+    },
+    {
+      "id": 62,
+      "type": "boilerplate",
+      "text": "Supplier shall deliver the injection-molded enclosures to Buyer's designated receiving facility in accordance with the delivery schedule set out in Schedule 2, and time of delivery shall be of the essence. Should Supplier reasonably anticipate that a shipment will be delayed beyond the scheduled delivery date, Supplier shall notify Buyer in writing within 14 days of becoming aware of the anticipated delay, specifying the revised delivery date and the cause of the delay. Partial shipments shall be permitted only with Buyer's prior written consent, and each partial shipment shall be separately invoiced. Risk of loss shall pass to Buyer upon confirmed receipt at the designated facility, and Supplier shall retain risk of loss for all goods in transit prior to that point. Title to the goods shall pass to Buyer upon full payment of the applicable invoice, notwithstanding the earlier passage of risk of loss, and Supplier shall retain a purchase money security interest in the goods until such payment is received in full. Supplier shall maintain adequate insurance covering loss or damage to goods in transit and shall provide evidence of such coverage to Buyer upon reasonable written request.",
+      "char_start": 58258,
+      "char_end": 59470
+    },
+    {
+      "id": 63,
+      "type": "boilerplate",
+      "text": "Supplier warrants that the injection-molded enclosures delivered under this Agreement shall, for a period of forty-five (45) days from the date of delivery, conform to the specifications set out in Schedule 1 and shall be free from defects in material and workmanship under normal use and service. This warranty does not extend to defects arising from misuse, unauthorized modification, or normal wear and tear. Buyer's sole and exclusive remedy for breach of this warranty shall be, at Supplier's option, repair, replacement, or refund of the purchase price for the nonconforming goods, provided that Buyer notifies Supplier in writing within 5 days of discovering the defect. Supplier shall bear the cost of shipping any repaired or replacement goods to Buyer, and Buyer shall grant Supplier reasonable access to inspect the nonconforming goods prior to any repair, replacement, or refund. This warranty is in lieu of all other warranties, express or implied, including any implied warranty of merchantability or fitness for a particular purpose, except as expressly set out in this Clause.",
+      "char_start": 59472,
+      "char_end": 60575
+    },
+    {
+      "id": 64,
+      "type": "boilerplate",
+      "text": "Buyer shall pay all undisputed invoices within thirty (30) days of the invoice date, by wire transfer to the bank account designated by Supplier in writing. Invoices not disputed in writing within 14 days of receipt shall be deemed accepted. Amounts not paid when due shall accrue interest at the rate of one and one-half percent (1.5%) per month, or the maximum rate permitted by applicable law, whichever is lower. All amounts payable under this Agreement are exclusive of applicable value-added, sales, or similar taxes, which shall be borne by Buyer unless otherwise required by law. Buyer may withhold payment of any invoiced amount that is subject to a good-faith dispute, provided Buyer notifies Supplier in writing of the basis for the dispute within 14 days of receipt of the invoice, and the parties shall use reasonable efforts to resolve the dispute within thirty (30) days. Neither party shall be entitled to set off amounts owed under this Agreement against amounts owed under any other agreement between the parties absent written agreement to the contrary.",
+      "char_start": 60577,
+      "char_end": 61660
+    },
+    {
+      "id": 65,
+      "type": "boilerplate",
+      "text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein. This obligation shall survive termination of this Agreement for a period of sixty (60) days and shall not apply to information that is or becomes publicly available through no fault of the receiving party. The receiving party may disclose Confidential Information to the extent required by law or a valid order of a court or governmental authority, provided that, to the extent legally permissible, it gives the disclosing party prompt written notice of such requirement so that the disclosing party may seek a protective order or other appropriate remedy at its own expense.",
+      "char_start": 61662,
+      "char_end": 62684
+    },
+    {
+      "id": 66,
+      "type": "boilerplate",
+      "text": "A party affected by an event of force majeure shall promptly notify the other party of the nature and expected duration of the event, and shall be excused from performance, other than the obligation to make payments already due, for so long as the event of force majeure continues. Should an event of force majeure continue for a period exceeding forty-five (45) days, either party may terminate this Agreement without liability by giving not less than 14 days' written notice to the other party, provided the event has not ceased prior to the expiry of such notice period. Neither party shall be entitled to terminate this Agreement for force majeure to the extent the affected party's own failure to maintain reasonable business continuity arrangements contributed materially to its inability to perform, and the parties shall cooperate in good faith to identify reasonable workaround arrangements before either party exercises any right of termination under this Clause.",
+      "char_start": 62686,
+      "char_end": 63670
+    },
+    {
+      "id": 67,
+      "type": "boilerplate",
+      "text": "All intellectual property rights in the calibrated pressure sensors, including any designs, drawings, specifications, or know-how provided by Buyer to Supplier for the purpose of manufacture, shall remain the exclusive property of Buyer, and Supplier shall acquire no rights therein other than the limited right to use such materials solely for the performance of its obligations under this Agreement. Supplier shall not use, reproduce, or disclose such materials for any other purpose without Buyer's prior written consent, and shall return or destroy all such materials within thirty (30) days of termination of this Agreement. Supplier shall ensure that any subcontractor engaged in the manufacture of the calibrated pressure sensors is bound by written obligations of confidentiality and restricted use no less protective of Buyer's intellectual property than those set out in this Clause, and Supplier shall remain fully liable to Buyer for any breach of this Clause by such subcontractor.",
+      "char_start": 63672,
+      "char_end": 64677
+    },
+    {
+      "id": 68,
+      "type": "boilerplate",
+      "text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the injection-molded enclosures. Supplier shall notify Buyer in writing within 21 days of becoming aware of any material non-compliance with applicable law in the Province of Ontario, and shall implement a corrective action plan within 60 days of identifying such non-compliance, subject to Buyer's reasonable approval. Buyer may, at its discretion and upon reasonable written notice, request evidence of Supplier's compliance with this Clause from any sub-tier supplier involved in the manufacture of the injection-molded enclosures, and Supplier shall use commercially reasonable efforts to obtain and provide such evidence within 21 days.",
+      "char_start": 64679,
+      "char_end": 65528
+    },
+    {
+      "id": 69,
+      "type": "boilerplate",
+      "text": "This Agreement shall terminate automatically, without notice, in the event either party becomes insolvent, makes an assignment for the benefit of creditors, or becomes subject to proceedings under applicable insolvency law that are not dismissed within 45 days. Upon termination for any reason, Buyer shall pay Supplier for all injection-molded enclosures delivered and accepted prior to the effective date of termination, and each party shall, within sixty (60) days, return or destroy any Confidential Information of the other party then in its possession. The provisions of this Agreement relating to confidentiality, intellectual property, and limitation of liability shall survive termination or expiration of this Agreement for any reason, together with any other provision that by its nature is intended to survive.",
+      "char_start": 65530,
+      "char_end": 66363
+    },
+    {
+      "id": 70,
+      "type": "boilerplate",
+      "text": "All shipments of custom wiring harnesses under this Agreement shall be packaged in accordance with Supplier's standard export packaging specifications, or such other specifications as the parties may agree in writing, and shall be accompanied by a packing list identifying the purchase order number, quantity, and batch or lot identifier. Supplier shall provide Buyer with advance shipping notification not less than 14 days prior to the scheduled ship date. Buyer shall inspect each shipment within thirty (30) days of receipt and shall notify Supplier in writing of any discrepancy in quantity or apparent damage, failing which the shipment shall be deemed accepted as delivered. Supplier shall retain records of each shipment's packing list and carrier manifest for a period of not less than thirty (30) days, and shall make such records available to Buyer upon reasonable written request for the purpose of resolving any delivery dispute. Title to rejected goods shall remain with Supplier pending disposition instructions from Supplier, which shall be provided within 14 days of receiving notice of rejection.",
+      "char_start": 66365,
+      "char_end": 67490
+    },
+    {
+      "id": 71,
+      "type": "boilerplate",
+      "text": "Supplier represents and warrants that all sealed bearing assemblies supplied hereunder shall be new, of merchantable quality, and fit for the purpose for which such goods are customarily used, and shall comply in all material respects with the applicable specifications for a period of no less than ninety (90) days following delivery. Supplier shall, at its own expense, correct any nonconformity identified during the warranty period within 60 days of receiving written notice from Buyer describing the nonconformity in reasonable detail, provided that such correction is commercially and technically feasible. If Supplier is unable to correct the nonconformity within the 60-day period, Buyer may procure replacement goods from a third party and recover the reasonable additional cost of doing so from Supplier, provided Buyer has given Supplier a reasonable opportunity to cure. Nothing in this Clause shall limit any statutory warranty that cannot lawfully be excluded in England and Wales.",
+      "char_start": 67492,
+      "char_end": 68498
+    },
+    {
+      "id": 72,
+      "type": "boilerplate",
+      "text": "Buyer shall pay all undisputed invoices within thirty (30) days of the invoice date, by wire transfer to the bank account designated by Supplier in writing. Invoices not disputed in writing within 5 days of receipt shall be deemed accepted. Amounts not paid when due shall accrue interest at the rate of one and one-half percent (1.5%) per month, or the maximum rate permitted by applicable law, whichever is lower. All amounts payable under this Agreement are exclusive of applicable value-added, sales, or similar taxes, which shall be borne by Buyer unless otherwise required by law. Buyer may withhold payment of any invoiced amount that is subject to a good-faith dispute, provided Buyer notifies Supplier in writing of the basis for the dispute within 5 days of receipt of the invoice, and the parties shall use reasonable efforts to resolve the dispute within thirty (30) days. Neither party shall be entitled to set off amounts owed under this Agreement against amounts owed under any other agreement between the parties absent written agreement to the contrary.",
+      "char_start": 68500,
+      "char_end": 69581
+    },
+    {
+      "id": 73,
+      "type": "boilerplate",
+      "text": "Confidential Information disclosed under this Agreement shall be used by the receiving party solely for the purpose of performing its obligations hereunder, and shall be protected using at least the same degree of care that the receiving party uses to protect its own confidential information of similar importance, but in no event less than a reasonable degree of care. Upon termination of this Agreement, each party shall, within forty-five (45) days of the other party's written request, return or destroy all Confidential Information in its possession, except to the extent retention is required by applicable law or bona fide archival policy. Neither party shall use the other party's Confidential Information to develop products or services that compete with the disclosing party's business, and each party acknowledges that unauthorized disclosure of Confidential Information may cause irreparable harm for which monetary damages would be an inadequate remedy, entitling the disclosing party to seek injunctive relief in addition to any other available remedy.",
+      "char_start": 69583,
+      "char_end": 70661
+    },
+    {
+      "id": 74,
+      "type": "boilerplate",
+      "text": "A party affected by an event of force majeure shall promptly notify the other party of the nature and expected duration of the event, and shall be excused from performance, other than the obligation to make payments already due, for so long as the event of force majeure continues. Should an event of force majeure continue for a period exceeding sixty (60) days, either party may terminate this Agreement without liability by giving not less than 14 days' written notice to the other party, provided the event has not ceased prior to the expiry of such notice period. Neither party shall be entitled to terminate this Agreement for force majeure to the extent the affected party's own failure to maintain reasonable business continuity arrangements contributed materially to its inability to perform, and the parties shall cooperate in good faith to identify reasonable workaround arrangements before either party exercises any right of termination under this Clause.",
+      "char_start": 70663,
+      "char_end": 71642
+    },
+    {
+      "id": 75,
+      "type": "boilerplate",
+      "text": "Any improvements, modifications, or derivative works created by Supplier in the course of manufacturing the precision-machined aluminum housings that relate specifically to Buyer's proprietary designs shall be owned by Buyer, and Supplier hereby assigns all right, title, and interest in such improvements to Buyer. Supplier retains ownership of any general manufacturing know-how, tooling designs, and process improvements that are not specific to Buyer's proprietary designs and that Supplier would have developed irrespective of this Agreement, within forty-five (45) days of first use. Where an improvement combines Buyer-specific design elements with Supplier's general manufacturing know-how in a manner that cannot reasonably be separated, the parties shall negotiate in good faith a reasonable allocation of rights, failing which Buyer shall be granted a perpetual, royalty-free license to use the improvement solely in connection with the precision-machined aluminum housings.",
+      "char_start": 71644,
+      "char_end": 72640
+    },
+    {
+      "id": 76,
+      "type": "boilerplate",
+      "text": "Supplier shall comply with all applicable laws, regulations, and industry standards in the manufacture and supply of the sealed bearing assemblies, including those relating to product safety, labor practices, and environmental protection in the State of Delaware. Supplier shall, upon Buyer's reasonable written request, provide documentation evidencing such compliance, and shall permit Buyer or its designated auditor to conduct an on-site compliance audit upon not less than 5 days' prior written notice, no more than once per forty-five (45) days period absent reasonable cause. Any audit conducted under this Clause shall be at Buyer's expense, shall be conducted during Supplier's normal business hours, and shall not unreasonably interfere with Supplier's manufacturing operations. Supplier shall address any material finding identified during an audit within 45 days of receiving Buyer's written audit report.",
+      "char_start": 72642,
+      "char_end": 73570
+    },
+    {
+      "id": 77,
+      "type": "boilerplate",
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach of this Agreement and fails to cure such breach within 30 days of receiving written notice describing the breach in reasonable detail. Either party may also terminate this Agreement for convenience upon not less than forty-five (45) days prior written notice to the other party. Termination of this Agreement shall not affect any rights or obligations accrued prior to the effective date of termination. Upon termination for convenience by Buyer, Buyer shall reimburse Supplier for reasonable costs incurred in reliance on outstanding purchase orders, including committed raw material costs, provided Supplier has used commercially reasonable efforts to mitigate such costs.",
+      "char_start": 73572,
+      "char_end": 74374
+    },
+    {
+      "id": 78,
+      "type": "boilerplate",
+      "text": "Supplier shall deliver the custom wiring harnesses to Buyer's designated receiving facility in accordance with the delivery schedule set out in Schedule 2, and time of delivery shall be of the essence. Should Supplier reasonably anticipate that a shipment will be delayed beyond the scheduled delivery date, Supplier shall notify Buyer in writing within 5 days of becoming aware of the anticipated delay, specifying the revised delivery date and the cause of the delay. Partial shipments shall be permitted only with Buyer's prior written consent, and each partial shipment shall be separately invoiced. Risk of loss shall pass to Buyer upon confirmed receipt at the designated facility, and Supplier shall retain risk of loss for all goods in transit prior to that point. Title to the goods shall pass to Buyer upon full payment of the applicable invoice, notwithstanding the earlier passage of risk of loss, and Supplier shall retain a purchase money security interest in the goods until such payment is received in full. Supplier shall maintain adequate insurance covering loss or damage to goods in transit and shall provide evidence of such coverage to Buyer upon reasonable written request.",
+      "char_start": 74376,
+      "char_end": 75583
+    },
+    {
+      "id": 79,
+      "type": "boilerplate",
+      "text": "Supplier represents and warrants that all injection-molded enclosures supplied hereunder shall be new, of merchantable quality, and fit for the purpose for which such goods are customarily used, and shall comply in all material respects with the applicable specifications for a period of no less than ninety (90) days following delivery. Supplier shall, at its own expense, correct any nonconformity identified during the warranty period within 15 days of receiving written notice from Buyer describing the nonconformity in reasonable detail, provided that such correction is commercially and technically feasible. If Supplier is unable to correct the nonconformity within the 15-day period, Buyer may procure replacement goods from a third party and recover the reasonable additional cost of doing so from Supplier, provided Buyer has given Supplier a reasonable opportunity to cure. Nothing in this Clause shall limit any statutory warranty that cannot lawfully be excluded in the Province of Ontario.",
+      "char_start": 75585,
+      "char_end": 76599
+    },
+    {
+      "id": 80,
+      "type": "boilerplate",
+      "text": "Prices for the injection-molded enclosures are as set out in Schedule 1 and are denominated in EUR unless otherwise agreed in writing. Supplier shall invoice Buyer upon shipment, and payment shall be due ninety (90) days from the date of each invoice. Should Buyer fail to make payment when due, Supplier may, upon 5 days' prior written notice, suspend further deliveries until all outstanding amounts, together with accrued interest, have been paid in full, without prejudice to any other rights or remedies available to Supplier. Any change in prices shall require not less than 5 days' prior written notice to Buyer and shall apply only to purchase orders placed after the effective date of the change. All invoices shall be issued in EUR and shall separately state the applicable purchase order number, quantity delivered, and unit price for each line item.",
+      "char_start": 76601,
+      "char_end": 77473
+    },
+    {
+      "id": 81,
+      "type": "boilerplate",
+      "text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein. This obligation shall survive termination of this Agreement for a period of ninety (90) days and shall not apply to information that is or becomes publicly available through no fault of the receiving party. The receiving party may disclose Confidential Information to the extent required by law or a valid order of a court or governmental authority, provided that, to the extent legally permissible, it gives the disclosing party prompt written notice of such requirement so that the disclosing party may seek a protective order or other appropriate remedy at its own expense.",
+      "char_start": 77475,
+      "char_end": 78498
+    },
+    {
+      "id": 82,
+      "type": "boilerplate",
+      "text": "A party affected by an event of force majeure shall promptly notify the other party of the nature and expected duration of the event, and shall be excused from performance, other than the obligation to make payments already due, for so long as the event of force majeure continues. Should an event of force majeure continue for a period exceeding sixty (60) days, either party may terminate this Agreement without liability by giving not less than 14 days' written notice to the other party, provided the event has not ceased prior to the expiry of such notice period. Neither party shall be entitled to terminate this Agreement for force majeure to the extent the affected party's own failure to maintain reasonable business continuity arrangements contributed materially to its inability to perform, and the parties shall cooperate in good faith to identify reasonable workaround arrangements before either party exercises any right of termination under this Clause.",
+      "char_start": 78500,
+      "char_end": 79479
+    },
+    {
+      "id": 83,
+      "type": "boilerplate",
+      "text": "All intellectual property rights in the calibrated pressure sensors, including any designs, drawings, specifications, or know-how provided by Buyer to Supplier for the purpose of manufacture, shall remain the exclusive property of Buyer, and Supplier shall acquire no rights therein other than the limited right to use such materials solely for the performance of its obligations under this Agreement. Supplier shall not use, reproduce, or disclose such materials for any other purpose without Buyer's prior written consent, and shall return or destroy all such materials within forty-five (45) days of termination of this Agreement. Supplier shall ensure that any subcontractor engaged in the manufacture of the calibrated pressure sensors is bound by written obligations of confidentiality and restricted use no less protective of Buyer's intellectual property than those set out in this Clause, and Supplier shall remain fully liable to Buyer for any breach of this Clause by such subcontractor.",
+      "char_start": 79481,
+      "char_end": 80490
+    },
+    {
+      "id": 84,
+      "type": "boilerplate",
+      "text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the custom wiring harnesses. Supplier shall notify Buyer in writing within 5 days of becoming aware of any material non-compliance with applicable law in the State of Delaware, and shall implement a corrective action plan within 30 days of identifying such non-compliance, subject to Buyer's reasonable approval. Buyer may, at its discretion and upon reasonable written notice, request evidence of Supplier's compliance with this Clause from any sub-tier supplier involved in the manufacture of the custom wiring harnesses, and Supplier shall use commercially reasonable efforts to obtain and provide such evidence within 5 days.",
+      "char_start": 80492,
+      "char_end": 81329
+    },
+    {
+      "id": 85,
+      "type": "boilerplate",
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach of this Agreement and fails to cure such breach within 45 days of receiving written notice describing the breach in reasonable detail. Either party may also terminate this Agreement for convenience upon not less than thirty (30) days prior written notice to the other party. Termination of this Agreement shall not affect any rights or obligations accrued prior to the effective date of termination. Upon termination for convenience by Buyer, Buyer shall reimburse Supplier for reasonable costs incurred in reliance on outstanding purchase orders, including committed raw material costs, provided Supplier has used commercially reasonable efforts to mitigate such costs.",
+      "char_start": 81331,
+      "char_end": 82129
+    },
+    {
+      "id": 86,
+      "type": "boilerplate",
+      "text": "Supplier shall deliver the injection-molded enclosures to Buyer's designated receiving facility in accordance with the delivery schedule set out in Schedule 2, and time of delivery shall be of the essence. Should Supplier reasonably anticipate that a shipment will be delayed beyond the scheduled delivery date, Supplier shall notify Buyer in writing within 10 days of becoming aware of the anticipated delay, specifying the revised delivery date and the cause of the delay. Partial shipments shall be permitted only with Buyer's prior written consent, and each partial shipment shall be separately invoiced. Risk of loss shall pass to Buyer upon confirmed receipt at the designated facility, and Supplier shall retain risk of loss for all goods in transit prior to that point. Title to the goods shall pass to Buyer upon full payment of the applicable invoice, notwithstanding the earlier passage of risk of loss, and Supplier shall retain a purchase money security interest in the goods until such payment is received in full. Supplier shall maintain adequate insurance covering loss or damage to goods in transit and shall provide evidence of such coverage to Buyer upon reasonable written request.",
+      "char_start": 82131,
+      "char_end": 83343
+    },
+    {
+      "id": 87,
+      "type": "n2_contradiction",
+      "text": "Notwithstanding any other provision of this Agreement, including without limitation the limitation of liability set forth in Clause 8, Supplier's liability for line-down damages arising from any failure to deliver Goods that causes a cessation of Buyer's production line at any Buyer production facility shall be unlimited in amount and shall not be subject to the limitations, caps, or exclusions set forth elsewhere in this Agreement, and Buyer shall be entitled to recover the full amount of any such line-down damages, including consequential and indirect losses, directly from Supplier without regard to the annual Contract Value.",
+      "char_start": 83345,
+      "char_end": 83991
+    },
+    {
+      "id": 88,
+      "type": "boilerplate",
+      "text": "Supplier warrants that the industrial control modules delivered under this Agreement shall, for a period of ninety (90) days from the date of delivery, conform to the specifications set out in Schedule 1 and shall be free from defects in material and workmanship under normal use and service. This warranty does not extend to defects arising from misuse, unauthorized modification, or normal wear and tear. Buyer's sole and exclusive remedy for breach of this warranty shall be, at Supplier's option, repair, replacement, or refund of the purchase price for the nonconforming goods, provided that Buyer notifies Supplier in writing within 14 days of discovering the defect. Supplier shall bear the cost of shipping any repaired or replacement goods to Buyer, and Buyer shall grant Supplier reasonable access to inspect the nonconforming goods prior to any repair, replacement, or refund. This warranty is in lieu of all other warranties, express or implied, including any implied warranty of merchantability or fitness for a particular purpose, except as expressly set out in this Clause.",
+      "char_start": 83993,
+      "char_end": 85092
+    },
+    {
+      "id": 89,
+      "type": "boilerplate",
+      "text": "Prices for the calibrated pressure sensors are as set out in Schedule 1 and are denominated in USD unless otherwise agreed in writing. Supplier shall invoice Buyer upon shipment, and payment shall be due forty-five (45) days from the date of each invoice. Should Buyer fail to make payment when due, Supplier may, upon 10 days' prior written notice, suspend further deliveries until all outstanding amounts, together with accrued interest, have been paid in full, without prejudice to any other rights or remedies available to Supplier. Any change in prices shall require not less than 10 days' prior written notice to Buyer and shall apply only to purchase orders placed after the effective date of the change. All invoices shall be issued in USD and shall separately state the applicable purchase order number, quantity delivered, and unit price for each line item.",
+      "char_start": 85094,
+      "char_end": 85972
+    },
+    {
+      "id": 90,
+      "type": "boilerplate",
+      "text": "Confidential Information disclosed under this Agreement shall be used by the receiving party solely for the purpose of performing its obligations hereunder, and shall be protected using at least the same degree of care that the receiving party uses to protect its own confidential information of similar importance, but in no event less than a reasonable degree of care. Upon termination of this Agreement, each party shall, within forty-five (45) days of the other party's written request, return or destroy all Confidential Information in its possession, except to the extent retention is required by applicable law or bona fide archival policy. Neither party shall use the other party's Confidential Information to develop products or services that compete with the disclosing party's business, and each party acknowledges that unauthorized disclosure of Confidential Information may cause irreparable harm for which monetary damages would be an inadequate remedy, entitling the disclosing party to seek injunctive relief in addition to any other available remedy.",
+      "char_start": 85974,
+      "char_end": 87052
+    },
+    {
+      "id": 91,
+      "type": "boilerplate",
+      "text": "A party affected by an event of force majeure shall promptly notify the other party of the nature and expected duration of the event, and shall be excused from performance, other than the obligation to make payments already due, for so long as the event of force majeure continues. Should an event of force majeure continue for a period exceeding sixty (60) days, either party may terminate this Agreement without liability by giving not less than 14 days' written notice to the other party, provided the event has not ceased prior to the expiry of such notice period. Neither party shall be entitled to terminate this Agreement for force majeure to the extent the affected party's own failure to maintain reasonable business continuity arrangements contributed materially to its inability to perform, and the parties shall cooperate in good faith to identify reasonable workaround arrangements before either party exercises any right of termination under this Clause.",
+      "char_start": 87054,
+      "char_end": 88033
+    },
+    {
+      "id": 92,
+      "type": "boilerplate",
+      "text": "Any improvements, modifications, or derivative works created by Supplier in the course of manufacturing the calibrated pressure sensors that relate specifically to Buyer's proprietary designs shall be owned by Buyer, and Supplier hereby assigns all right, title, and interest in such improvements to Buyer. Supplier retains ownership of any general manufacturing know-how, tooling designs, and process improvements that are not specific to Buyer's proprietary designs and that Supplier would have developed irrespective of this Agreement, within ninety (90) days of first use. Where an improvement combines Buyer-specific design elements with Supplier's general manufacturing know-how in a manner that cannot reasonably be separated, the parties shall negotiate in good faith a reasonable allocation of rights, failing which Buyer shall be granted a perpetual, royalty-free license to use the improvement solely in connection with the calibrated pressure sensors.",
+      "char_start": 88035,
+      "char_end": 89009
+    },
+    {
+      "id": 93,
+      "type": "boilerplate",
+      "text": "Supplier shall comply with all applicable laws, regulations, and industry standards in the manufacture and supply of the injection-molded enclosures, including those relating to product safety, labor practices, and environmental protection in Singapore. Supplier shall, upon Buyer's reasonable written request, provide documentation evidencing such compliance, and shall permit Buyer or its designated auditor to conduct an on-site compliance audit upon not less than 10 days' prior written notice, no more than once per forty-five (45) days period absent reasonable cause. Any audit conducted under this Clause shall be at Buyer's expense, shall be conducted during Supplier's normal business hours, and shall not unreasonably interfere with Supplier's manufacturing operations. Supplier shall address any material finding identified during an audit within 15 days of receiving Buyer's written audit report.",
+      "char_start": 89011,
+      "char_end": 89930
+    },
+    {
+      "id": 94,
+      "type": "boilerplate",
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach of this Agreement and fails to cure such breach within 15 days of receiving written notice describing the breach in reasonable detail. Either party may also terminate this Agreement for convenience upon not less than sixty (60) days prior written notice to the other party. Termination of this Agreement shall not affect any rights or obligations accrued prior to the effective date of termination. Upon termination for convenience by Buyer, Buyer shall reimburse Supplier for reasonable costs incurred in reliance on outstanding purchase orders, including committed raw material costs, provided Supplier has used commercially reasonable efforts to mitigate such costs.",
+      "char_start": 89932,
+      "char_end": 90729
+    },
+    {
+      "id": 95,
+      "type": "boilerplate",
+      "text": "Supplier shall deliver the precision-machined aluminum housings to Buyer's designated receiving facility in accordance with the delivery schedule set out in Schedule 2, and time of delivery shall be of the essence. Should Supplier reasonably anticipate that a shipment will be delayed beyond the scheduled delivery date, Supplier shall notify Buyer in writing within 10 days of becoming aware of the anticipated delay, specifying the revised delivery date and the cause of the delay. Partial shipments shall be permitted only with Buyer's prior written consent, and each partial shipment shall be separately invoiced. Risk of loss shall pass to Buyer upon confirmed receipt at the designated facility, and Supplier shall retain risk of loss for all goods in transit prior to that point. Title to the goods shall pass to Buyer upon full payment of the applicable invoice, notwithstanding the earlier passage of risk of loss, and Supplier shall retain a purchase money security interest in the goods until such payment is received in full. Supplier shall maintain adequate insurance covering loss or damage to goods in transit and shall provide evidence of such coverage to Buyer upon reasonable written request.",
+      "char_start": 90731,
+      "char_end": 91952
+    },
+    {
+      "id": 96,
+      "type": "boilerplate",
+      "text": "Supplier warrants that the industrial control modules delivered under this Agreement shall, for a period of ninety (90) days from the date of delivery, conform to the specifications set out in Schedule 1 and shall be free from defects in material and workmanship under normal use and service. This warranty does not extend to defects arising from misuse, unauthorized modification, or normal wear and tear. Buyer's sole and exclusive remedy for breach of this warranty shall be, at Supplier's option, repair, replacement, or refund of the purchase price for the nonconforming goods, provided that Buyer notifies Supplier in writing within 14 days of discovering the defect. Supplier shall bear the cost of shipping any repaired or replacement goods to Buyer, and Buyer shall grant Supplier reasonable access to inspect the nonconforming goods prior to any repair, replacement, or refund. This warranty is in lieu of all other warranties, express or implied, including any implied warranty of merchantability or fitness for a particular purpose, except as expressly set out in this Clause.",
+      "char_start": 91954,
+      "char_end": 93053
+    },
+    {
+      "id": 97,
+      "type": "boilerplate",
+      "text": "Buyer shall pay all undisputed invoices within ninety (90) days of the invoice date, by wire transfer to the bank account designated by Supplier in writing. Invoices not disputed in writing within 14 days of receipt shall be deemed accepted. Amounts not paid when due shall accrue interest at the rate of one and one-half percent (1.5%) per month, or the maximum rate permitted by applicable law, whichever is lower. All amounts payable under this Agreement are exclusive of applicable value-added, sales, or similar taxes, which shall be borne by Buyer unless otherwise required by law. Buyer may withhold payment of any invoiced amount that is subject to a good-faith dispute, provided Buyer notifies Supplier in writing of the basis for the dispute within 14 days of receipt of the invoice, and the parties shall use reasonable efforts to resolve the dispute within ninety (90) days. Neither party shall be entitled to set off amounts owed under this Agreement against amounts owed under any other agreement between the parties absent written agreement to the contrary.",
+      "char_start": 93055,
+      "char_end": 94138
+    },
+    {
+      "id": 98,
+      "type": "boilerplate",
+      "text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein. This obligation shall survive termination of this Agreement for a period of sixty (60) days and shall not apply to information that is or becomes publicly available through no fault of the receiving party. The receiving party may disclose Confidential Information to the extent required by law or a valid order of a court or governmental authority, provided that, to the extent legally permissible, it gives the disclosing party prompt written notice of such requirement so that the disclosing party may seek a protective order or other appropriate remedy at its own expense.",
+      "char_start": 94140,
+      "char_end": 95162
+    },
+    {
+      "id": 99,
+      "type": "boilerplate",
+      "text": "Neither party shall be liable for any failure or delay in the performance of its obligations under this Agreement, other than payment obligations, to the extent such failure or delay is caused by circumstances beyond its reasonable control, including acts of God, war, civil unrest, governmental action, pandemic, or failure of utilities or telecommunications infrastructure, provided that the affected party notifies the other party in writing within 14 days of the onset of such circumstances and uses commercially reasonable efforts to mitigate the impact. If such circumstances continue for more than ninety (90) days, either party may terminate this Agreement upon written notice. During the continuation of an event of force majeure, the unaffected party may, at its option and upon written notice, procure substitute goods or services from a third party to the extent reasonably necessary to mitigate the impact of the affected party's non-performance, without thereby waiving any right or remedy under this Agreement.",
+      "char_start": 95164,
+      "char_end": 96200
+    },
+    {
+      "id": 100,
+      "type": "boilerplate",
+      "text": "Any improvements, modifications, or derivative works created by Supplier in the course of manufacturing the industrial control modules that relate specifically to Buyer's proprietary designs shall be owned by Buyer, and Supplier hereby assigns all right, title, and interest in such improvements to Buyer. Supplier retains ownership of any general manufacturing know-how, tooling designs, and process improvements that are not specific to Buyer's proprietary designs and that Supplier would have developed irrespective of this Agreement, within ninety (90) days of first use. Where an improvement combines Buyer-specific design elements with Supplier's general manufacturing know-how in a manner that cannot reasonably be separated, the parties shall negotiate in good faith a reasonable allocation of rights, failing which Buyer shall be granted a perpetual, royalty-free license to use the improvement solely in connection with the industrial control modules.",
+      "char_start": 96202,
+      "char_end": 97175
+    }
+  ],
+  "l1": [
+    {
+      "id": 1,
+      "source_l0_ids": [
+        1
+      ],
+      "text": "Supplier shall deliver calibrated pressure sensors to Buyer's designated receiving facility in accordance with the delivery schedule in Schedule 2, with time of delivery being of the essence. If Supplier anticipates a delay, it must notify Buyer in writing within 14 days of becoming aware of the delay, specifying the revised delivery date and cause, and partial shipments require Buyer's prior written consent. Buyer assumes risk of loss"
+    },
+    {
+      "id": 2,
+      "source_l0_ids": [
+        2
+      ],
+      "text": "Supplier warrants custom wiring harnesses to conform to Schedule 1 specifications for 30 days, free from defects under normal use, but not for misuse, modification, or wear, with Buyer's remedy being repair, replacement, or refund at Supplier's option, subject to notification within 14 days, and Supplier bearing shipping costs for repairs or replacements, with Buyer granting access for inspection, this warranty"
+    },
+    {
+      "id": 3,
+      "source_l0_ids": [
+        3
+      ],
+      "text": "Prices for custom wiring harnesses are as specified in Schedule 1, denominated in USD unless otherwise agreed, Supplier invoices Buyer upon shipment and payment is due 60 days from invoice date; failure to pay when due allows Supplier, upon 21 days' notice, to suspend deliveries until all outstanding amounts, including accrued interest, are paid in full; price changes require 21 days'"
+    },
+    {
+      "id": 4,
+      "source_l0_ids": [
+        4
+      ],
+      "text": "Confidential Information disclosed under this Agreement shall be used solely for performing obligations, protected with at least the same care as the disclosing party's own information, returned or destroyed upon termination, not used to compete, and unauthorized disclosure may cause irreparable harm entitling the disclosing party to injunctive relief."
+    },
+    {
+      "id": 5,
+      "source_l0_ids": [
+        5
+      ],
+      "text": "A party affected by a force majeure event must notify the other party promptly and be excused from performance for the duration of the event, except for already due payments, with termination rights available after 45 days if the event continues, provided that termination is not due to the affected party's own failure to maintain reasonable business continuity arrangements, and cooperation in identifying workarounds is required before termination"
+    },
+    {
+      "id": 6,
+      "source_l0_ids": [
+        6
+      ],
+      "text": "Any improvements, modifications, or derivative works created by Supplier in the course of manufacturing custom wiring harnesses that relate specifically to Buyer's proprietary designs shall be owned by Buyer, and Supplier hereby assigns all right, title, and interest in such improvements to Buyer. Supplier retains ownership of any general manufacturing know-how, tooling designs, and process improvements not specific to Buyer's proprietary designs, within sixty (6"
+    },
+    {
+      "id": 7,
+      "source_l0_ids": [
+        7
+      ],
+      "text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the injection-molded enclosures, notifying Buyer in writing within 21 days of any material non-compliance with applicable law in Singapore and implementing a corrective action plan within 45 days upon approval, while Buyer may request evidence of compliance from"
+    },
+    {
+      "id": 8,
+      "source_l0_ids": [
+        8
+      ],
+      "text": "Supplier's aggregate liability under this Agreement shall be capped at 100% of the annual Contract Value; in no event shall Supplier be liable for consequential, incidental, or indirect damages of any kind arising out of or in connection with this Agreement, whether in contract, tort, or otherwise."
+    },
+    {
+      "id": 9,
+      "source_l0_ids": [
+        9
+      ],
+      "text": "This Agreement shall terminate automatically, without notice, if either party becomes insolvent, makes an assignment for the benefit of creditors, or is subject to insolvency proceedings not dismissed within 60 days; upon termination, Buyer pays for calibrated pressure sensors delivered prior to termination, and each party returns or destroys Confidential Information within 60 days; surviving provisions include confidentiality, intellectual property, and limitation of liability"
+    },
+    {
+      "id": 10,
+      "source_l0_ids": [
+        10
+      ],
+      "text": "Supplier shall deliver sealed bearing assemblies to Buyer's designated receiving facility in accordance with the delivery schedule in Schedule 2, with time of delivery being of the essence. Supplier must notify Buyer in writing within 14 days if a shipment is expected to be delayed beyond the scheduled date, specifying the revised delivery date and the cause of the delay. Partial shipments require Buyer's prior written consent, and each partial"
+    },
+    {
+      "id": 11,
+      "source_l0_ids": [
+        11
+      ],
+      "text": "Supplier represents and warrants that all custom wiring harnesses are new, of merchantable quality, fit for purpose, and conform to specifications for a 90-day period; Supplier shall correct nonconformities within 45 days or provide replacement goods at Buyer's expense if correction is not feasible, with no limitation on statutory warranties."
+    },
+    {
+      "id": 12,
+      "source_l0_ids": [
+        12
+      ],
+      "text": "Prices for precision-machined aluminum housings are as specified in Schedule 1, denominated in GBP unless otherwise agreed in writing; Supplier invoices Buyer upon shipment and payment is due 30 days from invoice date; Supplier may suspend deliveries for 14 days if Buyer fails to pay outstanding amounts, together with accrued interest, in full; Any price changes require 14 days' prior written"
+    },
+    {
+      "id": 13,
+      "source_l0_ids": [
+        13
+      ],
+      "text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for thirty (3"
+    },
+    {
+      "id": 14,
+      "source_l0_ids": [
+        14
+      ],
+      "text": "A party affected by a force majeure event must notify the other party promptly and be excused from performance for the duration of the event, except for already due payments, with termination possible after 30 days if notice is given, provided the event has not ceased prior to the notice period, and neither party may terminate due to force majeure if their own failure to maintain business continuity arrangements"
+    },
+    {
+      "id": 15,
+      "source_l0_ids": [
+        15
+      ],
+      "text": "All intellectual property rights in calibrated pressure sensors, designs, drawings, specifications, or know-how provided by Buyer to Supplier, shall remain the exclusive property of Buyer, and Supplier shall not use, reproduce, or disclose such materials for any other purpose without Buyer's prior written consent, and shall return or destroy all such materials within thirty (30) days of termination of this Agreement, while ensuring subcontractors"
+    },
+    {
+      "id": 16,
+      "source_l0_ids": [
+        16
+      ],
+      "text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the injection-molded enclosures, notifying Buyer in writing within 21 days of any material non-compliance with applicable law in England and Wales and implementing a corrective action plan within 15 days upon approval, while Buyer may request evidence of"
+    },
+    {
+      "id": 17,
+      "source_l0_ids": [
+        17
+      ],
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 15 days, or for convenience upon not less than 45 days prior written notice, with termination affecting accrued rights and obligations but not costs incurred in reliance on outstanding purchase orders."
+    },
+    {
+      "id": 18,
+      "source_l0_ids": [
+        18
+      ],
+      "text": "All shipments of injection-molded enclosures under this Agreement shall be packaged in accordance with Supplier's standard export packaging specifications or as agreed in writing, accompanied by a packing list, and Supplier shall provide Buyer with advance shipping notification not less than 14 days prior to the scheduled ship date. Buyer shall inspect each shipment within ninety (90) days of receipt and notify Supplier of any discrepancy or"
+    },
+    {
+      "id": 19,
+      "source_l0_ids": [
+        19
+      ],
+      "text": "Supplier represents and warrants that all calibrated pressure sensors are new, of merchantable quality, fit for purpose, and conform to specifications for a 45-day period, with obligation to correct nonconformities within 45 days at Supplier's expense, or for Buyer to procure replacements at Supplier's expense if correction is not feasible."
+    },
+    {
+      "id": 20,
+      "source_l0_ids": [
+        20
+      ],
+      "text": "Buyer shall pay all undisputed invoices within ninety (90) days of the invoice date by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 14 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable are exclusive"
+    },
+    {
+      "id": 21,
+      "source_l0_ids": [
+        21
+      ],
+      "text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for sixty (6"
+    },
+    {
+      "id": 22,
+      "source_l0_ids": [
+        22
+      ],
+      "text": "Neither party shall be liable for failure or delay in performance other than payment obligations due to circumstances beyond its control such as acts of God, war, civil unrest, governmental action, pandemic, or failure of utilities or telecommunications infrastructure, provided it notifies the other party in writing within 21 days of onset and uses commercially reasonable efforts to mitigate; if such circumstances continue for 60 days, either party"
+    },
+    {
+      "id": 23,
+      "source_l0_ids": [
+        23
+      ],
+      "text": "All intellectual property rights in custom wiring harnesses designed, drawn, specified, or known-to-be by Buyer for Supplier's manufacture shall be exclusively owned by Buyer, with Supplier acquiring only limited rights to use them for this Agreement, without reproducing, disclosing, or using them for other purposes without Buyer's consent, and returning or destroying them within 30 days of Agreement termination; Supplier must also ensure"
+    },
+    {
+      "id": 24,
+      "source_l0_ids": [
+        24
+      ],
+      "text": "Supplier shall comply with all applicable laws, regulations, and industry standards in the manufacture and supply of sealed bearing assemblies, including product safety, labor practices, and environmental protection in the Republic of Ireland, providing documentation and permitting Buyer or its auditor to conduct audits upon reasonable notice, at Buyer's expense, and within 45 days of any material finding."
+    },
+    {
+      "id": 25,
+      "source_l0_ids": [
+        25
+      ],
+      "text": "Notwithstanding anything else in this Agreement, the total liability of Supplier arising out of or relating to this Agreement, whether in contract, tort, or otherwise, shall not exceed one hundred percent (100%) of the annual Contract Value, and Supplier shall have no liability whatsoever for any consequential, incidental, or indirect damages, however arising."
+    },
+    {
+      "id": 26,
+      "source_l0_ids": [
+        26
+      ],
+      "text": "This Agreement shall terminate automatically, without notice, if either party becomes insolvent, makes an assignment for the benefit of creditors, or is subject to insolvency proceedings not dismissed within 30 days; upon termination, Buyer pays for custom wiring harnesses delivered prior to termination, and each party returns or destroys Confidential Information within 30 days; surviving provisions include confidentiality, intellectual property, and limitation of"
+    },
+    {
+      "id": 27,
+      "source_l0_ids": [
+        27
+      ],
+      "text": "Supplier shall deliver industrial control modules to Buyer's designated receiving facility in accordance with the delivery schedule in Schedule 2, with time of delivery being of the essence. If Supplier anticipates a delay, a written notification must be given within 5 days, specifying the revised delivery date and cause, and partial shipments require Buyer's prior written consent. Partial shipments will be separately invoiced. Risk of loss passes"
+    },
+    {
+      "id": 28,
+      "source_l0_ids": [
+        28
+      ],
+      "text": "Supplier warrants custom wiring harnesses to conform to Schedule 1 specifications for 30 days, free from defects under normal use, but not for misuse, modification, or wear, with Buyer's remedy being repair, replacement, or refund at Supplier's option, subject to notification within 21 days, and Supplier bearing shipping costs for repairs or replacements, with reasonable inspection access, this warranty being exclusive"
+    },
+    {
+      "id": 29,
+      "source_l0_ids": [
+        29
+      ],
+      "text": "Buyer shall pay all undisputed invoices within forty-five (45) days of the invoice date, by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 5 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable are"
+    },
+    {
+      "id": 30,
+      "source_l0_ids": [
+        30
+      ],
+      "text": "Confidential Information disclosed under this Agreement shall be used solely for performing obligations, protected with at least the same care as the disclosing party's own information, returned or destroyed upon termination, not used to compete, and unauthorized disclosure may cause irreparable harm entitling the disclosing party to injunctive relief."
+    },
+    {
+      "id": 31,
+      "source_l0_ids": [
+        31
+      ],
+      "text": "A party affected by a force majeure event shall notify the other party of its nature and duration, excusing performance for the duration of the event, except for already due payments, with a 60-day limit for excused performance; either party may terminate the Agreement without liability upon giving 5 days' notice, provided the event persists beyond 60 days, and termination is not due"
+    },
+    {
+      "id": 32,
+      "source_l0_ids": [
+        32
+      ],
+      "text": "All intellectual property rights in custom wiring harnesses designed, drawn, specified, or known-to-Be Buyer shall be exclusively owned by Buyer, with Supplier acquiring only limited rights to use them for this Agreement, without reproducing, disclosing, or using them for any other purpose without Buyer's consent, returning or destroying materials within sixty days of Agreement termination, and ensuring subcontractors comply with confidentiality and restricted-use"
+    },
+    {
+      "id": 33,
+      "source_l0_ids": [
+        33
+      ],
+      "text": "All notices under this Agreement shall be sent by registered mail to the address of the receiving party set out in Schedule 1 or by mutual agreement, with notices by facsimile deemed effective only upon confirmed transmission and a courtesy copy dispatched by ordinary post within two Business Days, notwithstanding informal practices of certain regional offices."
+    },
+    {
+      "id": 34,
+      "source_l0_ids": [
+        34
+      ],
+      "text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and does not employ forced labor or child labor in manufacturing precision-machined aluminum housings, notifying Buyer within 14 days of any material non-compliance with New York law and implementing a corrective action plan within 15 days upon approval, and providing evidence of compliance to Buyer's request from sub-tier suppliers"
+    },
+    {
+      "id": 35,
+      "source_l0_ids": [
+        35
+      ],
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 60 days, or for convenience upon not less than 60 days prior written notice, with termination not affecting prior rights or obligations, and Buyer reimbursing Supplier for reasonable costs related to outstanding purchase orders upon termination for convenience."
+    },
+    {
+      "id": 36,
+      "source_l0_ids": [
+        36
+      ],
+      "text": "Supplier shall deliver industrial control modules to Buyer's designated receiving facility in accordance with the delivery schedule in Schedule 2, with time of delivery being of the essence. If Supplier anticipates a delay, they must notify Buyer in writing within 21 days of becoming aware of the delay, specifying the revised delivery date and cause, and partial shipments require Buyer's prior written consent. Risk of loss passes to"
+    },
+    {
+      "id": 37,
+      "source_l0_ids": [
+        37
+      ],
+      "text": "Supplier warrants that the injection-molded enclosures, conforming to Schedule 1 specifications, are free from defects in material and workmanship under normal use and service for sixty (60) days, but not from misuse, unauthorized modification, or normal wear and tear. Buyer's remedy for breach is repair, replacement, or refund of nonconforming goods at Supplier's option, with Supplier bearing"
+    },
+    {
+      "id": 38,
+      "source_l0_ids": [
+        38
+      ],
+      "text": "Buyer shall pay all undisputed invoices within thirty (30) days of the invoice date by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 21 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable are exclusive"
+    },
+    {
+      "id": 39,
+      "source_l0_ids": [
+        39
+      ],
+      "text": "Confidential Information disclosed under this Agreement shall be used solely for performing obligations, protected with at least the same care as the disclosing party's own information, returned or destroyed upon termination, not used to compete, and unauthorized disclosure may cause irreparable harm entitling the disclosing party to injunctive relief."
+    },
+    {
+      "id": 40,
+      "source_l0_ids": [
+        40
+      ],
+      "text": "A party affected by a force majeure event must notify the other party promptly and be excused from performance for the duration of the event, except for already due payments, with termination rights available after 90 days if the event continues, provided that termination is not due to the affected party's own failure to maintain reasonable business continuity arrangements, and both parties must cooperate in good faith to identify reasonable"
+    },
+    {
+      "id": 41,
+      "source_l0_ids": [
+        41
+      ],
+      "text": "Any improvements, modifications, or derivative works created by Supplier in the course of manufacturing precision-machined aluminum housings that relate specifically to Buyer's proprietary designs shall be owned by Buyer, and Supplier hereby assigns all right, title, and interest in such improvements to Buyer, while Supplier retains ownership of general manufacturing know-how, tooling designs, and process improvements not specific to Buyer's proprietary designs, and"
+    },
+    {
+      "id": 42,
+      "source_l0_ids": [
+        42
+      ],
+      "text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the precision-machined aluminum housings; Supplier shall notify Buyer in writing within 5 days of becoming aware of any material non-compliance with applicable law in Singapore, and shall implement a corrective action plan within 15 days of identifying such non"
+    },
+    {
+      "id": 43,
+      "source_l0_ids": [
+        43
+      ],
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 45 days, or for convenience upon not less than 60 days prior written notice, with termination affecting accrued rights and obligations but not costs incurred in reliance on outstanding purchase orders."
+    },
+    {
+      "id": 44,
+      "source_l0_ids": [
+        44
+      ],
+      "text": "Supplier shall deliver custom wiring harnesses to Buyer's designated facility in accordance with a delivery schedule in Schedule 2, with time of delivery being of the essence. If Supplier anticipates a delay, they must notify Buyer in writing within 14 days of becoming aware of the delay, specifying a revised delivery date and the cause. Partial shipments require Buyer's prior written consent, and each shipment will be"
+    },
+    {
+      "id": 45,
+      "source_l0_ids": [
+        45
+      ],
+      "text": "Supplier warrants that calibrated pressure sensors, conforming to Schedule 1 specifications, are free from defects in material and workmanship for 60 days from delivery, barring misuse, modification, or wear and tear, with Buyer's remedy being repair, replacement, or refund at Supplier's option, subject to notification within 21 days, and Supplier bearing shipping costs for repairs or replacements, with reasonable access"
+    },
+    {
+      "id": 46,
+      "source_l0_ids": [
+        46
+      ],
+      "text": "Prices for precision-machined aluminum housings are as specified in Schedule 1, denominated in EUR unless otherwise agreed in writing; Supplier invoices Buyer upon shipment, and payment is due 45 days from the invoice date; Supplier may suspend deliveries for 10 days if Buyer fails to pay outstanding amounts, together with accrued interest, in full; Any price changes require 10 days'"
+    },
+    {
+      "id": 47,
+      "source_l0_ids": [
+        47
+      ],
+      "text": "Confidential Information disclosed under this Agreement shall be used solely for performing obligations, protected with at least the same care as the disclosing party's own information, returned or destroyed upon termination, not used to compete, and unauthorized disclosure may cause irreparable harm entitling the disclosing party to injunctive relief."
+    },
+    {
+      "id": 48,
+      "source_l0_ids": [
+        48
+      ],
+      "text": "A party affected by a force majeure event must notify the other party promptly of its nature and expected duration, excusing it from performance for the duration of the event, except for already due payments, with termination rights available after 60 days if the event continues, provided that termination is not due to the affected party's own failure to maintain reasonable business continuity arrangements, and cooperation in identifying work"
+    },
+    {
+      "id": 49,
+      "source_l0_ids": [
+        49
+      ],
+      "text": "Supplier shall own improvements, modifications, or derivative works related to Buyer's proprietary designs, assigning them to Buyer, while retaining ownership of non-specific improvements and negotiating rights allocation for combined elements."
+    },
+    {
+      "id": 50,
+      "source_l0_ids": [
+        50
+      ],
+      "text": "For the avoidance of doubt, Supplier's cumulative liability to Buyer under this Agreement, irrespective of the nature of the claim or the type of legal action, is capped at 100% of the annual Contract Value and does not include consequential, indirect, special, or punitive damages."
+    },
+    {
+      "id": 51,
+      "source_l0_ids": [
+        51
+      ],
+      "text": "Supplier shall comply with all applicable laws, regulations, and industry standards in the manufacture and supply of the injection-molded enclosures, including those relating to product safety, labor practices, and environmental protection in the Republic of Ireland, providing documentation and permitting on-site audits as per the terms, at Buyer's expense and during normal business hours, with a response period for material findings."
+    },
+    {
+      "id": 52,
+      "source_l0_ids": [
+        52
+      ],
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 30 days, or for convenience upon not less than 90 days prior written notice, with termination not affecting prior rights or obligations, and Buyer reimbursing Supplier for reasonable costs incurred in reliance on outstanding purchase orders upon termination for convenience."
+    },
+    {
+      "id": 53,
+      "source_l0_ids": [
+        53
+      ],
+      "text": "Supplier shall deliver custom wiring harnesses to Buyer's designated facility in accordance with Schedule 2's delivery schedule, with time of delivery being of the essence. If a shipment is expected to be delayed beyond the scheduled date, Supplier must notify Buyer in writing within 10 days, specifying the revised delivery date and the cause of the delay. Partial shipments require Buyer's prior written consent, and each partial"
+    },
+    {
+      "id": 54,
+      "source_l0_ids": [
+        54
+      ],
+      "text": "Supplier represents and warrants that all custom wiring harnesses are new, of merchantable quality, fit for purpose, and conform to specifications for a 45-day period; Supplier shall correct nonconformities within 15 days or provide replacement goods at Buyer's expense if correction is not feasible, with limitations on statutory warranties."
+    },
+    {
+      "id": 55,
+      "source_l0_ids": [
+        55
+      ],
+      "text": "Prices for precision-machined aluminum housings are as specified in Schedule 1, denominated in GBP unless otherwise agreed in writing; Supplier invoices Buyer upon shipment, and payment is due 90 days from the invoice date; Supplier may suspend deliveries for 14 days if Buyer fails to pay outstanding amounts, together with accrued interest, in full; Any price changes require 14 days'"
+    },
+    {
+      "id": 56,
+      "source_l0_ids": [
+        56
+      ],
+      "text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for ninety (9"
+    },
+    {
+      "id": 57,
+      "source_l0_ids": [
+        57
+      ],
+      "text": "Neither party shall be liable for failure or delay in performance other than payment obligations due to circumstances beyond its control such as acts of God, war, civil unrest, governmental action, pandemic, or failure of utilities or telecommunications infrastructure, provided it notifies the other party in writing within 5 days and uses commercially reasonable efforts to mitigate; if such circumstances continue for over 90 days, either party may terminate"
+    },
+    {
+      "id": 58,
+      "source_l0_ids": [
+        58
+      ],
+      "text": "Any improvements, modifications, or derivative works created by Supplier in the course of manufacturing the injection-molded enclosures that relate specifically to Buyer's proprietary designs shall be owned by Buyer, and Supplier hereby assigns all right, title, and interest in such improvements to Buyer, while Supplier retains ownership of any general manufacturing know-how, tooling designs, and process improvements not specific to Buyer's proprietary designs,"
+    },
+    {
+      "id": 59,
+      "source_l0_ids": [
+        59
+      ],
+      "text": "Supplier shall comply with all applicable laws, regulations, and industry standards in the manufacture and supply of custom wiring harnesses, including those relating to product safety, labor practices, and environmental protection in England and Wales, and upon Buyer's reasonable written request, shall provide documentation evidencing such compliance and permit Buyer or its designated auditor to conduct an on-site compliance audit no more than once every sixty (60"
+    },
+    {
+      "id": 60,
+      "source_l0_ids": [
+        60
+      ],
+      "text": "This Agreement shall terminate automatically, without notice, if either party becomes insolvent, makes an assignment for the benefit of creditors, or is subject to insolvency proceedings not dismissed within 60 days; upon termination, Buyer pays for delivered assemblies, returns or destroys Confidential Information, and confidentiality, intellectual property, and liability provisions survive."
+    },
+    {
+      "id": 61,
+      "source_l0_ids": [
+        61
+      ],
+      "text": "The parties recognize that certain Goods may contain components subject to export control regimes for quantum-computing-enabling technologies, including cryogenic control electronics and superconducting qubit fabrication equipment, and acknowledge Supplier's obligation to obtain and retain all required export classification determinations prior to shipment, notifying Buyer of any changes in the Export Control Classification Number, this being separate from delivery, warranty, or liability provisions."
+    },
+    {
+      "id": 62,
+      "source_l0_ids": [
+        62
+      ],
+      "text": "Supplier shall deliver injection-molded enclosures to Buyer's designated facility in accordance with Schedule 2's delivery schedule, with time of delivery being of the essence. If a shipment is expected to be delayed beyond the scheduled date, Supplier must notify Buyer in writing within 14 days, specifying the revised delivery date and the cause of the delay. Partial shipments require Buyer's prior written consent, and"
+    },
+    {
+      "id": 63,
+      "source_l0_ids": [
+        63
+      ],
+      "text": "Supplier warrants that the injection-molded enclosures delivered under this Agreement shall, for a period of forty-five (45) days from the date of delivery, conform to the specifications set out in Schedule 1 and shall be free from defects in material and workmanship under normal use and service, except for defects arising from misuse, unauthorized modification, or normal wear and tear, and Buyer's sole"
+    },
+    {
+      "id": 64,
+      "source_l0_ids": [
+        64
+      ],
+      "text": "Buyer shall pay all undisputed invoices within thirty (30) days of the invoice date by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 14 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable are exclusive"
+    },
+    {
+      "id": 65,
+      "source_l0_ids": [
+        65
+      ],
+      "text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for sixty (6"
+    },
+    {
+      "id": 66,
+      "source_l0_ids": [
+        66
+      ],
+      "text": "A party affected by a force majeure event must notify the other party promptly and be excused from performance for the duration of the event, except for already due payments, with termination rights available after 45 days if notice is given, provided that termination is not due to the affected party's own failure to maintain reasonable business continuity arrangements, and cooperation in identifying workarounds is required before termination"
+    },
+    {
+      "id": 67,
+      "source_l0_ids": [
+        67
+      ],
+      "text": "All intellectual property rights in calibrated pressure sensors, designs, drawings, specifications, or know-how provided by Buyer to Supplier, shall remain the exclusive property of Buyer, and Supplier shall not use, reproduce, or disclose such materials for any other purpose without Buyer's prior written consent, and shall return or destroy all such materials within thirty (30) days of termination of this Agreement, while ensuring subcontractors"
+    },
+    {
+      "id": 68,
+      "source_l0_ids": [
+        68
+      ],
+      "text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the injection-molded enclosures, notifying Buyer in writing within 21 days of any material non-compliance with applicable law in the Province of Ontario and implementing a corrective action plan within 60 days upon Buyer's approval, while Buyer may"
+    },
+    {
+      "id": 69,
+      "source_l0_ids": [
+        69
+      ],
+      "text": "This Agreement shall terminate automatically, without notice, if either party becomes insolvent, makes an assignment for the benefit of creditors, or is subject to insolvency proceedings not dismissed within 45 days; upon termination, Buyer pays for enclosures delivered prior to termination, and each party returns or destroys Confidential Information; surviving provisions include confidentiality, intellectual property, and limitation of liability."
+    },
+    {
+      "id": 70,
+      "source_l0_ids": [
+        70
+      ],
+      "text": "All shipments of custom wiring harnesses under this Agreement shall be packaged in accordance with Supplier's standard export packaging specifications or as agreed in writing, accompanied by a packing list, and Supplier shall provide Buyer with advance shipping notification not less than 14 days prior to the scheduled ship date; Buyer shall inspect each shipment within thirty (30) days of receipt and notify Supplier of any discrepancy or damage,"
+    },
+    {
+      "id": 71,
+      "source_l0_ids": [
+        71
+      ],
+      "text": "Supplier represents and warrants that all sealed bearing assemblies are new, of merchantable quality, and fit for purpose, complying with applicable specifications for a 90-day period; Supplier shall correct nonconformities within 60 days at its expense, or Buyer may procure replacements and recover costs from Supplier, provided Supplier has been given a reasonable opportunity to correct, without limiting statutory warranties."
+    },
+    {
+      "id": 72,
+      "source_l0_ids": [
+        72
+      ],
+      "text": "Buyer shall pay all undisputed invoices within thirty (30) days of the invoice date by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 5 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum permitted by law, whichever is lower; all amounts are exclusive of applicable taxes"
+    },
+    {
+      "id": 73,
+      "source_l0_ids": [
+        73
+      ],
+      "text": "Confidential Information disclosed under this Agreement shall be used solely for performing obligations, protected with at least the same care as the disclosing party's own information, returned or destroyed upon termination, not used to compete, and unauthorized disclosure may cause irreparable harm entitling the disclosing party to injunctive relief."
+    },
+    {
+      "id": 74,
+      "source_l0_ids": [
+        74
+      ],
+      "text": "A party affected by a force majeure event must notify the other party of its nature and duration, being excused from performance for the duration of the event, except for already due payments, with termination rights granted if the event lasts over 60 days, provided the affected party is not excused due to its own failure to maintain reasonable business continuity arrangements, and cooperation is required to identify work"
+    },
+    {
+      "id": 75,
+      "source_l0_ids": [
+        75
+      ],
+      "text": "Any improvements, modifications, or derivative works created by Supplier in the course of manufacturing precision-machined aluminum housings that relate specifically to Buyer's proprietary designs shall be owned by Buyer, and Supplier hereby assigns all right, title, and interest in such improvements to Buyer, while Supplier retains ownership of general manufacturing know-how and process improvements not specific to Buyer's designs, and where improvements combine Buyer-specific design"
+    },
+    {
+      "id": 76,
+      "source_l0_ids": [
+        76
+      ],
+      "text": "Supplier shall comply with all applicable laws, regulations, and industry standards in the manufacture and supply of sealed bearing assemblies, including product safety, labor practices, and environmental protection in the State of Delaware, providing documentation and permitting Buyer or its auditor to conduct audits upon reasonable notice, at Buyer's expense, and within 45 days of any material finding."
+    },
+    {
+      "id": 77,
+      "source_l0_ids": [
+        77
+      ],
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 30 days, or for convenience upon not less than 45 days prior written notice, with termination not affecting prior rights or obligations, and Buyer reimbursing Supplier for reasonable costs incurred in reliance on outstanding purchase orders upon termination for convenience."
+    },
+    {
+      "id": 78,
+      "source_l0_ids": [
+        78
+      ],
+      "text": "Supplier shall deliver custom wiring harnesses to Buyer's designated facility in accordance with Schedule 2's delivery schedule, with time of delivery being of the essence. If a shipment is expected to be delayed beyond the scheduled date, Supplier must notify Buyer in writing within 5 days, specifying the revised delivery date and the cause of the delay. Partial shipments require Buyer's prior written consent, and each partial shipment"
+    },
+    {
+      "id": 79,
+      "source_l0_ids": [
+        79
+      ],
+      "text": "Supplier represents and warrants that all injection-molded enclosures are new, of merchantable quality, fit for purpose, and conform to specifications for a 90-day period; Supplier shall correct nonconformities within 15 days or replace goods at Buyer's expense if Supplier cannot, with reasonable opportunity for Supplier to cure, and Buyer may recover additional costs from Supplier, except for statutory warranties"
+    },
+    {
+      "id": 80,
+      "source_l0_ids": [
+        80
+      ],
+      "text": "Prices for injection-molded enclosures are as per Schedule 1, denominated in EUR unless otherwise agreed in writing; Supplier invoices Buyer upon shipment, and payment is due 90 days from the invoice date; failure to pay when due allows Supplier, upon 5 days' notice, to suspend deliveries until outstanding amounts and accrued interest are paid in full; price changes require 5 days'"
+    },
+    {
+      "id": 81,
+      "source_l0_ids": [
+        81
+      ],
+      "text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for ninety (9"
+    },
+    {
+      "id": 82,
+      "source_l0_ids": [
+        82
+      ],
+      "text": "A party affected by a force majeure event must notify the other party of its nature and duration, being excused from performance for the duration of the event, except for already due payments, with termination rights granted if the event lasts over 60 days, provided the affected party is not excused due to its own failure to maintain reasonable business continuity arrangements, and cooperation is required to identify work"
+    },
+    {
+      "id": 83,
+      "source_l0_ids": [
+        83
+      ],
+      "text": "All intellectual property rights in calibrated pressure sensors, including designs, drawings, specifications, or know-how provided by Buyer to Supplier, remain exclusively the property of Buyer, with Supplier acquiring no rights other than limited use for Agreement performance, subject to return or destruction within 45 days of termination, and Supplier's obligation to ensure subcontractors comply with confidentiality and restricted use agreements no less protective of Buyer's intellectual"
+    },
+    {
+      "id": 84,
+      "source_l0_ids": [
+        84
+      ],
+      "text": "Supplier represents it maintains a code of conduct consistent with responsible sourcing standards and does not use forced labor or child labor; it must notify Buyer of any material non-compliance with Delaware law within 5 days and implement a corrective action plan within 30 days, subject to Buyer's approval, and provide evidence of compliance upon Buyer's request from sub-tier suppliers within 5 days."
+    },
+    {
+      "id": 85,
+      "source_l0_ids": [
+        85
+      ],
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 45 days, or for convenience upon not less than 30 days prior written notice, with termination affecting accrued rights and obligations but not costs incurred in reliance on outstanding purchase orders."
+    },
+    {
+      "id": 86,
+      "source_l0_ids": [
+        86
+      ],
+      "text": "Supplier shall deliver injection-molded enclosures to Buyer's designated facility in accordance with a delivery schedule in Schedule 2, with time of delivery being of the essence. If a shipment is expected to be delayed beyond the scheduled date, Supplier must notify Buyer in writing within 10 days, specifying the revised delivery date and the cause of the delay. Partial shipments require Buyer's prior written consent,"
+    },
+    {
+      "id": 87,
+      "source_l0_ids": [
+        87
+      ],
+      "text": "Notwithstanding any other provision of this Agreement, including the limitation of liability, Supplier's liability for line-down damages arising from failure to deliver Goods causing a cessation of Buyer's production line at any facility shall be unlimited in amount and not subject to any limitations, caps, or exclusions set forth elsewhere in this Agreement, with Buyer entitled to recover the full amount of such damages, including consequential and indirect losses"
+    },
+    {
+      "id": 88,
+      "source_l0_ids": [
+        88
+      ],
+      "text": "Supplier warrants that the industrial control modules, conforming to Schedule 1 specifications, are free from defects in material and workmanship under normal use and service for ninety (90) days, but not from misuse, unauthorized modification, or normal wear and tear. Buyer's remedy for breach is repair, replacement, or refund at Supplier's option, with Supplier bearing the shipping costs for repaired or replacement goods"
+    },
+    {
+      "id": 89,
+      "source_l0_ids": [
+        89
+      ],
+      "text": "Prices for calibrated pressure sensors are as per Schedule 1, denominated in USD unless otherwise agreed, Supplier invoices Buyer upon shipment and payment is due 45 days from invoice date; failure to pay when due allows Supplier, upon 10 days' notice, to suspend deliveries until all outstanding amounts, including accrued interest, are paid in full; price changes require 10 days' notice and"
+    },
+    {
+      "id": 90,
+      "source_l0_ids": [
+        90
+      ],
+      "text": "Confidential Information disclosed under this Agreement shall be used solely for performing obligations, protected with at least the same care as the disclosing party's own information, returned or destroyed upon termination, not used to compete, and unauthorized disclosure may cause irreparable harm entitling the disclosing party to injunctive relief."
+    },
+    {
+      "id": 91,
+      "source_l0_ids": [
+        91
+      ],
+      "text": "A party affected by a force majeure event must notify the other party of its nature and duration, being excused from performance for the duration of the event, except for already due payments, with termination rights granted if the event lasts over 60 days, provided the affected party is not excused due to its own failure to maintain reasonable business continuity arrangements, and cooperation is required to identify work"
+    },
+    {
+      "id": 92,
+      "source_l0_ids": [
+        92
+      ],
+      "text": "Supplier shall own improvements, modifications, or derivative works related to Buyer's proprietary designs, assigning them to Buyer, while retaining ownership of non-specific improvements and negotiating rights allocation for combined elements."
+    },
+    {
+      "id": 93,
+      "source_l0_ids": [
+        93
+      ],
+      "text": "Supplier shall comply with all applicable laws, regulations, and industry standards in the manufacture and supply of the injection-molded enclosures, including those relating to product safety, labor practices, and environmental protection in Singapore, and upon Buyer's reasonable written request, shall provide documentation evidencing such compliance and permit Buyer or its designated auditor to conduct an on-site compliance audit upon not less than 10 days"
+    },
+    {
+      "id": 94,
+      "source_l0_ids": [
+        94
+      ],
+      "text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 15 days, or for convenience upon not less than 60 days prior written notice, with termination affecting accrued rights and obligations but not costs incurred in reliance on outstanding purchase orders."
+    },
+    {
+      "id": 95,
+      "source_l0_ids": [
+        95
+      ],
+      "text": "Supplier shall deliver precision-machined aluminum housings to Buyer's designated facility in accordance with a delivery schedule in Schedule 2, with time of delivery being of the essence. If a shipment is expected to be delayed beyond the scheduled date, Supplier must notify Buyer in writing within 10 days, specifying the revised delivery date and the cause of the delay. Partial shipments require Buyer's prior written consent"
+    },
+    {
+      "id": 96,
+      "source_l0_ids": [
+        96
+      ],
+      "text": "Supplier warrants that the industrial control modules, conforming to Schedule 1 specifications, are free from defects in material and workmanship under normal use and service for ninety (90) days, but not from misuse, unauthorized modification, or normal wear and tear. Buyer's remedy for breach is repair, replacement, or refund at Supplier's option, with Supplier bearing the shipping costs for repaired or replacement goods"
+    },
+    {
+      "id": 97,
+      "source_l0_ids": [
+        97
+      ],
+      "text": "Buyer shall pay all undisputed invoices within ninety (90) days of the invoice date by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 14 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable are exclusive"
+    },
+    {
+      "id": 98,
+      "source_l0_ids": [
+        98
+      ],
+      "text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for sixty (6"
+    },
+    {
+      "id": 99,
+      "source_l0_ids": [
+        99
+      ],
+      "text": "Neither party shall be liable for failure or delay in performance other than payment obligations due to circumstances beyond its control such as acts of God, war, civil unrest, governmental action, pandemic, or failure of utilities or telecommunications infrastructure, provided it notifies the other party in writing within 14 days and uses commercially reasonable efforts to mitigate; if such circumstances continue for 90 days, either party may terminate"
+    },
+    {
+      "id": 100,
+      "source_l0_ids": [
+        100
+      ],
+      "text": "Supplier shall own improvements, modifications, or derivative works related to Buyer's proprietary designs, assigning them to Buyer, while retaining ownership of non-specific improvements and negotiating rights allocation for combined elements."
+    }
+  ],
+  "l2": [
+    {
+      "id": 1,
+      "source_l1_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_l0_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "text": "Supplier must deliver calibrated pressure sensors and custom wiring harnesses to Buyer's designated facility as per the delivery schedule in Schedule 2, with timely delivery being crucial. Supplier must notify Buyer of any anticipated delays in writing within 14 days, specifying the revised delivery date and cause, and partial shipments require prior written consent. Custom wiring harnesses are warranted for 30 days from the date of delivery, free from defects under normal use, with Buyer's remedy being repair, replacement, or refund at Supplier's option. Supplier retains ownership of general manufacturing know-how and process improvements, while improvements related to Buyer's proprietary designs are owned by Buyer. Supplier must notify Buyer of any non-compliance with Singapore law within 21 days and implement a corrective"
+    },
+    {
+      "id": 2,
+      "source_l1_ids": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "source_l0_ids": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "text": "Supplier guarantees that all custom wiring harnesses are new, of merchantable quality, fit for purpose, and conform to specifications for 90 days, with a 45-day correction period or replacement at Buyer's expense if nonconformities exist. Prices for precision-machined aluminum housings are as per Schedule 1 in GBP, with payment due 30 days after shipment. Supplier may suspend deliveries for 14 days if Buyer fails to pay outstanding amounts, with termination possible after 30 days if notice is given. Supplier must maintain confidentiality of technical, commercial, and financial information disclosed by Buyer and notify of any force majeure events promptly. Buyer retains intellectual property rights in calibrated pressure sensors provided by Buyer to Supplier,"
+    },
+    {
+      "id": 3,
+      "source_l1_ids": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "source_l0_ids": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "text": "Both parties must keep confidential all disclosed technical, commercial, and financial information, except to those with a need to know and bound by confidentiality. Liability for breaches is limited to 100% of the annual Contract Value, and Supplier is not liable for consequential damages. Upon termination, each party must return or destroy Confidential Information within 30 days, and Supplier must deliver industrial control modules as per the schedule, with risk of loss passing to Buyer upon delivery. Supplier warrants custom wiring harnesses for 30 days from manufacture, and Buyer must pay undisputed invoices within 45 days, with late payments accruing interest."
+    },
+    {
+      "id": 4,
+      "source_l1_ids": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "source_l0_ids": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "text": "A party affected by a force majeure event must notify the other party promptly and be excused from performance for the duration of the event, except for already due payments, with a 90-day limit for excused performance, and either party may terminate the Agreement without liability upon giving 5 days' notice if the event persists beyond 90 days, provided the event is not due to the affected party's own failure to maintain reasonable business continuity arrangements. Intellectual property rights in custom wiring harnesses are exclusively owned by the Buyer, with limited rights granted to the Supplier for use in this Agreement. Suppliers must notify the Buyer within 14 days of any material non-compliance with New York law and implement a corrective action plan within 1"
+    },
+    {
+      "id": 5,
+      "source_l1_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "source_l0_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "text": "Supplier retains ownership of general manufacturing know-how, tooling designs, and process improvements not specific to Buyer's proprietary designs. Supplier assigns improvements, modifications, or derivative works related to Buyer's proprietary designs to Buyer. Supplier must notify Buyer of material non-compliance with Singapore law within 5 days and implement a corrective action plan within 15 days. Supplier may terminate the agreement for cause upon written notice if the other party breaches and fails to cure within 45 days or for convenience upon not less than 60 days prior notice. Supplier must deliver custom wiring harnesses to Buyer's facility as per Schedule 2, with timely delivery being essential. Supplier warrants calibrated pressure sensors are free from defects for 60 days, with Buyer's remedy"
+    },
+    {
+      "id": 6,
+      "source_l1_ids": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "source_l0_ids": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "text": "Supplier must comply with all applicable laws, regulations, and industry standards in the manufacture and supply of custom wiring harnesses, including those relating to product safety, labor practices, and environmental protection in England and Wales, and provide documentation and permit on-site audits as per the terms, at Buyer's expense and during normal business hours. Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 30 days, or for convenience upon not less than 90 days prior written notice, with termination not affecting prior rights or obligations, and Buyer reimbursing Supplier for reasonable costs incurred in reliance on outstanding purchase orders upon termination for convenience."
+    },
+    {
+      "id": 7,
+      "source_l1_ids": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "source_l0_ids": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "text": "The parties acknowledge that certain Goods may contain components subject to export control regimes, with Supplier responsible for obtaining and retaining all required export determinations and notifying Buyer of any changes. Supplier must deliver injection-molded enclosures to Buyer's facility as per Schedule 2's delivery schedule, with a 14-day notice for any delivery delays. Supplier warrants enclosures for 45 days from delivery, free from defects, except for misuse, modification, or wear and tear. Force majeure events excuse performance for the duration of the event, with termination rights after 45 days if notice is given. Intellectual property rights in calibrated pressure sensors remain with Buyer, and Supplier must not use or disclose such materials without consent. Supplier must not use forced"
+    },
+    {
+      "id": 8,
+      "source_l1_ids": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "source_l0_ids": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "text": "Supplier warrants that all sealed bearing assemblies are new, merchantable, and fit for purpose for 90 days, and agrees to correct nonconformities within 60 days or provide replacements at Buyer's expense, with exceptions for statutory warranties. Buyer must pay undisputed invoices within 30 days by wire transfer, with disputed invoices requiring written notice within 5 days, accruing interest at 1.5% per month. Confidential information must be used solely for obligations, protected, and returned or destroyed upon termination, with unauthorized disclosure entitling the disclosing party to injunctive relief. Supplier must comply with applicable laws and regulations, including product safety, labor practices, and environmental protection, and provide documentation for audits. Supplier must deliver"
+    },
+    {
+      "id": 9,
+      "source_l1_ids": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "source_l0_ids": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "text": "Each party must keep confidential all disclosed information and can disclose it only with the consent of the disclosing party, except to those bound by confidentiality. In case of a force majeure event, the party must notify the other and be excused from performance for the duration, except for already due payments, with termination rights if the event lasts over 60 days. Intellectual property rights in calibrated pressure sensors remain with the Buyer, and Supplier must return or destroy them within 45 days of termination. Supplier must maintain a code of conduct consistent with responsible sourcing standards and notify Buyer of any non-compliance. Supplier's liability for line-down damages is unlimited, and Buyer can recover the full amount. Prices for calibrated pressure sensors are as per Schedule 1"
+    },
+    {
+      "id": 10,
+      "source_l1_ids": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "source_l0_ids": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "text": "A party affected by a force majeure event must notify the other party and be excused from performance for the duration of the event, except for already due payments, with termination rights if the event lasts over 60 days, provided the affected party is not excused due to its own failure to maintain reasonable business continuity arrangements. The Supplier must comply with all applicable laws and regulations in the manufacture and supply of injection-molded enclosures, and upon request, provide documentation and permit an on-site audit. Supplier shall own improvements, modifications, or derivative works related to Buyer's proprietary designs, assigning them to Buyer, while retaining ownership of non-specific improvements and negotiating rights allocation for combined elements. Either party may terminate the agreement for cause upon written"
+    }
+  ],
+  "l3": [
+    {
+      "id": 1,
+      "source_l2_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_l0_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "text": "Supplier must deliver calibrated pressure sensors and custom wiring harnesses to Buyer's designated facility as per Schedule 2, with timely delivery being crucial. Supplier must notify Buyer of any anticipated delays in writing within 14 days, specifying the revised delivery date and cause, and partial shipments require prior written consent. Supplier warrants calibrated pressure sensors for 60 days and custom wiring harnesses for 30 days from the date of delivery, free from defects under normal use, with Buyer's remedy being repair, replacement, or refund at Supplier's option. Supplier retains ownership of general manufacturing know-how and process improvements, while improvements related to Buyer's proprietary designs are owned by Buyer. Supplier must notify Buyer of any non-compliance with Singapore law within 5 days and implement a corrective action plan within 15 days. Supplier may terminate the agreement for cause upon written notice if the other party breaches and fails to cure within 45 days or for convenience upon not less than 90 days prior notice. Supplier must deliver injection-molded enclosures to Buyer's facility as per Schedule 2's delivery"
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "env": {
+    "model_filename": "Qwen2.5-3B-Instruct-Q5_K_M.gguf",
+    "model_sha256": "2c63dde5f2c9ab1fd64d47dee2d34dade6ba9ff62442d1d20b5342310c982081",
+    "llama_cpp_python_version": "0.3.9",
+    "n_ctx": 8192,
+    "n_batch": 512,
+    "n_threads": 8,
+    "seed": 0,
+    "temperature": 0.0,
+    "top_k": 1,
+    "cpu_model": "AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics",
+    "container_image_digest": null
+  },
+  "seed": 4,
+  "records": [
+    {
+      "unit_id": 1,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 2,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 3,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 4,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party, and shall not disclose such information to any third party without prior written consent, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for forty-five (45) days."
+    },
+    {
+      "unit_id": 5,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 6,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 7,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 8,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Supplier's aggregate liability under this Agreement shall be capped at 100% of the annual Contract Value, and in no event shall Supplier be liable for consequential, incidental, or indirect damages of any kind arising out of or in connection with this Agreement, whether in contract, tort, or otherwise."
+    },
+    {
+      "unit_id": 9,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "This Agreement shall terminate automatically, without notice, if either party becomes insolvent, makes an assignment for the benefit of creditors, or is subject to insolvency proceedings not dismissed within 45 days; upon termination, Buyer pays for custom wiring harnesses delivered and accepted prior to termination, and each party returns or destroys Confidential Information within 60 days, with confidentiality, intellectual property, and limitation of"
+    },
+    {
+      "unit_id": 10,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 11,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 12,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 13,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 14,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 15,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 16,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 17,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 18,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 19,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 20,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 21,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party, and shall not disclose such information to any third party without prior written consent, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for forty-five (45) days."
+    },
+    {
+      "unit_id": 22,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 23,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 24,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 25,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "The total liability of Supplier arising out of or relating to this Agreement, whether in contract, tort, or otherwise, shall not exceed one hundred percent (100%) of the annual Contract Value, and Supplier shall have no liability whatsoever for any consequential, incidental, or indirect damages, however arising."
+    },
+    {
+      "unit_id": 26,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 27,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 28,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 29,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 30,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party, and shall not disclose such information to any third party without prior written consent, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for ninety (90) days."
+    },
+    {
+      "unit_id": 31,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 32,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 33,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 34,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 35,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 36,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 37,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 38,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 39,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party, and shall not disclose such information to any third party without prior written consent, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for sixty (6) months."
+    },
+    {
+      "unit_id": 40,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 41,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 42,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 43,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 44,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 45,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 46,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 47,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party, and shall not disclose such information to any third party without prior written consent, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for ninety (90) days."
+    },
+    {
+      "unit_id": 48,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Neither party shall be liable for failure or delay in performance other than payment obligations due to circumstances beyond its control such as acts of God, war, civil unrest, governmental action, pandemic, or failure of utilities or telecommunications infrastructure, provided it notifies the other party in writing within 14 days and uses commercially reasonable efforts to mitigate; if such circumstances continue for 90 days, either party may terminate"
+    },
+    {
+      "unit_id": 49,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 50,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Supplier's cumulative liability to Buyer under this Agreement, irrespective of the nature of the claim or the type of legal action, is capped at 100% of the annual Contract Value and does not include consequential, indirect, special, or punitive damages."
+    },
+    {
+      "unit_id": 51,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 52,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 53,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 54,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 55,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 56,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party, and shall not disclose such information to any third party without prior written consent, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for sixty (6) months."
+    },
+    {
+      "unit_id": 57,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 58,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 59,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 60,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "This Agreement terminates automatically upon either party's insolvency, assignment for creditors, or insolvency proceedings not dismissed within 45 days, with Buyer paying for delivered and accepted housings and returning or destroying Confidential Information, and certain survival provisions including confidentiality and intellectual property."
+    },
+    {
+      "unit_id": 61,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 62,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 63,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 64,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 65,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 66,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 67,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 68,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 69,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 70,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 71,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 72,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 73,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party, and shall not disclose such information to any third party without prior written consent, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for ninety (90) days."
+    },
+    {
+      "unit_id": 74,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 75,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 76,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 77,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 78,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 79,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 80,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 81,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party, and shall not disclose such information to any third party without prior written consent, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for forty-five (45) days."
+    },
+    {
+      "unit_id": 82,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 83,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 84,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 85,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 86,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 87,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 88,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 89,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party, and shall not disclose such information to any third party without prior written consent, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for ninety (90) days."
+    },
+    {
+      "unit_id": 90,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 91,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 92,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 93,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 94,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 95,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 96,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 97,
+      "classification": "CAP_OR_EXCLUSION",
+      "assumption": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party, and shall not disclose such information to any third party without prior written consent, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for sixty (6) months."
+    },
+    {
+      "unit_id": 98,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 99,
+      "classification": "ROUTINE",
+      "assumption": null
+    },
+    {
+      "unit_id": 100,
+      "classification": "ROUTINE",
+      "assumption": null
+    }
+  ],
+  "n_assumptions": 16
+}

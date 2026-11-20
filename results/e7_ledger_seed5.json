@@ -1,0 +1,950 @@
+{
+  "env": {
+    "model_filename": "Qwen2.5-3B-Instruct-Q5_K_M.gguf",
+    "model_sha256": "2c63dde5f2c9ab1fd64d47dee2d34dade6ba9ff62442d1d20b5342310c982081",
+    "llama_cpp_python_version": "0.3.9",
+    "n_ctx": 8192,
+    "n_batch": 512,
+    "n_threads": 8,
+    "seed": 0,
+    "temperature": 0.0,
+    "top_k": 1,
+    "cpu_model": "AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics",
+    "container_image_digest": null
+  },
+  "seed": 5,
+  "prompt_version": "v1",
+  "n_units": 100,
+  "n_extracted": 57,
+  "n_classified_rule_unparsed": 0,
+  "records": [
+    {
+      "clause_id": 1,
+      "l1_text": "All shipments of injection-molded enclosures under this Agreement shall be packaged in accordance with Supplier's standard export packaging specifications or as agreed in writing, accompanied by a packing list, and Supplier shall provide Buyer with advance shipping notification not less than 21 days prior to the scheduled ship date. Buyer shall inspect each shipment within sixty (60) days of receipt and notify Supplier of any discrepancy or",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 2,
+      "l1_text": "Supplier warrants custom wiring harnesses to conform to Schedule 1 specifications for 30 days, free from defects under normal use, but not for misuse, modification, or wear, with Buyer's remedy being repair, replacement, or refund at Supplier's option, subject to notification within 21 days, and Supplier bearing shipping costs for repairs or replacements, with reasonable inspection access, this warranty being exclusive",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: warranty | ATTRIBUTE: misuse, modification, or wear | VALUE: repair, replacement, or refund at Supplier's option",
+      "ledger_entry": {
+        "scope": "warranty",
+        "attribute": "misuse, modification, or wear",
+        "value": "repair, replacement, or refund at Supplier's option"
+      }
+    },
+    {
+      "clause_id": 3,
+      "l1_text": "Buyer shall pay all undisputed invoices within forty-five (45) days of the invoice date, by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 10 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 4,
+      "l1_text": "Confidential Information disclosed under this Agreement shall be used solely for performing obligations, protected with at least the same care as the disclosing party's own information, returned or destroyed upon termination, not used to compete, and unauthorized disclosure may cause irreparable harm entitling the disclosing party to injunctive relief.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: Confidential Information | ATTRIBUTE: unauthorized disclosure | VALUE: irreparable harm entitling to injunctive relief",
+      "ledger_entry": {
+        "scope": "Confidential Information",
+        "attribute": "unauthorized disclosure",
+        "value": "irreparable harm entitling to injunctive relief"
+      }
+    },
+    {
+      "clause_id": 5,
+      "l1_text": "Neither party shall be liable for failure or delay in performance other than payment obligations due to circumstances beyond its control such as acts of God, war, civil unrest, governmental action, pandemic, or failure of utilities or telecommunications infrastructure, provided it notifies the other party in writing within 14 days and uses commercially reasonable efforts to mitigate; if such circumstances continue for 30 days, either party may terminate",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 6,
+      "l1_text": "Supplier shall own improvements, modifications, or derivative works related to Buyer's proprietary designs, assigning them to Buyer, while retaining ownership of non-specific improvements developed within 45 days, and parties negotiate rights allocation for combined improvements, with Buyer receiving a perpetual, royalty-free license if negotiation fails.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: IP ownership | ATTRIBUTE: rights allocation | VALUE: perpetual, royalty-free license if negotiation fails",
+      "ledger_entry": {
+        "scope": "IP ownership",
+        "attribute": "rights allocation",
+        "value": "perpetual, royalty-free license if negotiation fails"
+      }
+    },
+    {
+      "clause_id": 7,
+      "l1_text": "Supplier represents compliance with responsible sourcing and labor standards, refraining from forced or child labor, and notifies Buyer of any non-compliance within 14 days, implementing corrective action within 30 days with Buyer's approval, while Buyer may request sub-tier supplier compliance evidence from Supplier, who shall provide it within 14 days.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: responsible sourcing | ATTRIBUTE: compliance notification | VALUE: within 14 days",
+      "ledger_entry": {
+        "scope": "responsible sourcing",
+        "attribute": "compliance notification",
+        "value": "within 14 days"
+      }
+    },
+    {
+      "clause_id": 8,
+      "l1_text": "Supplier's aggregate liability under this Agreement shall be capped at 100% of the annual Contract Value; in no event shall Supplier be liable for consequential, incidental, or indirect damages of any kind arising out of or in connection with this Agreement, whether in contract, tort, or otherwise.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: liability | ATTRIBUTE: cap | VALUE: 100% of the annual Contract Value",
+      "ledger_entry": {
+        "scope": "liability",
+        "attribute": "cap",
+        "value": "100% of the annual Contract Value"
+      }
+    },
+    {
+      "clause_id": 9,
+      "l1_text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 45 days, or for convenience upon not less than 60 days prior written notice, with termination affecting accrued rights and obligations but not costs incurred in reliance on outstanding purchase orders.",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 10,
+      "l1_text": "All shipments of sealed bearing assemblies under this Agreement shall be packaged in accordance with Supplier's standard export packaging specifications or as agreed in writing, accompanied by a packing list, and Supplier shall provide Buyer with advance shipping notification, Buyer shall inspect shipments within sixty days and notify Supplier of discrepancies, Supplier shall retain records for sixty days and make them available upon request, and title to rejected goods remains with Supplier pending disposition",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 11,
+      "l1_text": "Supplier represents and warrants that all calibrated pressure sensors are new, of merchantable quality, fit for purpose, and conform to specifications for a 45-day period, with obligation to correct nonconformities within 45 days at Supplier's expense, or for Buyer to procure replacements at Supplier's expense if correction is not feasible.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: calibration | ATTRIBUTE: period | VALUE: 45 days",
+      "ledger_entry": {
+        "scope": "calibration",
+        "attribute": "period",
+        "value": "45 days"
+      }
+    },
+    {
+      "clause_id": 12,
+      "l1_text": "Buyer shall purchase the Goods exclusively from Supplier for the Term of this Agreement, and shall not engage any alternative source of supply for the Goods without Supplier's prior written consent.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: sourcing exclusivity | ATTRIBUTE: permitted alternative suppliers | VALUE: none permitted, exclusive arrangement",
+      "ledger_entry": {
+        "scope": "sourcing exclusivity",
+        "attribute": "permitted alternative suppliers",
+        "value": "none permitted, exclusive arrangement"
+      }
+    },
+    {
+      "clause_id": 13,
+      "l1_text": "Buyer shall pay all undisputed invoices within ninety (90) days of the invoice date by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 5 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable are exclusive of",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 14,
+      "l1_text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for forty-five (",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: confidentiality | ATTRIBUTE: disclosure | VALUE: without prior written consent",
+      "ledger_entry": {
+        "scope": "confidentiality",
+        "attribute": "disclosure",
+        "value": "without prior written consent"
+      }
+    },
+    {
+      "clause_id": 15,
+      "l1_text": "A party affected by a force majeure event must notify the other party promptly and be excused from performance for the duration of the event, except for already due payments, with termination rights granted if the event lasts over 30 days, provided the affected party's own failure to maintain reasonable business continuity arrangements contributed to its inability to perform, and cooperation in identifying workarounds is required before termination",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: force majeure | ATTRIBUTE: duration | VALUE: 30 days",
+      "ledger_entry": {
+        "scope": "force majeure",
+        "attribute": "duration",
+        "value": "30 days"
+      }
+    },
+    {
+      "clause_id": 16,
+      "l1_text": "All intellectual property rights in the sealed bearing assemblies provided by Buyer to Supplier, including designs, drawings, specifications, or know-how, remain exclusively the property of Buyer, with Supplier acquiring no rights other than limited use for Agreement performance, subject to return or destruction within 45 days of termination, and Supplier's obligation to ensure subcontractors' confidentiality and restricted use agreements no less protective of Buyer's intellectual",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: IP ownership | ATTRIBUTE: rights acquired | VALUE: limited use for Agreement performance, return or destruction, confidentiality and restricted use agreements",
+      "ledger_entry": {
+        "scope": "IP ownership",
+        "attribute": "rights acquired",
+        "value": "limited use for Agreement performance, return or destruction, confidentiality and restricted use agreements"
+      }
+    },
+    {
+      "clause_id": 17,
+      "l1_text": "Supplier represents it maintains a code of conduct consistent with responsible sourcing standards and does not use forced labor or child labor; it must notify Buyer of any non-compliance within 5 days and implement a corrective plan within 30 days, subject to approval, and provide evidence of compliance upon Buyer's request from sub-tier suppliers within 5 days.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: labor practices | ATTRIBUTE: non-compliance notification | VALUE: 5 days",
+      "ledger_entry": {
+        "scope": "labor practices",
+        "attribute": "non-compliance notification",
+        "value": "5 days"
+      }
+    },
+    {
+      "clause_id": 18,
+      "l1_text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 15 days, or for convenience upon not less than 60 days prior written notice, with termination affecting accrued rights and obligations but not costs incurred in reliance on outstanding purchase orders.",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 19,
+      "l1_text": "Supplier shall deliver sealed bearing assemblies to Buyer's designated receiving facility in accordance with the delivery schedule in Schedule 2, with time of delivery being of the essence. Should Supplier anticipate a delay, a written notification must be given within 21 days, specifying the revised delivery date and cause, and partial shipments require Buyer's prior written consent. Partial shipments are separately invoiced, risk of loss passes to",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 20,
+      "l1_text": "Supplier warrants that the sealed bearing assemblies, conforming to Schedule 1 specifications, are free from defects in material and workmanship under normal use and service for thirty (30) days, with exceptions for misuse, unauthorized modification, and normal wear and tear, and Buyer's remedy is repair, replacement, or refund at Supplier's option, with Supplier bearing shipping costs and Buyer granting access for inspection,",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: bearing assemblies | ATTRIBUTE: defect coverage | VALUE: thirty (30) days",
+      "ledger_entry": {
+        "scope": "bearing assemblies",
+        "attribute": "defect coverage",
+        "value": "thirty (30) days"
+      }
+    },
+    {
+      "clause_id": 21,
+      "l1_text": "Buyer shall pay all undisputed invoices within ninety (90) days of the invoice date by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 5 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable are exclusive of",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 22,
+      "l1_text": "Confidential Information disclosed under this Agreement shall be used solely for performing obligations, protected with at least the same care as the disclosing party's own information, returned or destroyed upon termination, not used to compete, and unauthorized disclosure may cause irreparable harm entitling the disclosing party to injunctive relief.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: Confidential Information | ATTRIBUTE: unauthorized disclosure | VALUE: irreparable harm entitling to injunctive relief",
+      "ledger_entry": {
+        "scope": "Confidential Information",
+        "attribute": "unauthorized disclosure",
+        "value": "irreparable harm entitling to injunctive relief"
+      }
+    },
+    {
+      "clause_id": 23,
+      "l1_text": "A party affected by a force majeure event must notify the other party promptly and be excused from performance for the duration of the event, except for already due payments, with excused performance extending up to ninety (90) days, after which either party may terminate the Agreement with a 5-day notice, provided the event has not ceased prior to the notice period, and neither party may",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: force majeure | ATTRIBUTE: duration of event | VALUE: 90 days",
+      "ledger_entry": {
+        "scope": "force majeure",
+        "attribute": "duration of event",
+        "value": "90 days"
+      }
+    },
+    {
+      "clause_id": 24,
+      "l1_text": "Supplier shall own improvements, modifications, or derivative works related to Buyer's proprietary designs, assigning them to Buyer, while retaining ownership of non-specific improvements developed within 45 days, and parties negotiate rights allocation for combined improvements, with Buyer receiving a perpetual, royalty-free license if negotiation fails.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: IP ownership | ATTRIBUTE: rights allocation | VALUE: perpetual, royalty-free license if negotiation fails",
+      "ledger_entry": {
+        "scope": "IP ownership",
+        "attribute": "rights allocation",
+        "value": "perpetual, royalty-free license if negotiation fails"
+      }
+    },
+    {
+      "clause_id": 25,
+      "l1_text": "Notwithstanding anything else in this Agreement, the total liability of Supplier arising out of or relating to this Agreement, whether in contract, tort, or otherwise, shall not exceed one hundred percent (100%) of the annual Contract Value, and Supplier shall have no liability whatsoever for any consequential, incidental, or indirect damages, however arising.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: liability | ATTRIBUTE: cap | VALUE: 100% of the annual Contract Value",
+      "ledger_entry": {
+        "scope": "liability",
+        "attribute": "cap",
+        "value": "100% of the annual Contract Value"
+      }
+    },
+    {
+      "clause_id": 26,
+      "l1_text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the injection-molded enclosures, notifying Buyer in writing within 14 days of any material non-compliance with applicable law in the Republic of Ireland and implementing a corrective action plan within 15 days upon approval, while Buyer may request evidence",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: labor practices | ATTRIBUTE: non-compliance | VALUE: applicable law in the Republic of Ireland",
+      "ledger_entry": {
+        "scope": "labor practices",
+        "attribute": "non-compliance",
+        "value": "applicable law in the Republic of Ireland"
+      }
+    },
+    {
+      "clause_id": 27,
+      "l1_text": "This Agreement shall terminate automatically, without notice, if either party becomes insolvent, makes an assignment for the benefit of creditors, or is subject to insolvency proceedings not dismissed within 45 days; upon termination, Buyer pays for delivered calibrated pressure sensors, and each party returns or destroys Confidential Information within 60 days, with confidentiality, intellectual property, and limitation of liability provisions surviving termination or expiration",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 28,
+      "l1_text": "Supplier shall deliver sealed bearing assemblies to Buyer's designated receiving facility in accordance with the delivery schedule in Schedule 2, with time of delivery being of the essence. Should Supplier anticipate a delay, a written notification must be given within 21 days, specifying the revised delivery date and cause, and partial shipments require Buyer's prior written consent. Partial shipments are separately invoiced, risk of loss passes to",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 29,
+      "l1_text": "Supplier represents and warrants that all sealed bearing assemblies are new, of merchantable quality, and fit for purpose, complying with applicable specifications for a 60-day period; Supplier shall correct any nonconformity within 60 days upon written notice, or Buyer may procure replacement goods and recover the reasonable additional cost from Supplier, provided Supplier had a chance to correct.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: bearing assemblies | ATTRIBUTE: quality compliance | VALUE: 60-day period",
+      "ledger_entry": {
+        "scope": "bearing assemblies",
+        "attribute": "quality compliance",
+        "value": "60-day period"
+      }
+    },
+    {
+      "clause_id": 30,
+      "l1_text": "Buyer shall pay all undisputed invoices within ninety (90) days of the invoice date by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 10 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable are exclusive",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 31,
+      "l1_text": "Confidential Information disclosed under this Agreement shall be used solely for performing obligations, protected with at least the same care as the disclosing party's own information, returned or destroyed upon termination, not used to compete, and unauthorized disclosure may cause irreparable harm entitling the disclosing party to injunctive relief.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: Confidential Information | ATTRIBUTE: unauthorized disclosure | VALUE: irreparable harm entitling to injunctive relief",
+      "ledger_entry": {
+        "scope": "Confidential Information",
+        "attribute": "unauthorized disclosure",
+        "value": "irreparable harm entitling to injunctive relief"
+      }
+    },
+    {
+      "clause_id": 32,
+      "l1_text": "A party affected by a force majeure event must notify the other party promptly of its nature and expected duration, excusing it from performance for the duration of the event, except for already due payments, with termination rights available after 60 days if the event continues, provided that termination is not due to the affected party's own failure to maintain reasonable business continuity arrangements, and cooperation in identifying work",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 33,
+      "l1_text": "All notices under this Agreement shall be sent by registered mail to the address of the receiving party set out in Schedule 1 or by mutual agreement, with notices by facsimile deemed effective only upon confirmed transmission and a courtesy copy dispatched by ordinary post within two Business Days, notwithstanding informal practices of certain regional offices.",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 34,
+      "l1_text": "All intellectual property rights in the industrial control modules, including designs, drawings, specifications, or know-how provided by Buyer to Supplier, remain exclusively the property of Buyer, with Supplier acquiring no rights other than limited use for Agreement performance, subject to return or destruction within 90 days of termination, and Supplier's obligation to ensure subcontractors' confidentiality and restricted use agreements no less protective of Buyer's intellectual",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: IP ownership | ATTRIBUTE: rights acquired | VALUE: limited use for Agreement performance, return or destruction, confidentiality and restricted use agreements no less protective",
+      "ledger_entry": {
+        "scope": "IP ownership",
+        "attribute": "rights acquired",
+        "value": "limited use for Agreement performance, return or destruction, confidentiality and restricted use agreements no less protective"
+      }
+    },
+    {
+      "clause_id": 35,
+      "l1_text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the precision-machined aluminum housings, notifying Buyer in writing within 10 days of any material non-compliance with applicable law in England and Wales and implementing a corrective action plan within 45 days upon Buyer's approval, while Buyer may",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: labor practices | ATTRIBUTE: notification | VALUE: within 10 days of any material non-compliance with applicable law in England and Wales",
+      "ledger_entry": {
+        "scope": "labor practices",
+        "attribute": "notification",
+        "value": "within 10 days of any material non-compliance with applicable law in England and Wales"
+      }
+    },
+    {
+      "clause_id": 36,
+      "l1_text": "This Agreement shall terminate automatically, without notice, if either party becomes insolvent, makes an assignment for the benefit of creditors, or is subject to insolvency proceedings not dismissed within 45 days; upon termination, Buyer pays for custom wiring harnesses delivered and accepted prior to termination, and each party returns or destroys Confidential Information within 45 days; surviving provisions include confidentiality, intellectual property, and",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 37,
+      "l1_text": "Supplier shall deliver precision-machined aluminum housings to Buyer's designated facility in accordance with a delivery schedule in Schedule 2, with time of delivery being of the essence. If a shipment is expected to be delayed beyond the scheduled date, Supplier must notify Buyer in writing within 21 days of becoming aware of the delay, specifying the revised delivery date and the cause. Partial shipments require Buyer's",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 38,
+      "l1_text": "Supplier represents and warrants that all sealed bearing assemblies are new, of merchantable quality, and fit for purpose, complying with applicable specifications for a 90-day period; Supplier shall correct nonconformities within 15 days or provide replacement goods at Buyer's expense if correction is not feasible, with statutory warranty limitations.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: bearing assemblies | ATTRIBUTE: warranty period | VALUE: 90 days",
+      "ledger_entry": {
+        "scope": "bearing assemblies",
+        "attribute": "warranty period",
+        "value": "90 days"
+      }
+    },
+    {
+      "clause_id": 39,
+      "l1_text": "Buyer shall pay all undisputed invoices within sixty (60) days of the invoice date by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 14 days shall be deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable are exclusive of",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 40,
+      "l1_text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for ninety (9",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: confidentiality | ATTRIBUTE: disclosure | VALUE: without prior written consent",
+      "ledger_entry": {
+        "scope": "confidentiality",
+        "attribute": "disclosure",
+        "value": "without prior written consent"
+      }
+    },
+    {
+      "clause_id": 41,
+      "l1_text": "Neither party shall be liable for failure or delay in performance other than payment obligations due to circumstances beyond its control such as acts of God, war, civil unrest, governmental action, pandemic, or failure of utilities or telecommunications infrastructure, provided it notifies the other party in writing within 10 days and uses commercially reasonable efforts to mitigate; if such circumstances continue for 45 days, either party may terminate",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 42,
+      "l1_text": "All intellectual property rights in the precision-machined aluminum housings, including designs, drawings, specifications, or know-how provided by Buyer to Supplier, shall remain the exclusive property of Buyer, and Supplier shall not use, reproduce, or disclose such materials for any other purpose without Buyer's prior written consent, and shall return or destroy all such materials within sixty (60) days of termination of this",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: IP ownership | ATTRIBUTE: use, reproduction, or disclosure | VALUE: without Buyer's prior written consent",
+      "ledger_entry": {
+        "scope": "IP ownership",
+        "attribute": "use, reproduction, or disclosure",
+        "value": "without Buyer's prior written consent"
+      }
+    },
+    {
+      "clause_id": 43,
+      "l1_text": "Supplier represents it maintains a code of conduct consistent with responsible sourcing standards and does not employ forced labor or child labor; it must notify Buyer of any material non-compliance with applicable English and Welsh law within 21 days and implement a corrective action plan within 45 days, subject to Buyer's approval, and provide evidence of compliance upon Buyer's request from sub-tier suppliers within 21 days",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: labor practices | ATTRIBUTE: notification period | VALUE: 21 days",
+      "ledger_entry": {
+        "scope": "labor practices",
+        "attribute": "notification period",
+        "value": "21 days"
+      }
+    },
+    {
+      "clause_id": 44,
+      "l1_text": "This Agreement shall terminate automatically, without notice, if either party becomes insolvent, makes an assignment for the benefit of creditors, or is subject to insolvency proceedings not dismissed within 45 days; upon termination, Buyer pays for delivered assemblies, and each party returns or destroys Confidential Information; surviving provisions include confidentiality, intellectual property, and limitation of liability.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: termination | ATTRIBUTE: conditions | VALUE: insolvency, assignment for benefit of creditors, insolvency proceedings not dismissed within 45 days",
+      "ledger_entry": {
+        "scope": "termination",
+        "attribute": "conditions",
+        "value": "insolvency, assignment for benefit of creditors, insolvency proceedings not dismissed within 45 days"
+      }
+    },
+    {
+      "clause_id": 45,
+      "l1_text": "All shipments of custom wiring harnesses under this Agreement shall be packaged in accordance with Supplier's standard export packaging specifications or as agreed in writing, accompanied by a packing list, and Supplier shall provide Buyer with advance shipping notification not less than 10 days prior to the scheduled ship date. Buyer shall inspect each shipment within ninety (90) days of receipt and notify Supplier of any discrepancy or damage,",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 46,
+      "l1_text": "Supplier represents and warrants that all custom wiring harnesses are new, of merchantable quality, fit for purpose, and conform to specifications for a 30-day period, with correction of nonconformities within 30 days at Supplier's expense, or replacement at Buyer's expense if Supplier cannot correct within the period, except for statutory warranties.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: custom wiring harnesses | ATTRIBUTE: warranty period | VALUE: 30 days",
+      "ledger_entry": {
+        "scope": "custom wiring harnesses",
+        "attribute": "warranty period",
+        "value": "30 days"
+      }
+    },
+    {
+      "clause_id": 47,
+      "l1_text": "Buyer shall pay all undisputed invoices within forty-five (45) days of the invoice date, by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 10 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 48,
+      "l1_text": "Confidential Information disclosed under this Agreement shall be used solely for performing obligations, protected with at least the same care as the disclosing party's own information, returned or destroyed upon termination, not used to compete, and unauthorized disclosure may cause irreparable harm entitling the disclosing party to injunctive relief.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: Confidential Information | ATTRIBUTE: unauthorized disclosure | VALUE: irreparable harm entitling to injunctive relief",
+      "ledger_entry": {
+        "scope": "Confidential Information",
+        "attribute": "unauthorized disclosure",
+        "value": "irreparable harm entitling to injunctive relief"
+      }
+    },
+    {
+      "clause_id": 49,
+      "l1_text": "A party affected by a force majeure event must notify the other party promptly and be excused from performance for the duration of the event, except for already due payments, with excused performance extending up to ninety (90) days, after which either party may terminate the Agreement with a 5-day notice, provided the event has not ceased prior to the notice period, and neither party may",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: force majeure | ATTRIBUTE: duration of event | VALUE: 90 days",
+      "ledger_entry": {
+        "scope": "force majeure",
+        "attribute": "duration of event",
+        "value": "90 days"
+      }
+    },
+    {
+      "clause_id": 50,
+      "l1_text": "For the avoidance of doubt, Supplier's cumulative liability to Buyer under this Agreement, irrespective of the nature of the claim or the type of legal action, is capped at 100% of the annual Contract Value and does not include consequential, indirect, special, or punitive damages.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: liability | ATTRIBUTE: cap | VALUE: 100% of the annual Contract Value",
+      "ledger_entry": {
+        "scope": "liability",
+        "attribute": "cap",
+        "value": "100% of the annual Contract Value"
+      }
+    },
+    {
+      "clause_id": 51,
+      "l1_text": "All intellectual property rights in the sealed bearing assemblies, including designs, drawings, specifications, or know-how provided by Buyer to Supplier, shall remain the exclusive property of Buyer, and Supplier shall not use, reproduce, or disclose such materials for any other purpose without Buyer's prior written consent, and shall return or destroy all such materials within sixty (60) days of termination of this Agreement, while ensuring",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: IP ownership | ATTRIBUTE: use, reproduction, or disclosure | VALUE: without Buyer's prior written consent",
+      "ledger_entry": {
+        "scope": "IP ownership",
+        "attribute": "use, reproduction, or disclosure",
+        "value": "without Buyer's prior written consent"
+      }
+    },
+    {
+      "clause_id": 52,
+      "l1_text": "Supplier represents that it maintains a code of conduct consistent with generally accepted standards for responsible sourcing and shall not employ forced labor or child labor in the manufacture of the injection-molded enclosures, notifying Buyer in writing within 5 days of any material non-compliance with applicable Irish law and implementing a corrective action plan within 30 days upon approval, and shall provide evidence of compliance to Buyer's sub",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: labor practices | ATTRIBUTE: notification | VALUE: within 5 days of any material non-compliance with applicable Irish law",
+      "ledger_entry": {
+        "scope": "labor practices",
+        "attribute": "notification",
+        "value": "within 5 days of any material non-compliance with applicable Irish law"
+      }
+    },
+    {
+      "clause_id": 53,
+      "l1_text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 30 days, or for convenience upon not less than 60 days prior written notice, with termination not affecting prior rights or obligations, and Buyer reimbursing Supplier for reasonable costs incurred in reliance on outstanding purchase orders upon termination for convenience.",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 54,
+      "l1_text": "All shipments of calibrated pressure sensors under this Agreement shall be packaged in accordance with Supplier's standard export packaging specifications or as agreed in writing, accompanied by a packing list, and Supplier shall provide Buyer with advance shipping notification not less than 21 days prior to the scheduled ship date. Buyer shall inspect each shipment within ninety (90) days of receipt and notify Supplier of any discrepancy or damage, otherwise",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 55,
+      "l1_text": "Supplier represents and warrants that all sealed bearing assemblies are new, of merchantable quality, and fit for purpose, complying with applicable specifications for a 90-day period; Supplier shall correct nonconformities within 60 days at its expense, or Buyer may procure replacements and recover costs from Supplier, provided Supplier has been given a reasonable opportunity to correct, without limiting statutory warranties.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: bearing assemblies | ATTRIBUTE: conformity period | VALUE: 90 days",
+      "ledger_entry": {
+        "scope": "bearing assemblies",
+        "attribute": "conformity period",
+        "value": "90 days"
+      }
+    },
+    {
+      "clause_id": 56,
+      "l1_text": "Prices for sealed bearing assemblies are as specified in Schedule 1, denominated in EUR unless otherwise agreed in writing; Supplier invoices Buyer upon shipment and payment is due 30 days from invoice date; Buyer must pay Supplier within 14 days or face suspension of deliveries; Price changes require 14 days' notice and apply to orders placed after effective date; Invoices are in EUR, separately",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 57,
+      "l1_text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for forty-five (",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: confidentiality | ATTRIBUTE: disclosure | VALUE: without prior written consent",
+      "ledger_entry": {
+        "scope": "confidentiality",
+        "attribute": "disclosure",
+        "value": "without prior written consent"
+      }
+    },
+    {
+      "clause_id": 58,
+      "l1_text": "A party affected by a force majeure event must notify the other party promptly and be excused from performance for the duration of the event, except for already due payments, with termination possible after 30 days if notice is given, provided the event has not ceased prior to the notice period, and neither party may terminate due to force majeure if their own failure to maintain business continuity arrangements",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 59,
+      "l1_text": "All intellectual property rights in custom wiring harnesses designed, drawn, specified, or known-to-Be Buyer shall be exclusively owned by Buyer, with Supplier acquiring only limited rights to use them for this Agreement, without reproducing, disclosing, or using them for any other purpose without Buyer's consent, returning or destroying materials within sixty days of Agreement termination, and ensuring subcontractors comply with confidentiality and restricted-use",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: IP ownership | ATTRIBUTE: reproduction, disclosure, use | VALUE: without consent, returning or destroying materials, ensuring compliance",
+      "ledger_entry": {
+        "scope": "IP ownership",
+        "attribute": "reproduction, disclosure, use",
+        "value": "without consent, returning or destroying materials, ensuring compliance"
+      }
+    },
+    {
+      "clause_id": 60,
+      "l1_text": "Supplier shall comply with all applicable laws, regulations, and industry standards in the manufacture and supply of precision-machined aluminum housings in the Republic of Ireland, providing documentation and permitting audits as per the terms, with audits at Buyer's expense and interference with Supplier's operations limited. Supplier must address material findings within 30 days of receiving a written audit report.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: manufacturing and supply | ATTRIBUTE: audits | VALUE: limited to Buyer's expense",
+      "ledger_entry": {
+        "scope": "manufacturing and supply",
+        "attribute": "audits",
+        "value": "limited to Buyer's expense"
+      }
+    },
+    {
+      "clause_id": 61,
+      "l1_text": "The parties recognize that certain Goods may contain components subject to export control regimes for quantum-computing-enabling technologies, including cryogenic control electronics and superconducting qubit fabrication equipment, and acknowledge Supplier's obligation to obtain and retain all required export classification determinations prior to shipment, notifying Buyer of any changes in the Export Control Classification Number, this being separate from delivery, warranty, or liability provisions.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: export control | ATTRIBUTE: classification determinations | VALUE: all required export",
+      "ledger_entry": {
+        "scope": "export control",
+        "attribute": "classification determinations",
+        "value": "all required export"
+      }
+    },
+    {
+      "clause_id": 62,
+      "l1_text": "This Agreement shall terminate automatically, without notice, if either party becomes insolvent, makes an assignment for the benefit of creditors, or is subject to insolvency proceedings not dismissed within 30 days; upon termination, Buyer pays for custom wiring harnesses delivered prior to termination, and each party returns or destroys Confidential Information within 45 days; surviving provisions include confidentiality, intellectual property, and limitation of",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 63,
+      "l1_text": "Supplier shall deliver custom wiring harnesses to Buyer's designated facility in accordance with a delivery schedule in Schedule 2, with time of delivery being of the essence. If Supplier anticipates a delay, they must notify Buyer in writing within 14 days of becoming aware of the delay, specifying a revised delivery date and the cause. Partial shipments require Buyer's prior written consent, and each shipment will be",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 64,
+      "l1_text": "Supplier warrants that the industrial control modules, conforming to Schedule 1 specifications, are free from defects in material and workmanship for thirty (30) days from delivery, barring misuse, modification, or wear and tear, with Buyer's remedy being repair, replacement, or refund at Supplier's option, subject to notification within 21 days, and Supplier bearing the shipping costs for repairs or replacements",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: defects | ATTRIBUTE: remedy | VALUE: repair, replacement, or refund",
+      "ledger_entry": {
+        "scope": "defects",
+        "attribute": "remedy",
+        "value": "repair, replacement, or refund"
+      }
+    },
+    {
+      "clause_id": 65,
+      "l1_text": "Buyer shall pay all undisputed invoices within sixty (60) days of the invoice date by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 14 days shall be deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable are exclusive of",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 66,
+      "l1_text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for forty-five (",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: confidentiality | ATTRIBUTE: disclosure | VALUE: without prior written consent",
+      "ledger_entry": {
+        "scope": "confidentiality",
+        "attribute": "disclosure",
+        "value": "without prior written consent"
+      }
+    },
+    {
+      "clause_id": 67,
+      "l1_text": "A party affected by a force majeure event must notify the other party promptly and be excused from performance for the duration of the event, except for already due payments, with excused performance extending up to thirty (30) days, after which either party may terminate the Agreement with a 10-day notice, provided the event has not ceased prior to the notice period, and neither party",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 68,
+      "l1_text": "Supplier shall own improvements, modifications, or derivative works related to Buyer's proprietary designs, assigning them to Buyer, while retaining ownership of non-specific improvements and negotiating rights allocation for combined elements.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: IP ownership | ATTRIBUTE: rights allocation | VALUE: negotiation rights",
+      "ledger_entry": {
+        "scope": "IP ownership",
+        "attribute": "rights allocation",
+        "value": "negotiation rights"
+      }
+    },
+    {
+      "clause_id": 69,
+      "l1_text": "Supplier shall comply with all applicable laws, regulations, and industry standards in the manufacture and supply of the injection-molded enclosures, including those relating to product safety, labor practices, and environmental protection in the State of New York, and upon Buyer's reasonable written request, shall provide documentation evidencing such compliance and permit Buyer or its designated auditor to conduct an on-site compliance audit upon not less than",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: product safety, labor practices, environmental protection | ATTRIBUTE: compliance | VALUE: documentation evidencing compliance and on-site audit upon reasonable written request",
+      "ledger_entry": {
+        "scope": "product safety, labor practices, environmental protection",
+        "attribute": "compliance",
+        "value": "documentation evidencing compliance and on-site audit upon reasonable written request"
+      }
+    },
+    {
+      "clause_id": 70,
+      "l1_text": "This Agreement shall terminate automatically, without notice, if either party becomes insolvent, makes an assignment for the benefit of creditors, or is subject to insolvency proceedings not dismissed within 15 days; upon termination, Buyer pays for enclosures delivered prior to termination, and each party returns or destroys Confidential Information; surviving provisions include confidentiality, intellectual property, and limitation of liability.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: termination | ATTRIBUTE: conditions | VALUE: insolvency, assignment for benefit of creditors, insolvency proceedings",
+      "ledger_entry": {
+        "scope": "termination",
+        "attribute": "conditions",
+        "value": "insolvency, assignment for benefit of creditors, insolvency proceedings"
+      }
+    },
+    {
+      "clause_id": 71,
+      "l1_text": "Supplier shall deliver calibrated pressure sensors to Buyer's designated receiving facility in accordance with the delivery schedule in Schedule 2, with time of delivery being of the essence. If Supplier anticipates a delay, they must notify Buyer in writing within 5 days of becoming aware of the delay, specifying the revised delivery date and cause. Partial shipments require Buyer's prior written consent, and each partial shipment will be separately",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 72,
+      "l1_text": "Supplier represents and warrants that all custom wiring harnesses are new, of merchantable quality, fit for purpose, and conform to specifications for a 45-day period, with the obligation to correct nonconformities within 45 days at Supplier's expense, or for Buyer to procure replacements at Supplier's expense if correction is not feasible.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: custom wiring harnesses | ATTRIBUTE: conformity period | VALUE: 45 days",
+      "ledger_entry": {
+        "scope": "custom wiring harnesses",
+        "attribute": "conformity period",
+        "value": "45 days"
+      }
+    },
+    {
+      "clause_id": 73,
+      "l1_text": "Prices for custom wiring harnesses are as per Schedule 1, denominated in GBP unless otherwise agreed in writing; Supplier invoices Buyer upon shipment and payment is due 60 days from invoice date; Supplier may suspend deliveries for 10 days if Buyer fails to pay outstanding amounts, together with accrued interest, in full; Any price changes require 10 days' prior written notice and apply to",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 74,
+      "l1_text": "Confidential Information disclosed under this Agreement shall be used solely for performing obligations, protected with at least the same care as the disclosing party's own information, returned or destroyed upon termination, not used to compete, and unauthorized disclosure may cause irreparable harm entitling the disclosing party to injunctive relief.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: Confidential Information | ATTRIBUTE: unauthorized disclosure | VALUE: irreparable harm entitling to injunctive relief",
+      "ledger_entry": {
+        "scope": "Confidential Information",
+        "attribute": "unauthorized disclosure",
+        "value": "irreparable harm entitling to injunctive relief"
+      }
+    },
+    {
+      "clause_id": 75,
+      "l1_text": "Neither party shall be liable for failure or delay in performance other than payment obligations due to circumstances beyond its control such as acts of God, war, civil unrest, governmental action, pandemic, or failure of utilities or telecommunications infrastructure, provided it notifies the other party in writing within 10 days and uses commercially reasonable efforts to mitigate; if such circumstances continue for 90 days, either party may terminate",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 76,
+      "l1_text": "All intellectual property rights in the sealed bearing assemblies, including designs, drawings, specifications, or know-how provided by Buyer to Supplier, remain exclusively the property of Buyer, with Supplier acquiring no rights other than limited use for Agreement performance, subject to return or destruction within 30 days of termination, and Supplier's obligation to ensure subcontractors' confidentiality and restricted use agreements no less protective of Buyer's intellectual",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: IP ownership | ATTRIBUTE: use rights | VALUE: limited use for Agreement performance, return or destruction within 30 days of termination",
+      "ledger_entry": {
+        "scope": "IP ownership",
+        "attribute": "use rights",
+        "value": "limited use for Agreement performance, return or destruction within 30 days of termination"
+      }
+    },
+    {
+      "clause_id": 77,
+      "l1_text": "Supplier represents it maintains a code of conduct consistent with responsible sourcing standards and does not use forced labor or child labor; it must notify Buyer of any material non-compliance with Ontario law within 5 days and implement a corrective action plan within 60 days, subject to Buyer's approval, and provide evidence of compliance upon Buyer's request from sub-tier suppliers within 5 days.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: labor practices | ATTRIBUTE: notification and corrective action | VALUE: within 5 days and 60 days",
+      "ledger_entry": {
+        "scope": "labor practices",
+        "attribute": "notification and corrective action",
+        "value": "within 5 days and 60 days"
+      }
+    },
+    {
+      "clause_id": 78,
+      "l1_text": "Notwithstanding the exclusivity undertaking earlier in this Agreement, Buyer may procure the Goods from any third-party supplier at its sole discretion, without restriction and without incurring any liability to Supplier for doing so.",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 79,
+      "l1_text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 60 days, or for convenience upon not less than 45 days prior written notice, with termination affecting accrued rights and obligations but not costs incurred in reliance on outstanding purchase orders.",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 80,
+      "l1_text": "Supplier shall deliver sealed bearing assemblies to Buyer's designated receiving facility in accordance with the delivery schedule in Schedule 2, with time of delivery being of the essence. If Supplier anticipates a delay, it must notify Buyer in writing within 5 days of becoming aware of the delay, specifying the revised delivery date and cause. Partial shipments require Buyer's prior written consent, and each partial shipment will be separately",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 81,
+      "l1_text": "Supplier represents and warrants that all precision-machined aluminum housings are new, of merchantable quality, fit for purpose, and conform to specifications for a 30-day period; it shall correct nonconformities within 15 days or replace them at Buyer's expense if correction is not feasible, with Buyer's reasonable opportunity to cure, except for statutory warranties.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: precision-machined aluminum housings | ATTRIBUTE: correction timeframe | VALUE: 15 days; replacement at Buyer's expense if correction is not feasible",
+      "ledger_entry": {
+        "scope": "precision-machined aluminum housings",
+        "attribute": "correction timeframe",
+        "value": "15 days; replacement at Buyer's expense if correction is not feasible"
+      }
+    },
+    {
+      "clause_id": 82,
+      "l1_text": "Prices for sealed bearing assemblies are as specified in Schedule 1, denominated in GBP unless otherwise agreed in writing; Supplier invoices Buyer upon shipment and payment is due 45 days from invoice date; Supplier may suspend deliveries for 10 days if Buyer fails to pay outstanding amounts, together with accrued interest, in full; Any price changes require 10 days' prior written notice and apply to",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 83,
+      "l1_text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for thirty (3",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: confidentiality | ATTRIBUTE: disclosure | VALUE: prior written consent",
+      "ledger_entry": {
+        "scope": "confidentiality",
+        "attribute": "disclosure",
+        "value": "prior written consent"
+      }
+    },
+    {
+      "clause_id": 84,
+      "l1_text": "A party affected by a force majeure event must notify the other party of its nature and duration, being excused from performance for the duration of the event, except for already due payments, with termination rights granted if the event lasts over 60 days, provided the affected party is not excused due to its own failure to maintain reasonable business continuity arrangements, and cooperation is required to identify work",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 85,
+      "l1_text": "All intellectual property rights in calibrated pressure sensors, designs, drawings, specifications, or know-how provided by Buyer to Supplier, including any designs, drawings, specifications, or know-how provided by Buyer to Supplier for the purpose of manufacture, shall remain the exclusive property of Buyer, and Supplier shall acquire no rights therein other than the limited right to use such materials solely for the performance of its obligations under this Agreement",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: IP ownership | ATTRIBUTE: rights acquired | VALUE: no rights other than limited use",
+      "ledger_entry": {
+        "scope": "IP ownership",
+        "attribute": "rights acquired",
+        "value": "no rights other than limited use"
+      }
+    },
+    {
+      "clause_id": 86,
+      "l1_text": "Supplier represents it maintains a code of conduct consistent with responsible sourcing standards and does not employ forced labor or child labor; it must notify Buyer of any material non-compliance with Delaware law within 10 days and implement a corrective action plan within 60 days, subject to Buyer's approval, and provide evidence of compliance upon Buyer's request from sub-tier suppliers.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: labor practices | ATTRIBUTE: notification | VALUE: within 10 days; corrective action plan within 60 days; evidence of compliance upon request",
+      "ledger_entry": {
+        "scope": "labor practices",
+        "attribute": "notification",
+        "value": "within 10 days; corrective action plan within 60 days; evidence of compliance upon request"
+      }
+    },
+    {
+      "clause_id": 87,
+      "l1_text": "Notwithstanding any other provision of this Agreement, including the limitation of liability, Supplier's liability for line-down damages arising from failure to deliver Goods causing a cessation of Buyer's production line at any facility shall be unlimited in amount and not subject to any limitations, caps, or exclusions set forth elsewhere in this Agreement, with Buyer entitled to recover the full amount of such damages, including consequential and indirect losses",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: liability | ATTRIBUTE: caps | VALUE: unlimited in amount",
+      "ledger_entry": {
+        "scope": "liability",
+        "attribute": "caps",
+        "value": "unlimited in amount"
+      }
+    },
+    {
+      "clause_id": 88,
+      "l1_text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 15 days, or for convenience upon not less than 30 days prior written notice, with termination affecting accrued rights and obligations but not costs incurred in reliance on outstanding purchase orders.",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 89,
+      "l1_text": "Supplier shall deliver calibrated pressure sensors to Buyer's designated receiving facility in accordance with the delivery schedule in Schedule 2, with time of delivery being of the essence. If Supplier anticipates a delay, they must notify Buyer in writing within 5 days of becoming aware of the delay, specifying the revised delivery date and cause. Partial shipments require Buyer's prior written consent, and each partial shipment will be separately",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 90,
+      "l1_text": "Supplier represents and warrants that all custom wiring harnesses are new, of merchantable quality, fit for purpose, and conform to specifications for a 90-day period, with a 60-day correction period for nonconformities at Supplier's expense, or Supplier's obligation to replace non-correctable goods at Buyer's expense if commercially feasible.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: custom wiring harnesses | ATTRIBUTE: correction period | VALUE: 60 days",
+      "ledger_entry": {
+        "scope": "custom wiring harnesses",
+        "attribute": "correction period",
+        "value": "60 days"
+      }
+    },
+    {
+      "clause_id": 91,
+      "l1_text": "Buyer shall pay all undisputed invoices within thirty (30) days of the invoice date by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 10 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower; all amounts payable are exclusive",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 92,
+      "l1_text": "Each party shall treat as confidential all technical, commercial, and financial information disclosed by the other party in connection with this Agreement, and shall not disclose such information to any third party without the prior written consent of the disclosing party, except to employees, contractors, and advisors with a need to know and who are bound by confidentiality obligations no less protective than those set out herein, surviving termination for thirty (3",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: confidentiality | ATTRIBUTE: disclosure | VALUE: prior written consent",
+      "ledger_entry": {
+        "scope": "confidentiality",
+        "attribute": "disclosure",
+        "value": "prior written consent"
+      }
+    },
+    {
+      "clause_id": 93,
+      "l1_text": "Neither party shall be liable for failure or delay in performance other than payment obligations due to circumstances beyond its control such as acts of God, war, civil unrest, governmental action, pandemic, or utility failure, provided notification within 21 days and mitigation efforts, with termination possible after 30 days, and the unaffected party may procure substitute goods or services from a third party during continuation of force m",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 94,
+      "l1_text": "All intellectual property rights in the industrial control modules provided by Buyer to Supplier remain exclusively the property of Buyer, with Supplier acquiring no rights other than limited use for Agreement performance, subject to return or destruction within 30 days of termination, and Supplier's obligation to ensure subcontractors' confidentiality and restricted use agreements no less protective of Buyer's intellectual property, with Supplier's full liability for any breach.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: IP ownership | ATTRIBUTE: use rights | VALUE: limited use for Agreement performance, return or destruction within 30 days of termination",
+      "ledger_entry": {
+        "scope": "IP ownership",
+        "attribute": "use rights",
+        "value": "limited use for Agreement performance, return or destruction within 30 days of termination"
+      }
+    },
+    {
+      "clause_id": 95,
+      "l1_text": "Supplier represents it maintains a code of conduct consistent with responsible sourcing standards and does not employ forced labor or child labor; it must notify Buyer of any material non-compliance with Singapore law within 10 days and implement a corrective action plan within 30 days, subject to Buyer's approval, and provide evidence of compliance upon Buyer's request from sub-tier suppliers within 10 days.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: labor practices | ATTRIBUTE: notification | VALUE: within 10 days",
+      "ledger_entry": {
+        "scope": "labor practices",
+        "attribute": "notification",
+        "value": "within 10 days"
+      }
+    },
+    {
+      "clause_id": 96,
+      "l1_text": "Either party may terminate this Agreement for cause upon written notice if the other party commits a material breach and fails to cure within 30 days, or for convenience upon not less than 90 days prior written notice, with termination not affecting prior rights or obligations, and Buyer reimbursing Supplier for reasonable costs incurred in reliance on outstanding purchase orders upon termination for convenience.",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 97,
+      "l1_text": "Supplier shall deliver calibrated pressure sensors to Buyer's designated receiving facility in accordance with the delivery schedule in Schedule 2, with time of delivery being of the essence. If Supplier anticipates a delay, it must notify Buyer in writing within 14 days of becoming aware of the delay, specifying the revised delivery date and cause, and partial shipments require Buyer's prior written consent. Buyer assumes risk of loss",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 98,
+      "l1_text": "Supplier represents and warrants that all custom wiring harnesses are new, of merchantable quality, fit for purpose, and conform to specifications for a 30-day period, with 15 days for correction of nonconformities at Supplier's expense; if unable, Buyer may procure replacement goods at Supplier's expense, and Supplier may be liable for additional costs, except for statutory warranties.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: custom wiring harnesses | ATTRIBUTE: fit for purpose | VALUE: 30-day period",
+      "ledger_entry": {
+        "scope": "custom wiring harnesses",
+        "attribute": "fit for purpose",
+        "value": "30-day period"
+      }
+    },
+    {
+      "clause_id": 99,
+      "l1_text": "Buyer shall pay all undisputed invoices within thirty (30) days of the invoice date by wire transfer to the Supplier's designated bank account; invoices not disputed in writing within 5 days of receipt are deemed accepted; amounts not paid when due accrue interest at 1.5% per month, or the maximum permitted by law, whichever is lower; all amounts are exclusive of applicable taxes",
+      "classification": "ROUTINE",
+      "raw_extraction": null,
+      "ledger_entry": null
+    },
+    {
+      "clause_id": 100,
+      "l1_text": "Confidential Information disclosed under this Agreement shall be used solely for performing obligations, protected with at least the same care as the disclosing party's own information, returned or destroyed upon termination, not used to compete, and unauthorized disclosure may cause irreparable harm entitling the disclosing party to injunctive relief.",
+      "classification": "RULE",
+      "raw_extraction": "SCOPE: Confidential Information | ATTRIBUTE: unauthorized disclosure | VALUE: irreparable harm entitling to injunctive relief",
+      "ledger_entry": {
+        "scope": "Confidential Information",
+        "attribute": "unauthorized disclosure",
+        "value": "irreparable harm entitling to injunctive relief"
+      }
+    }
+  ]
+}

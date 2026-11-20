@@ -1,0 +1,27 @@
+{
+  "seed": 2,
+  "total_clauses": 100,
+  "liability_frame_clause_ids": [
+    8,
+    25,
+    50
+  ],
+  "needles": [
+    {
+      "id": 33,
+      "type": "n1_weird_benign"
+    },
+    {
+      "id": 87,
+      "type": "n2_contradiction"
+    },
+    {
+      "id": 61,
+      "type": "n3_novel"
+    },
+    {
+      "id": 45,
+      "type": "n4_control"
+    }
+  ]
+}

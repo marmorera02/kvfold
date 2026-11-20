@@ -1,0 +1,142 @@
+{
+  "per_seed": {
+    "0": {
+      "n2_rank_at_l2_qwen": [
+        1,
+        10
+      ],
+      "n2_rank_at_l2_llama": [
+        1,
+        10
+      ],
+      "P_A_prime_holds": true,
+      "z_l0": {
+        "n1": 2.4303605265637698,
+        "n2": 1.471704503718655,
+        "n3": 2.550256431590232
+      },
+      "P_B_holds": true,
+      "z_l1_n1": 2.721693118877813,
+      "P_C_holds": false,
+      "nli_n2": 0.9887297749519348,
+      "nli_corpus_frac_ge_0.5": 0.13,
+      "P_D_holds": true,
+      "candidate_sections": [
+        9,
+        10
+      ],
+      "n2_in_candidates": true,
+      "n_candidate_l1_units": 20,
+      "nli_cost_reduction": 0.8,
+      "fp_rate_on_candidates_only": 0.3,
+      "n3_delta_l2": 0.40550780656019736,
+      "clean_section_deltas": [
+        0.7568377256289854,
+        -0.799874577581215,
+        -0.546940993210582,
+        -1.0944496350522668
+      ],
+      "clean_section_median": -0.6734077853958985
+    },
+    "1": {
+      "n2_rank_at_l2_qwen": [
+        1,
+        10
+      ],
+      "n2_rank_at_l2_llama": [
+        3,
+        10
+      ],
+      "P_A_prime_holds": false,
+      "z_l0": {
+        "n1": 2.292617215748259,
+        "n2": 1.3456363511149818,
+        "n3": 2.4293517052636866
+      },
+      "P_B_holds": true,
+      "z_l1_n1": 2.7400048586423518,
+      "P_C_holds": false,
+      "nli_n2": 0.9887297749519348,
+      "nli_corpus_frac_ge_0.5": 0.15,
+      "P_D_holds": false,
+      "candidate_sections": [
+        9,
+        10
+      ],
+      "n2_in_candidates": true,
+      "n_candidate_l1_units": 20,
+      "nli_cost_reduction": 0.8,
+      "fp_rate_on_candidates_only": 0.35,
+      "n3_delta_l2": -0.47268847458666696,
+      "clean_section_deltas": [
+        0.6515341118689865,
+        0.661922448555444,
+        -0.6251216873215674,
+        -0.8328660470397238
+      ],
+      "clean_section_median": 0.01320621227370955
+    },
+    "2": {
+      "n2_rank_at_l2_qwen": [
+        2,
+        10
+      ],
+      "n2_rank_at_l2_llama": [
+        3,
+        10
+      ],
+      "P_A_prime_holds": false,
+      "z_l0": {
+        "n1": 2.324535989738938,
+        "n2": 1.3639425296107386,
+        "n3": 2.3972951174162245
+      },
+      "P_B_holds": true,
+      "z_l1_n1": 2.7514874506216986,
+      "P_C_holds": false,
+      "nli_n2": 0.9887297749519348,
+      "nli_corpus_frac_ge_0.5": 0.08,
+      "P_D_holds": true,
+      "candidate_sections": [
+        9,
+        10
+      ],
+      "n2_in_candidates": true,
+      "n_candidate_l1_units": 20,
+      "nli_cost_reduction": 0.8,
+      "fp_rate_on_candidates_only": 0.2,
+      "n3_delta_l2": -0.39366711951464867,
+      "clean_section_deltas": [
+        0.7902547149156913,
+        0.7682225710162869,
+        0.37303481203458033,
+        -2.0729600878057073
+      ],
+      "clean_section_median": 0.5706286915254336
+    }
+  },
+  "pooled": {
+    "n3_deltas_all_seeds": [
+      0.40550780656019736,
+      -0.47268847458666696,
+      -0.39366711951464867
+    ],
+    "clean_section_deltas_all_seeds": [
+      0.7568377256289854,
+      -0.799874577581215,
+      -0.546940993210582,
+      -1.0944496350522668,
+      0.6515341118689865,
+      0.661922448555444,
+      -0.6251216873215674,
+      -0.8328660470397238,
+      0.7902547149156913,
+      0.7682225710162869,
+      0.37303481203458033,
+      -2.0729600878057073
+    ],
+    "clean_median": -0.08695309058800083,
+    "P_F_n3_within_0.5_of_0": true,
+    "auc_delta_novel_vs_boilerplate": 0.5277777777777778
+  }
+}

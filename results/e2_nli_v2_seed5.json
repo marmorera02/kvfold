@@ -1,0 +1,2343 @@
+{
+  "env": {
+    "model_filename": "Qwen2.5-3B-Instruct-Q5_K_M.gguf",
+    "model_sha256": "2c63dde5f2c9ab1fd64d47dee2d34dade6ba9ff62442d1d20b5342310c982081",
+    "llama_cpp_python_version": "0.3.9",
+    "n_ctx": 8192,
+    "n_batch": 512,
+    "n_threads": 8,
+    "seed": 0,
+    "temperature": 0.0,
+    "top_k": 1,
+    "cpu_model": "AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics",
+    "container_image_digest": null
+  },
+  "seed": 5,
+  "nli": [
+    {
+      "unit_id": 1,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 2,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 3,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 4,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 5,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 6,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 7,
+      "max_contradiction": 0.050160959362983704,
+      "premise_ids_considered": [
+        5
+      ],
+      "premise_ids_guard_passed": [
+        5
+      ],
+      "contradiction_probs": [
+        0.050160959362983704
+      ]
+    },
+    {
+      "unit_id": 8,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 9,
+      "max_contradiction": 0.027921760454773903,
+      "premise_ids_considered": [
+        5,
+        8
+      ],
+      "premise_ids_guard_passed": [
+        5
+      ],
+      "contradiction_probs": [
+        0.027921760454773903
+      ]
+    },
+    {
+      "unit_id": 10,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5,
+        8
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 11,
+      "max_contradiction": 0.04026956856250763,
+      "premise_ids_considered": [
+        5,
+        8
+      ],
+      "premise_ids_guard_passed": [
+        5
+      ],
+      "contradiction_probs": [
+        0.04026956856250763
+      ]
+    },
+    {
+      "unit_id": 12,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5,
+        8
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 13,
+      "max_contradiction": 0.17554675042629242,
+      "premise_ids_considered": [
+        5,
+        8
+      ],
+      "premise_ids_guard_passed": [
+        8
+      ],
+      "contradiction_probs": [
+        0.17554675042629242
+      ]
+    },
+    {
+      "unit_id": 14,
+      "max_contradiction": 0.14801962673664093,
+      "premise_ids_considered": [
+        5,
+        8
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        8
+      ],
+      "contradiction_probs": [
+        0.14801962673664093,
+        0.00341170490719378
+      ]
+    },
+    {
+      "unit_id": 15,
+      "max_contradiction": 0.040035396814346313,
+      "premise_ids_considered": [
+        5,
+        8,
+        14
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14
+      ],
+      "contradiction_probs": [
+        0.040035396814346313,
+        0.021310564130544662
+      ]
+    },
+    {
+      "unit_id": 16,
+      "max_contradiction": 0.0636131539940834,
+      "premise_ids_considered": [
+        5,
+        8,
+        14
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14
+      ],
+      "contradiction_probs": [
+        0.0636131539940834,
+        0.008154327049851418
+      ]
+    },
+    {
+      "unit_id": 17,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 18,
+      "max_contradiction": 0.09155663102865219,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16
+      ],
+      "contradiction_probs": [
+        0.03585226088762283,
+        0.053967393934726715,
+        0.09155663102865219
+      ]
+    },
+    {
+      "unit_id": 19,
+      "max_contradiction": 0.21202902495861053,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14
+      ],
+      "contradiction_probs": [
+        0.21202902495861053,
+        0.004994725808501244
+      ]
+    },
+    {
+      "unit_id": 20,
+      "max_contradiction": 0.4872494339942932,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16
+      ],
+      "premise_ids_guard_passed": [
+        16
+      ],
+      "contradiction_probs": [
+        0.4872494339942932
+      ]
+    },
+    {
+      "unit_id": 21,
+      "max_contradiction": 0.17554675042629242,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16
+      ],
+      "premise_ids_guard_passed": [
+        8
+      ],
+      "contradiction_probs": [
+        0.17554675042629242
+      ]
+    },
+    {
+      "unit_id": 22,
+      "max_contradiction": 0.042112983763217926,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16
+      ],
+      "contradiction_probs": [
+        0.042112983763217926,
+        0.006172204855829477,
+        0.002516701817512512
+      ]
+    },
+    {
+      "unit_id": 23,
+      "max_contradiction": 0.28175386786460876,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        16
+      ],
+      "contradiction_probs": [
+        0.0698472335934639,
+        0.28175386786460876
+      ]
+    },
+    {
+      "unit_id": 24,
+      "max_contradiction": 0.9735759496688843,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16
+      ],
+      "premise_ids_guard_passed": [
+        16
+      ],
+      "contradiction_probs": [
+        0.9735759496688843
+      ]
+    },
+    {
+      "unit_id": 25,
+      "max_contradiction": 0.0011096673551946878,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16
+      ],
+      "premise_ids_guard_passed": [
+        8
+      ],
+      "contradiction_probs": [
+        0.0011096673551946878
+      ]
+    },
+    {
+      "unit_id": 26,
+      "max_contradiction": 0.0019169638399034739,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [
+        5
+      ],
+      "contradiction_probs": [
+        0.0019169638399034739
+      ]
+    },
+    {
+      "unit_id": 27,
+      "max_contradiction": 0.9923527836799622,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [
+        8,
+        14,
+        16,
+        25
+      ],
+      "contradiction_probs": [
+        0.032868966460227966,
+        0.5396328568458557,
+        0.9923527836799622,
+        0.03857691213488579
+      ]
+    },
+    {
+      "unit_id": 28,
+      "max_contradiction": 0.21202902495861053,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14
+      ],
+      "contradiction_probs": [
+        0.21202902495861053,
+        0.004994725808501244
+      ]
+    },
+    {
+      "unit_id": 29,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 30,
+      "max_contradiction": 0.19352728128433228,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [
+        8,
+        25
+      ],
+      "contradiction_probs": [
+        0.19352728128433228,
+        0.18638139963150024
+      ]
+    },
+    {
+      "unit_id": 31,
+      "max_contradiction": 0.042112983763217926,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16
+      ],
+      "contradiction_probs": [
+        0.042112983763217926,
+        0.006172204855829477,
+        0.002516701817512512
+      ]
+    },
+    {
+      "unit_id": 32,
+      "max_contradiction": 0.2853688895702362,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16
+      ],
+      "contradiction_probs": [
+        0.2853688895702362,
+        0.04408496245741844,
+        0.1937287598848343
+      ]
+    },
+    {
+      "unit_id": 33,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 34,
+      "max_contradiction": 0.983875036239624,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16
+      ],
+      "contradiction_probs": [
+        0.04692937806248665,
+        0.019298791885375977,
+        0.983875036239624
+      ]
+    },
+    {
+      "unit_id": 35,
+      "max_contradiction": 0.019522110000252724,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [
+        5
+      ],
+      "contradiction_probs": [
+        0.019522110000252724
+      ]
+    },
+    {
+      "unit_id": 36,
+      "max_contradiction": 0.04716680198907852,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [
+        14,
+        16
+      ],
+      "contradiction_probs": [
+        0.007952682673931122,
+        0.04716680198907852
+      ]
+    },
+    {
+      "unit_id": 37,
+      "max_contradiction": 0.03860672563314438,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [
+        5
+      ],
+      "contradiction_probs": [
+        0.03860672563314438
+      ]
+    },
+    {
+      "unit_id": 38,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 39,
+      "max_contradiction": 0.186311274766922,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [
+        8,
+        25
+      ],
+      "contradiction_probs": [
+        0.186311274766922,
+        0.17542167007923126
+      ]
+    },
+    {
+      "unit_id": 40,
+      "max_contradiction": 0.1866913139820099,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        8,
+        14,
+        16
+      ],
+      "contradiction_probs": [
+        0.1866913139820099,
+        0.009456845000386238,
+        0.033491551876068115,
+        0.05535642057657242
+      ]
+    },
+    {
+      "unit_id": 41,
+      "max_contradiction": 0.997822642326355,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40
+      ],
+      "contradiction_probs": [
+        0.997822642326355,
+        0.08685231953859329,
+        0.46155962347984314,
+        0.0523357018828392
+      ]
+    },
+    {
+      "unit_id": 42,
+      "max_contradiction": 0.04906264320015907,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40
+      ],
+      "premise_ids_guard_passed": [
+        14,
+        16,
+        40
+      ],
+      "contradiction_probs": [
+        0.008216447196900845,
+        0.04906264320015907,
+        0.03210269287228584
+      ]
+    },
+    {
+      "unit_id": 43,
+      "max_contradiction": 0.016979973763227463,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40
+      ],
+      "premise_ids_guard_passed": [
+        5
+      ],
+      "contradiction_probs": [
+        0.016979973763227463
+      ]
+    },
+    {
+      "unit_id": 44,
+      "max_contradiction": 0.11267964541912079,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40
+      ],
+      "premise_ids_guard_passed": [
+        8,
+        14,
+        16,
+        25,
+        40
+      ],
+      "contradiction_probs": [
+        0.0071741011925041676,
+        0.016331462189555168,
+        0.11267964541912079,
+        0.010602365247905254,
+        0.01229129545390606
+      ]
+    },
+    {
+      "unit_id": 45,
+      "max_contradiction": 0.015727082267403603,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40
+      ],
+      "premise_ids_guard_passed": [
+        8,
+        25
+      ],
+      "contradiction_probs": [
+        0.015727082267403603,
+        0.008756263181567192
+      ]
+    },
+    {
+      "unit_id": 46,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 47,
+      "max_contradiction": 0.7078353762626648,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40
+      ],
+      "premise_ids_guard_passed": [
+        8,
+        25
+      ],
+      "contradiction_probs": [
+        0.7078353762626648,
+        0.6983312964439392
+      ]
+    },
+    {
+      "unit_id": 48,
+      "max_contradiction": 0.042112983763217926,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40
+      ],
+      "contradiction_probs": [
+        0.042112983763217926,
+        0.006172202527523041,
+        0.002516701817512512,
+        0.006514851003885269
+      ]
+    },
+    {
+      "unit_id": 49,
+      "max_contradiction": 0.28175386786460876,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        16
+      ],
+      "contradiction_probs": [
+        0.0698472335934639,
+        0.28175386786460876
+      ]
+    },
+    {
+      "unit_id": 50,
+      "max_contradiction": 0.04713568836450577,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        8,
+        25
+      ],
+      "contradiction_probs": [
+        0.04713568836450577,
+        0.0020579800475388765,
+        0.0020425745751708746
+      ]
+    },
+    {
+      "unit_id": 51,
+      "max_contradiction": 0.26136860251426697,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50
+      ],
+      "premise_ids_guard_passed": [
+        14,
+        16,
+        40
+      ],
+      "contradiction_probs": [
+        0.010788916610181332,
+        0.26136860251426697,
+        0.04706519842147827
+      ]
+    },
+    {
+      "unit_id": 52,
+      "max_contradiction": 0.016287585720419884,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        50
+      ],
+      "contradiction_probs": [
+        0.016287585720419884,
+        0.0025024504866451025
+      ]
+    },
+    {
+      "unit_id": 53,
+      "max_contradiction": 0.10483445972204208,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40
+      ],
+      "contradiction_probs": [
+        0.017889032140374184,
+        0.02322571724653244,
+        0.10483445972204208,
+        0.01671249233186245
+      ]
+    },
+    {
+      "unit_id": 54,
+      "max_contradiction": 0.029159361496567726,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50
+      ],
+      "premise_ids_guard_passed": [
+        8,
+        25,
+        50
+      ],
+      "contradiction_probs": [
+        0.029159361496567726,
+        0.019405657425522804,
+        0.026466868817806244
+      ]
+    },
+    {
+      "unit_id": 55,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 56,
+      "max_contradiction": 0.3771767318248749,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50
+      ],
+      "premise_ids_guard_passed": [
+        5
+      ],
+      "contradiction_probs": [
+        0.3771767318248749
+      ]
+    },
+    {
+      "unit_id": 57,
+      "max_contradiction": 0.22807663679122925,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        8,
+        14,
+        16,
+        40
+      ],
+      "contradiction_probs": [
+        0.14801962673664093,
+        0.00341170490719378,
+        0.0021841158159077168,
+        0.22807663679122925,
+        0.014534404501318932
+      ]
+    },
+    {
+      "unit_id": 58,
+      "max_contradiction": 0.13000915944576263,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        57
+      ],
+      "contradiction_probs": [
+        0.09042395651340485,
+        0.09311358630657196,
+        0.13000915944576263,
+        0.1161966547369957,
+        0.09311358630657196
+      ]
+    },
+    {
+      "unit_id": 59,
+      "max_contradiction": 0.007377448491752148,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57
+      ],
+      "premise_ids_guard_passed": [
+        14,
+        16,
+        40,
+        57
+      ],
+      "contradiction_probs": [
+        0.0055762543343007565,
+        0.006771561689674854,
+        0.007377448491752148,
+        0.0055762543343007565
+      ]
+    },
+    {
+      "unit_id": 60,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 61,
+      "max_contradiction": 0.03549586236476898,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57
+      ],
+      "contradiction_probs": [
+        0.010600644163787365,
+        0.01174259465187788,
+        0.008076842874288559,
+        0.03549586236476898,
+        0.012373554520308971,
+        0.008192994631826878,
+        0.023189254105091095,
+        0.008076842874288559
+      ]
+    },
+    {
+      "unit_id": 62,
+      "max_contradiction": 0.032194092869758606,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57
+      ],
+      "premise_ids_guard_passed": [
+        14,
+        16,
+        40,
+        57
+      ],
+      "contradiction_probs": [
+        0.011276273056864738,
+        0.032194092869758606,
+        0.010030911304056644,
+        0.011276273056864738
+      ]
+    },
+    {
+      "unit_id": 63,
+      "max_contradiction": 0.06350560486316681,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        40,
+        57
+      ],
+      "contradiction_probs": [
+        0.06350560486316681,
+        0.016494479030370712,
+        0.017582910135388374,
+        0.016494479030370712
+      ]
+    },
+    {
+      "unit_id": 64,
+      "max_contradiction": 0.061435405164957047,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57
+      ],
+      "premise_ids_guard_passed": [
+        5
+      ],
+      "contradiction_probs": [
+        0.061435405164957047
+      ]
+    },
+    {
+      "unit_id": 65,
+      "max_contradiction": 0.49798256158828735,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57
+      ],
+      "premise_ids_guard_passed": [
+        8,
+        25,
+        50
+      ],
+      "contradiction_probs": [
+        0.186311274766922,
+        0.17542167007923126,
+        0.49798256158828735
+      ]
+    },
+    {
+      "unit_id": 66,
+      "max_contradiction": 0.22807663679122925,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        8,
+        14,
+        16,
+        40,
+        57
+      ],
+      "contradiction_probs": [
+        0.14801962673664093,
+        0.00341170490719378,
+        0.0021841158159077168,
+        0.22807663679122925,
+        0.014534404501318932,
+        0.0021841158159077168
+      ]
+    },
+    {
+      "unit_id": 67,
+      "max_contradiction": 0.12960900366306305,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        16
+      ],
+      "contradiction_probs": [
+        0.034177739173173904,
+        0.12960900366306305
+      ]
+    },
+    {
+      "unit_id": 68,
+      "max_contradiction": 0.9773889780044556,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66
+      ],
+      "premise_ids_guard_passed": [
+        16
+      ],
+      "contradiction_probs": [
+        0.9773889780044556
+      ]
+    },
+    {
+      "unit_id": 69,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 70,
+      "max_contradiction": 0.08549895137548447,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66
+      ],
+      "premise_ids_guard_passed": [
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66
+      ],
+      "contradiction_probs": [
+        0.008897393010556698,
+        0.010555846616625786,
+        0.08549895137548447,
+        0.01281678956001997,
+        0.011365614831447601,
+        0.008451332338154316,
+        0.010555846616625786,
+        0.010555846616625786
+      ]
+    },
+    {
+      "unit_id": 71,
+      "max_contradiction": 0.022137433290481567,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        40,
+        57,
+        66
+      ],
+      "contradiction_probs": [
+        0.022137433290481567,
+        0.0054756710305809975,
+        0.004712196532636881,
+        0.0054756710305809975,
+        0.0054756710305809975
+      ]
+    },
+    {
+      "unit_id": 72,
+      "max_contradiction": 0.034999214112758636,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        57,
+        66
+      ],
+      "contradiction_probs": [
+        0.034813571721315384,
+        0.034999214112758636,
+        0.0178651362657547,
+        0.014162310399115086,
+        0.034999214112758636,
+        0.034999214112758636
+      ]
+    },
+    {
+      "unit_id": 73,
+      "max_contradiction": 0.1329253762960434,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66
+      ],
+      "premise_ids_guard_passed": [
+        5
+      ],
+      "contradiction_probs": [
+        0.1329253762960434
+      ]
+    },
+    {
+      "unit_id": 74,
+      "max_contradiction": 0.042112983763217926,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        57,
+        66
+      ],
+      "contradiction_probs": [
+        0.042112983763217926,
+        0.006172202527523041,
+        0.002516701817512512,
+        0.006514851003885269,
+        0.006172204855829477,
+        0.006172204855829477
+      ]
+    },
+    {
+      "unit_id": 75,
+      "max_contradiction": 0.9985811710357666,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        50,
+        57,
+        66
+      ],
+      "contradiction_probs": [
+        0.9985811710357666,
+        0.04953300952911377,
+        0.2785245478153229,
+        0.05980526655912399,
+        0.016091715544462204,
+        0.049532998353242874,
+        0.049532998353242874
+      ]
+    },
+    {
+      "unit_id": 76,
+      "max_contradiction": 0.979716956615448,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        57,
+        66,
+        75
+      ],
+      "contradiction_probs": [
+        0.049770042300224304,
+        0.021619634702801704,
+        0.979716956615448,
+        0.03420122712850571,
+        0.021619629114866257,
+        0.021619629114866257,
+        0.049941286444664
+      ]
+    },
+    {
+      "unit_id": 77,
+      "max_contradiction": 0.012480976060032845,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        50,
+        75
+      ],
+      "contradiction_probs": [
+        0.012480976060032845,
+        0.004165894351899624,
+        0.010385777801275253
+      ]
+    },
+    {
+      "unit_id": 78,
+      "max_contradiction": 0.9801908731460571,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75
+      ],
+      "premise_ids_guard_passed": [
+        8,
+        25,
+        50
+      ],
+      "contradiction_probs": [
+        0.882996678352356,
+        0.5651131272315979,
+        0.9801908731460571
+      ]
+    },
+    {
+      "unit_id": 79,
+      "max_contradiction": 0.032509464770555496,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        57,
+        66,
+        75
+      ],
+      "contradiction_probs": [
+        0.023750580847263336,
+        0.02822960540652275,
+        0.032509464770555496,
+        0.019301660358905792,
+        0.0282296109944582,
+        0.0282296109944582,
+        0.016379136592149734
+      ]
+    },
+    {
+      "unit_id": 80,
+      "max_contradiction": 0.02409515343606472,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        40,
+        57,
+        66,
+        75
+      ],
+      "contradiction_probs": [
+        0.02409515343606472,
+        0.00581719633191824,
+        0.004984584636986256,
+        0.00581719633191824,
+        0.00581719633191824,
+        0.024090347811579704
+      ]
+    },
+    {
+      "unit_id": 81,
+      "max_contradiction": 0.0,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75
+      ],
+      "premise_ids_guard_passed": [],
+      "note": "no assumption cleared the referent guard"
+    },
+    {
+      "unit_id": 82,
+      "max_contradiction": 0.12200523167848587,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        75
+      ],
+      "contradiction_probs": [
+        0.12200523167848587,
+        0.06265304237604141
+      ]
+    },
+    {
+      "unit_id": 83,
+      "max_contradiction": 0.11246167868375778,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        8,
+        14,
+        16,
+        40,
+        57,
+        66,
+        75
+      ],
+      "contradiction_probs": [
+        0.07054680585861206,
+        0.0037838751450181007,
+        0.012519720941781998,
+        0.060591921210289,
+        0.018593965098261833,
+        0.012519720941781998,
+        0.012519720941781998,
+        0.11246167868375778
+      ]
+    },
+    {
+      "unit_id": 84,
+      "max_contradiction": 0.05799875035881996,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83
+      ],
+      "contradiction_probs": [
+        0.04981633275747299,
+        0.03930549696087837,
+        0.05799875035881996,
+        0.021303238347172737,
+        0.010585575364530087,
+        0.03930549696087837,
+        0.03930549696087837,
+        0.023263685405254364,
+        0.03203120827674866
+      ]
+    },
+    {
+      "unit_id": 85,
+      "max_contradiction": 0.06447650492191315,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        57,
+        66,
+        75,
+        83
+      ],
+      "contradiction_probs": [
+        0.05967773124575615,
+        0.003014043904840946,
+        0.0012074270052835345,
+        0.002930920571088791,
+        0.003014043904840946,
+        0.003014043904840946,
+        0.06447650492191315,
+        0.0029186629690229893
+      ]
+    },
+    {
+      "unit_id": 86,
+      "max_contradiction": 0.008307349868118763,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        50,
+        75
+      ],
+      "contradiction_probs": [
+        0.008307349868118763,
+        0.001418377971276641,
+        0.004468378145247698
+      ]
+    },
+    {
+      "unit_id": 87,
+      "max_contradiction": 0.9887297749519348,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        8,
+        16,
+        25,
+        50,
+        75
+      ],
+      "contradiction_probs": [
+        0.02618243172764778,
+        0.9353690147399902,
+        0.254880428314209,
+        0.17289093136787415,
+        0.9887297749519348,
+        0.026467936113476753
+      ]
+    },
+    {
+      "unit_id": 88,
+      "max_contradiction": 0.05909720063209534,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        57,
+        66,
+        75,
+        83
+      ],
+      "contradiction_probs": [
+        0.022214695811271667,
+        0.020773448050022125,
+        0.05909720063209534,
+        0.028323963284492493,
+        0.020773448050022125,
+        0.020773448050022125,
+        0.020228354260325432,
+        0.03250404819846153
+      ]
+    },
+    {
+      "unit_id": 89,
+      "max_contradiction": 0.022167788818478584,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        40,
+        57,
+        66,
+        75,
+        83,
+        87
+      ],
+      "contradiction_probs": [
+        0.022137433290481567,
+        0.0054756710305809975,
+        0.004712196532636881,
+        0.0054756710305809975,
+        0.0054756710305809975,
+        0.022167788818478584,
+        0.004370911046862602,
+        0.008851948194205761
+      ]
+    },
+    {
+      "unit_id": 90,
+      "max_contradiction": 0.13603919744491577,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        57,
+        66,
+        75,
+        83,
+        87
+      ],
+      "contradiction_probs": [
+        0.13603919744491577,
+        0.08703980594873428,
+        0.07823096960783005,
+        0.08018647134304047,
+        0.08703980594873428,
+        0.08703980594873428,
+        0.07602093368768692,
+        0.07409355044364929,
+        0.025299787521362305
+      ]
+    },
+    {
+      "unit_id": 91,
+      "max_contradiction": 0.31529098749160767,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87
+      ],
+      "premise_ids_guard_passed": [
+        8,
+        25,
+        50,
+        83
+      ],
+      "contradiction_probs": [
+        0.10574202239513397,
+        0.09990004450082779,
+        0.31529098749160767,
+        0.31358617544174194
+      ]
+    },
+    {
+      "unit_id": 92,
+      "max_contradiction": 0.11246167868375778,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        8,
+        14,
+        16,
+        40,
+        57,
+        66,
+        75,
+        83
+      ],
+      "contradiction_probs": [
+        0.07054680585861206,
+        0.0037838751450181007,
+        0.012519720941781998,
+        0.060591921210289,
+        0.018593965098261833,
+        0.012519720941781998,
+        0.012519720941781998,
+        0.11246167868375778,
+        0.0023399984929710627
+      ]
+    },
+    {
+      "unit_id": 93,
+      "max_contradiction": 0.9846178293228149,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87,
+        92
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87,
+        92
+      ],
+      "contradiction_probs": [
+        0.9732887148857117,
+        0.05195264890789986,
+        0.5834448933601379,
+        0.09647729247808456,
+        0.05423104390501976,
+        0.05195264890789986,
+        0.05195264890789986,
+        0.9846178293228149,
+        0.05590115860104561,
+        0.2660069465637207,
+        0.05590115860104561
+      ]
+    },
+    {
+      "unit_id": 94,
+      "max_contradiction": 0.7336182594299316,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87,
+        92,
+        93
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87,
+        92,
+        93
+      ],
+      "contradiction_probs": [
+        0.14838185906410217,
+        0.1262015700340271,
+        0.028866680338978767,
+        0.7336182594299316,
+        0.11153046786785126,
+        0.037289898842573166,
+        0.09833546727895737,
+        0.028866680338978767,
+        0.028866680338978767,
+        0.16581670939922333,
+        0.03157270327210426,
+        0.05364155396819115,
+        0.03157270327210426,
+        0.13152647018432617
+      ]
+    },
+    {
+      "unit_id": 95,
+      "max_contradiction": 0.018797462806105614,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87,
+        92,
+        93,
+        94
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        50,
+        75,
+        93
+      ],
+      "contradiction_probs": [
+        0.01203826256096363,
+        0.002359870821237564,
+        0.0064934934489429,
+        0.018797462806105614
+      ]
+    },
+    {
+      "unit_id": 96,
+      "max_contradiction": 0.11405009776353836,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87,
+        92,
+        93,
+        94
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        57,
+        66,
+        75,
+        83,
+        92,
+        93,
+        94
+      ],
+      "contradiction_probs": [
+        0.019542867317795753,
+        0.022666195407509804,
+        0.11405009776353836,
+        0.01806882955133915,
+        0.022666195407509804,
+        0.022666195407509804,
+        0.017528420314192772,
+        0.02249721623957157,
+        0.022497214376926422,
+        0.036164406687021255,
+        0.10419852286577225
+      ]
+    },
+    {
+      "unit_id": 97,
+      "max_contradiction": 0.9569228887557983,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87,
+        92,
+        93,
+        94
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        40,
+        57,
+        66,
+        75,
+        83,
+        87,
+        92,
+        93
+      ],
+      "contradiction_probs": [
+        0.041658226400613785,
+        0.006505968049168587,
+        0.007035546470433474,
+        0.006505968049168587,
+        0.006505968049168587,
+        0.06412626802921295,
+        0.007152404636144638,
+        0.9569228887557983,
+        0.007152401376515627,
+        0.08258920907974243
+      ]
+    },
+    {
+      "unit_id": 98,
+      "max_contradiction": 0.17650766670703888,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87,
+        92,
+        93,
+        94
+      ],
+      "premise_ids_guard_passed": [
+        87,
+        93
+      ],
+      "contradiction_probs": [
+        0.016964122653007507,
+        0.17650766670703888
+      ]
+    },
+    {
+      "unit_id": 99,
+      "max_contradiction": 0.05293916538357735,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87,
+        92,
+        93,
+        94
+      ],
+      "premise_ids_guard_passed": [
+        8,
+        25,
+        50,
+        83,
+        92
+      ],
+      "contradiction_probs": [
+        0.004616526886820793,
+        0.004436517134308815,
+        0.010097197256982327,
+        0.05293915048241615,
+        0.05293916538357735
+      ]
+    },
+    {
+      "unit_id": 100,
+      "max_contradiction": 0.04337603971362114,
+      "premise_ids_considered": [
+        5,
+        8,
+        14,
+        16,
+        25,
+        40,
+        50,
+        57,
+        66,
+        75,
+        83,
+        87,
+        92,
+        93,
+        94
+      ],
+      "premise_ids_guard_passed": [
+        5,
+        14,
+        16,
+        40,
+        57,
+        66,
+        75,
+        83,
+        92,
+        93,
+        94
+      ],
+      "contradiction_probs": [
+        0.042112983763217926,
+        0.006172202527523041,
+        0.002516701817512512,
+        0.006514851003885269,
+        0.006172202527523041,
+        0.006172202527523041,
+        0.04337603971362114,
+        0.006583021488040686,
+        0.006583021488040686,
+        0.03806270658969879,
+        0.0021359946113079786
+      ]
+    }
+  ],
+  "n_assumptions_total": 15
+}

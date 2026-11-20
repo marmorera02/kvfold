@@ -1,0 +1,30 @@
+phase,operation,backend,measurement,value,unit,source_file,note
+COMPUTE_MIGRATION_G0-G2,generation determinism acceptance test,GPU (host Vulkan llama-server, --parallel 4),result,FAILED,pass/fail,g2_results.md,"2/5 fixed prompts non-deterministic across repeated identical requests; migration stopped per directive, no GPU numbers below are usable as a comparison to CPU"
+COMPUTE_MIGRATION_G0-G2,scoring migration (G3),GPU,result,NOT_ATTEMPTED,n/a,g2_results.md,gated on G2 passing; explicitly sanctioned to skip once G2 failed
+E6.a (Iteration 1),KV state round-trip fidelity,CPU,result,byte-identical,pass/fail,e6a_state_roundtrip.json,100-token continuation matches exactly across fresh-process reload
+E6.b (Iteration 1),reprefill 1000 tokens,CPU,median latency,24.90,s,e6b_speed_bench.json,
+E6.b (Iteration 1),KV reload 1000 tokens,CPU,median latency,0.338,s,e6b_speed_bench.json,73.6x speedup vs reprefill
+E6.b (Iteration 1),reprefill 2000 tokens,CPU,median latency,61.11,s,e6b_speed_bench.json,
+E6.b (Iteration 1),KV reload 2000 tokens,CPU,median latency,0.334,s,e6b_speed_bench.json,182.9x speedup
+E6.b (Iteration 1),reprefill 4000 tokens,CPU,median latency,125.76,s,e6b_speed_bench.json,
+E6.b (Iteration 1),KV reload 4000 tokens,CPU,median latency,0.330,s,e6b_speed_bench.json,380.7x speedup (pre-registered floor was 20x)
+E6.b (Iteration 1),reprefill 8000 tokens,CPU,median latency,273.15,s,e6b_speed_bench.json,
+E6.b (Iteration 1),KV reload 8000 tokens,CPU,median latency,0.389,s,e6b_speed_bench.json,702.5x speedup
+E6.b (Iteration 1),reprefill 16000 tokens,CPU,median latency,651.33,s,e6b_speed_bench.json,
+E6.b (Iteration 1),KV reload 16000 tokens,CPU,median latency,0.544,s,e6b_speed_bench.json,1198.1x speedup
+Iteration 3,QA R1 (full re-prefill, gold),CPU,mean latency over 10 questions,57.18,s,cycle3_iteration3_run.json,accuracy 100%
+Iteration 3,QA R2 (KV reload + naive text append),CPU,mean latency over 10 questions,27.51,s,cycle3_iteration3_run.json,"48.1% of R1; accuracy 90%"
+Iteration 3,QA R3 (KV reload + 64-tok seam recompute),CPU,mean latency over 10 questions,29.46,s,cycle3_iteration3_run.json,"51.5% of R1; accuracy 90%; P-P target was <25% of R1, not met -- explained by 2b fold fraction, see iteration3_results.md"
+Iteration 4,QA frontier (a) full context,CPU,mean latency over 10 questions,57.18,s,cycle3_iteration4_run.json,accuracy 100% (reused from Iteration 3 R1)
+Iteration 4,QA frontier (b) skeleton+text-unfold,CPU,mean latency over 10 questions,57.71,s,cycle3_iteration4_run.json,"accuracy 90%; 100.9% of (a) -- no speed benefit, fresh prefill of ~equal token count"
+Iteration 4,QA frontier (c) coarse-only,CPU,mean latency over 10 questions,36.86,s,cycle3_iteration4_run.json,"accuracy 90%; 64.5% of (a)"
+Iteration 4,QA frontier (d) KV-reload naive stitch,CPU,mean latency over 10 questions,27.51,s,cycle3_iteration4_run.json,"accuracy 90%; 48.1% of (a); fastest regime measured"
+Iteration 4,QA frontier (d) KV-reload seam recompute,CPU,mean latency over 10 questions,29.46,s,cycle3_iteration4_run.json,"accuracy 90%; 51.5% of (a)"
+E0 baseline,single-shot generation,CPU,elapsed,5.77-5.98,s,e0_generate_run1.json;e0_generate_run2.json,
+E0 baseline,single-shot scoring (score_tokens),CPU,elapsed,14.02-14.03,s,e0_score_run1.json;e0_score_run2.json,
+
+# Net: every number above is CPU. The compute-migration directive's own
+# acceptance gate (G2) failed at the determinism check, so there is no
+# valid GPU measurement anywhere in this log to compare against the CPU
+# baseline -- this is reported as a negative result per the directive's own
+# instruction to log the outcome "even if that outcome is no migration."

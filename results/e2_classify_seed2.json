@@ -1,0 +1,62 @@
+{
+  "env": {
+    "model_filename": "Qwen2.5-3B-Instruct-Q5_K_M.gguf",
+    "model_sha256": "2c63dde5f2c9ab1fd64d47dee2d34dade6ba9ff62442d1d20b5342310c982081",
+    "llama_cpp_python_version": "0.3.9",
+    "n_ctx": 8192,
+    "n_batch": 512,
+    "n_threads": 8,
+    "seed": 0,
+    "temperature": 0.0,
+    "top_k": 1,
+    "cpu_model": "AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics",
+    "container_image_digest": null
+  },
+  "seed": 2,
+  "profiles": {
+    "n1_weird_benign": {
+      "clause_id": 33,
+      "z_l0": 2.324535989738938,
+      "z_l1": 2.7514874506216986,
+      "z_l2": -0.10413739834686628,
+      "nli_max_contradiction": 0.5445746779441833,
+      "predicted": "unclassified",
+      "expected": "weird_benign"
+    },
+    "n2_contradiction": {
+      "clause_id": 87,
+      "z_l0": 1.3639425296107386,
+      "z_l1": 1.7974618632492938,
+      "z_l2": -0.673125843977634,
+      "nli_max_contradiction": 0.9905659556388855,
+      "predicted": "unclassified",
+      "expected": "contradiction"
+    },
+    "n3_novel": {
+      "clause_id": 61,
+      "z_l0": 2.3972951174162245,
+      "z_l1": 2.7275497795657704,
+      "z_l2": -0.15030783192609387,
+      "nli_max_contradiction": 0.04676700755953789,
+      "predicted": "weird_benign",
+      "expected": "novel"
+    },
+    "n4_control": {
+      "clause_id": 45,
+      "z_l0": -1.9206354586721726,
+      "z_l1": -0.39224850768483666,
+      "z_l2": -0.8536031863937125,
+      "nli_max_contradiction": 0.9034400582313538,
+      "predicted": "boilerplate",
+      "expected": "boilerplate"
+    }
+  },
+  "correct": {
+    "n1_weird_benign": false,
+    "n2_contradiction": false,
+    "n3_novel": false,
+    "n4_control": true
+  },
+  "n_correct": 1,
+  "n_total": 4
+}

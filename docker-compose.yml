@@ -1,0 +1,13 @@
+services:
+  pyramid:
+    build: .
+    image: pyramid-experiments:latest
+    volumes:
+      - ./models:/workspace/models
+      - ./data:/workspace/data
+      - ./results:/workspace/results
+      - ./src:/workspace/src
+    environment:
+      - PYTHONHASHSEED=0
+    # Fixed thread count pinned in env.json / model.py, not via container CPU limits,
+    # so the pin is visible and reproducible regardless of host.

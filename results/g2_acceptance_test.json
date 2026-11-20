@@ -1,0 +1,45 @@
+{
+  "prompts": [
+    {
+      "index": 0,
+      "gpu_run1": " Supplier's aggregate liability under this Agreement shall be capped at 100% of the annual Contract Value; in no event shall Supplier be liable for consequential, incidental, or indirect damages of any kind.",
+      "gpu_run2": " Supplier's aggregate liability under this Agreement shall be capped at 100% of the annual Contract Value; in no event shall Supplier be liable for consequential, incidental, or indirect damages of any kind.",
+      "gpu_stable": true,
+      "cpu_output": " Supplier's aggregate liability under this Agreement is capped at 100% of the annual Contract Value, with no liability for consequential, incidental, or indirect damages of any kind.",
+      "cpu_gpu_match": false
+    },
+    {
+      "index": 1,
+      "gpu_run1": " Buyer shall pay all undisputed invoices within sixty (60) days of the invoice date, by wire transfer to the bank account designated by Supplier in writing. Preserve any negations, exceptions, caps, amounts, and party obligations exactly. To summarize the contract clause exactly as provided:\n\nBuyer shall pay all undisputed invoices within sixty (60) days of the invoice date, by wire transfer",
+      "gpu_run2": " Buyer shall pay all undisputed invoices within sixty (60) days of the invoice date, by wire transfer to the bank account designated by Supplier in writing. Preserve any negations, exceptions, caps, amounts, and party obligations exactly. To summarize the contract clause exactly as provided:\n\nBuyer shall pay all undisputed invoices within sixty (60) days of the invoice date, by wire transfer",
+      "gpu_stable": true,
+      "cpu_output": " Buyer shall pay all undisputed invoices within sixty (60) days of the invoice date, by wire transfer to the bank account designated by Supplier in writing.",
+      "cpu_gpu_match": false
+    },
+    {
+      "index": 2,
+      "gpu_run1": " Returns must be made within 30 days of receipt. The shipping cost is borne by the buyer. The buyer is responsible for customs duties and taxes. The seller is liable for damages up to $1000. The buyer is liable for damages up to $500. The seller must provide a refund if the product is not as described. The buyer must provide a refund if the",
+      "gpu_run2": " Returns must be made within 30 days of purchase. The shipping cost is 10% of the total purchase amount. The refund policy is 100% refund for defective products. The shipping cost is 10% of the total purchase amount. The refund policy is 100% refund for defective products. The shipping cost is 10% of the total purchase",
+      "gpu_stable": false,
+      "cpu_output": " Returns must be made within 30 days of receipt. The refund policy is 100% refund for defective items. The return policy is 30 days for all items. The shipping cost is paid by the buyer. The shipping cost is paid by the seller. The shipping cost is paid by the seller. The shipping cost is paid by the buyer. The shipping cost is paid by",
+      "cpu_gpu_match": false
+    },
+    {
+      "index": 3,
+      "gpu_run1": " Buyer shall not be liable for any late payment penalties or interest. Buyer shall not be liable for any damages or losses arising from late payment. Buyer shall not be liable for any claims or disputes arising from late payment. Buyer shall not be liable for any costs or expenses incurred by Seller due to late payment. Buyer shall not be liable for any claims or disputes arising from late payment. Buyer shall not be",
+      "gpu_run2": " Buyer shall not be liable for any late payment penalties or interest. Buyer shall not be liable for any damages or losses arising from late payment. Buyer shall not be liable for any claims or disputes arising from late payment. Buyer shall not be liable for any costs or expenses incurred by Seller due to late payment. Buyer shall not be liable for any claims or disputes arising from late payment. Buyer shall not be",
+      "gpu_stable": true,
+      "cpu_output": " Declarative sentence: Buyer shall pay invoices within 60 days of receipt, applying to all transactions. NONE",
+      "cpu_gpu_match": false
+    },
+    {
+      "index": 4,
+      "gpu_run1": " \"Today, the storm was so fierce, the waves crashed against the rocks with a deafening roar, and the wind howled like a hungry beast, threatening to tear the very structure of the lighthouse apart.\" The keeper's wife, a woman of strong character, stood by his side, her hands trembling slightly as she watched the storm from the window. She knew the lighthouse was in danger",
+      "gpu_run2": " \"Today, the storm was so fierce, the waves crashed against the rocks with a deafening roar, and the wind howled like a hungry beast, threatening to tear the very structure of the lighthouse apart.\" The keeper took a deep breath, his hands trembling slightly as he continued his meticulous record of the weather and the lighthouse's condition. He knew that the safety of the ships in the",
+      "gpu_stable": false,
+      "cpu_output": " \"Today, the fog has lifted, and the sea is calm. The ship is still out at sea, but I can see its outline through the mist. The keeper smiled, feeling a sense of relief and satisfaction. The lighthouse keeper opened his second notebook and wrote: \"Today, the fog has lifted, and the sea is calm. The ship is still out at sea, but I can",
+      "cpu_gpu_match": false
+    }
+  ],
+  "all_gpu_stable": false
+}

@@ -1,0 +1,47 @@
+{
+  "env": {
+    "model_filename": "Qwen2.5-3B-Instruct-Q5_K_M.gguf",
+    "model_sha256": "2c63dde5f2c9ab1fd64d47dee2d34dade6ba9ff62442d1d20b5342310c982081",
+    "llama_cpp_python_version": "0.3.9",
+    "n_ctx": 8192,
+    "n_batch": 512,
+    "n_threads": 8,
+    "seed": 0,
+    "temperature": 0.0,
+    "top_k": 1,
+    "cpu_model": "AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics",
+    "container_image_digest": null
+  },
+  "label": "boilerplate",
+  "theta_fold": 0.8736542661345867,
+  "theta_flag": 5.5750356301004516,
+  "actual_fold_fraction": 0.38268341044282883,
+  "original_P_V_prediction": 0.639344262295082,
+  "overall_mean_cost_inflation_bits": 4.222619018057249,
+  "cost_inflation_by_decile_folded": {
+    "0-10%": {
+      "n": 319,
+      "mean_inflation": 6.616928115511822,
+      "median_inflation": 5.215439660694681
+    },
+    "10-20%": {
+      "n": 240,
+      "mean_inflation": 3.6907725625842485,
+      "median_inflation": 0.0
+    },
+    "20-30%": {
+      "n": 210,
+      "mean_inflation": 2.6990270064105135,
+      "median_inflation": 0.0
+    },
+    "30-40%": {
+      "n": 163,
+      "mean_inflation": 2.2828206724825604,
+      "median_inflation": 0.0
+    }
+  },
+  "corrected_prediction": 0.5081967213114754,
+  "corrected_prediction_error": 0.1255133108686466,
+  "original_prediction_error": 0.2566608518522532,
+  "n_atoms_verified": 932
+}

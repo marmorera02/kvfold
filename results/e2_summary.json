@@ -1,0 +1,222 @@
+{
+  "seeds": {
+    "0": {
+      "n_correct": 1,
+      "n_total": 4,
+      "correct": {
+        "n1_weird_benign": false,
+        "n2_contradiction": false,
+        "n3_novel": false,
+        "n4_control": true
+      }
+    },
+    "1": {
+      "n_correct": 1,
+      "n_total": 4,
+      "correct": {
+        "n1_weird_benign": true,
+        "n2_contradiction": false,
+        "n3_novel": false,
+        "n4_control": false
+      }
+    },
+    "2": {
+      "n_correct": 1,
+      "n_total": 4,
+      "correct": {
+        "n1_weird_benign": false,
+        "n2_contradiction": false,
+        "n3_novel": false,
+        "n4_control": true
+      }
+    }
+  },
+  "needle_profiles": {
+    "n1_weird_benign": {
+      "0": {
+        "clause_id": 33,
+        "z_l0": 2.4303605265637698,
+        "z_l1": 2.721693118877813,
+        "z_l2": 1.6938234708788722,
+        "nli_max_contradiction": 0.07159823179244995,
+        "predicted": "novel",
+        "expected": "weird_benign"
+      },
+      "1": {
+        "clause_id": 33,
+        "z_l0": 2.292617215748259,
+        "z_l1": 2.7400048586423518,
+        "z_l2": 0.1264191771916998,
+        "nli_max_contradiction": 0.14884504675865173,
+        "predicted": "weird_benign",
+        "expected": "weird_benign"
+      },
+      "2": {
+        "clause_id": 33,
+        "z_l0": 2.324535989738938,
+        "z_l1": 2.7514874506216986,
+        "z_l2": -0.10413739834686628,
+        "nli_max_contradiction": 0.5445746779441833,
+        "predicted": "unclassified",
+        "expected": "weird_benign"
+      }
+    },
+    "n2_contradiction": {
+      "0": {
+        "clause_id": 87,
+        "z_l0": 1.471704503718655,
+        "z_l1": 1.727405819957974,
+        "z_l2": -1.6253154832992698,
+        "nli_max_contradiction": 0.9905659556388855,
+        "predicted": "unclassified",
+        "expected": "contradiction"
+      },
+      "1": {
+        "clause_id": 87,
+        "z_l0": 1.3456363511149818,
+        "z_l1": 1.723043265893306,
+        "z_l2": -1.5810827388234912,
+        "nli_max_contradiction": 0.9905659556388855,
+        "predicted": "unclassified",
+        "expected": "contradiction"
+      },
+      "2": {
+        "clause_id": 87,
+        "z_l0": 1.3639425296107386,
+        "z_l1": 1.7974618632492938,
+        "z_l2": -0.673125843977634,
+        "nli_max_contradiction": 0.9905659556388855,
+        "predicted": "unclassified",
+        "expected": "contradiction"
+      }
+    },
+    "n3_novel": {
+      "0": {
+        "clause_id": 61,
+        "z_l0": 2.550256431590232,
+        "z_l1": 2.687335128319813,
+        "z_l2": 0.6426044264784502,
+        "nli_max_contradiction": 0.04739254713058472,
+        "predicted": "weird_benign",
+        "expected": "novel"
+      },
+      "1": {
+        "clause_id": 61,
+        "z_l0": 2.4293517052636866,
+        "z_l1": 2.711566493419703,
+        "z_l2": -0.0367487359617773,
+        "nli_max_contradiction": 0.06696425378322601,
+        "predicted": "weird_benign",
+        "expected": "novel"
+      },
+      "2": {
+        "clause_id": 61,
+        "z_l0": 2.3972951174162245,
+        "z_l1": 2.7275497795657704,
+        "z_l2": -0.15030783192609387,
+        "nli_max_contradiction": 0.04676700755953789,
+        "predicted": "weird_benign",
+        "expected": "novel"
+      }
+    },
+    "n4_control": {
+      "0": {
+        "clause_id": 45,
+        "z_l0": 0.4888410499429473,
+        "z_l1": 0.3056089472306108,
+        "z_l2": 0.21948072606830307,
+        "nli_max_contradiction": 0.979077160358429,
+        "predicted": "boilerplate",
+        "expected": "boilerplate"
+      },
+      "1": {
+        "clause_id": 45,
+        "z_l0": 0.5676925857328187,
+        "z_l1": -0.7927549352196839,
+        "z_l2": 1.4769848971267758,
+        "nli_max_contradiction": 0.9663699269294739,
+        "predicted": "contradiction",
+        "expected": "boilerplate"
+      },
+      "2": {
+        "clause_id": 45,
+        "z_l0": -1.9206354586721726,
+        "z_l1": -0.39224850768483666,
+        "z_l2": -0.8536031863937125,
+        "nli_max_contradiction": 0.9034400582313538,
+        "predicted": "boilerplate",
+        "expected": "boilerplate"
+      }
+    }
+  },
+  "gate": {
+    "seeds_with_4_of_4_correct": 0,
+    "pass_criterion_seeds": false,
+    "n2_z_l0_low_z_l2_high_all_seeds": false,
+    "overall_pass": false
+  },
+  "nli_false_positive_rate": {
+    "0": {
+      "mean": 0.6282321162032894,
+      "median": 0.8641372919082642,
+      "fraction_ge_0.5": 0.65,
+      "fraction_ge_0.9": 0.48
+    },
+    "1": {
+      "mean": 0.673328800459858,
+      "median": 0.9668760895729065,
+      "fraction_ge_0.5": 0.67,
+      "fraction_ge_0.9": 0.59
+    },
+    "2": {
+      "mean": 0.6469638175144792,
+      "median": 0.9411709904670715,
+      "fraction_ge_0.5": 0.65,
+      "fraction_ge_0.9": 0.53
+    }
+  },
+  "level_baseline_surprisal": {
+    "0": {
+      "l0": {
+        "mean": 1.838936707612352,
+        "median": 1.9201461192123954
+      },
+      "l1": {
+        "mean": 1.1970926085308244,
+        "median": 0.81562840237802
+      },
+      "l2": {
+        "mean": 2.6316035535501845,
+        "median": 2.609042856292932
+      }
+    },
+    "1": {
+      "l0": {
+        "mean": 1.8131352811702075,
+        "median": 1.9885462634873192
+      },
+      "l1": {
+        "mean": 1.2195785623172792,
+        "median": 0.9415506904360267
+      },
+      "l2": {
+        "mean": 2.6729882042112965,
+        "median": 2.604113222955025
+      }
+    },
+    "2": {
+      "l0": {
+        "mean": 1.7735085299303266,
+        "median": 1.9402070572242116
+      },
+      "l1": {
+        "mean": 1.142864728615185,
+        "median": 0.6840419745457782
+      },
+      "l2": {
+        "mean": 2.610154470220288,
+        "median": 2.53340630103544
+      }
+    }
+  }
+}
